@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+#filaA, #filaB, #filaC {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: ;
+}
