@@ -8,9 +8,14 @@ html, body {
     height: 100%;
 }
 
+#cuadrado {
+    border: 5px solid greenyellow;
+    /*display: flex;*/
+}
 #filaA, #filaB, #filaC {
     border: 2px solid red;
     display: flex;
     flex-direction: row;
-    margin-bottom: ;
+
 }
+
