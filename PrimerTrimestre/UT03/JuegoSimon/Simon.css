@@ -1,0 +1,23 @@
+body {
+    border: 2px solid greenyellow;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#jueguito {
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid purple;
+}
+
+.colores {
+    display: flex;
+    justify-content: center;
+    border: 2px solid deeppink;
+    padding: 1em;
+    width: 25%;
+    margin: 1em;
+}
