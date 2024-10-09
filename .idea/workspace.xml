@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb69af3b-28b0-40a6-9c78-d8f8695315ae" name="Changes" comment="C6 he sacado el cuadrado">
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT03/JuegoSimon/Simon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT03/JuegoSimon/Simon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT03/JuegoSimon/Simon.js" afterDir="false" />
+    <list default="true" id="fb69af3b-28b0-40a6-9c78-d8f8695315ae" name="Changes" comment="C5 no entiendo nada">
+      <change afterPath="$PROJECT_DIR$/Lilly/HW/01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lilly/HW/02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lilly/HW/02.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,9 +18,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -33,12 +33,12 @@
     &quot;assignee&quot;: &quot;FlorinaCvll&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/FlorinaCvll/DWEC2425.git&quot;,
-    &quot;accountId&quot;: &quot;a23344ab-95c0-47d2-af84-ce5de48c327d&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/FlorinaCvll/DWEC2425.git",
+    "accountId": "563c8f19-bc33-4c50-b006-d43b4e04c2b7"
   }
-}</component>
+}]]></component>
   <component name="MaliciousPackageCheckinHandlerState">
     <option name="packageCheck" value="true" />
   </component>
@@ -53,29 +53,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/IONECOV/WebstormProjects/DWEC2425&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.18255909&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/IONECOV/WebstormProjects/DWEC2425",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "C:/Users/flori/AppData/Roaming/JetBrains/WebStorm2024.2/node/versions/22.9.0/node",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.splitter.proportion": "0.18255909",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-b86d7ee83eed-JavaScript-WS-243.18137.24" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.22855.79" />
       </set>
     </attachedChunks>
   </component>
@@ -97,12 +98,8 @@
       <workItem from="1727247507866" duration="897000" />
       <workItem from="1727691715496" duration="1930000" />
       <workItem from="1727780414435" duration="2188000" />
-      <workItem from="1727852974825" duration="3508000" />
-      <workItem from="1727939604141" duration="41000" />
-      <workItem from="1728291422170" duration="3226000" />
-      <workItem from="1728295901410" duration="243000" />
-      <workItem from="1728296152664" duration="374000" />
-      <workItem from="1728296534578" duration="1785000" />
+      <workItem from="1727852974825" duration="3227000" />
+      <workItem from="1727999595386" duration="1268000" />
     </task>
     <task id="LOCAL-00001" summary="C1">
       <option name="closed" value="true" />
@@ -152,15 +149,7 @@
       <option name="project" value="LOCAL" />
       <updated>1727786548135</updated>
     </task>
-    <task id="LOCAL-00007" summary="C6 he sacado el cuadrado">
-      <option name="closed" value="true" />
-      <created>1727856500571</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1727856500571</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,8 +164,7 @@
     <MESSAGE value="C3" />
     <MESSAGE value="C4 andiamo" />
     <MESSAGE value="C5 no entiendo nada" />
-    <MESSAGE value="C6 he sacado el cuadrado" />
-    <option name="LAST_COMMIT_MESSAGE" value="C6 he sacado el cuadrado" />
+    <option name="LAST_COMMIT_MESSAGE" value="C5 no entiendo nada" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
