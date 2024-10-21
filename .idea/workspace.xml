@@ -4,15 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb69af3b-28b0-40a6-9c78-d8f8695315ae" name="Changes" comment="C8 amen">
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT03/001_estatico_con_parametros/estaticoConParametros.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT03/001_estatico_con_parametros/estaticoConParametros.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT03/001_estatico_con_parametros/estaticoConParametros.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT03/002_dinamico_con_parametros/dinamico_con_parametros.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT03/002_dinamico_con_parametros/dinamico_con_parametros.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT03/002_dinamico_con_parametros/dinamico_con_parametros.js" afterDir="false" />
+    <list default="true" id="fb69af3b-28b0-40a6-9c78-d8f8695315ae" name="Changes" comment="C9 harta">
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT05/181_factorial_iterativo/factorialIterativo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT05/181_factorial_iterativo/factorialIterativo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT05/181_factorial_iterativo/factorialIterativo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT05/183_1_funcion_callback/funcionCallback.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT05/183_1_funcion_callback/funcionCallback.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT05/183_2_alternativas_a_callback/alternativaCallback.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT05/183_2_alternativas_a_callback/alternativasCallback.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT05/184_dobleCallback/dobleCallback.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT05/184_dobleCallback/dobleCallback.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrimerTrimestre/UT03/JuegoSimon/Simon.css" beforeDir="false" afterPath="$PROJECT_DIR$/PrimerTrimestre/UT03/JuegoSimon/Simon.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +24,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -72,15 +74,21 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "settings.editor.splitter.proportion": "0.18255909",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\PrimerTrimestre\UT05" />
+      <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\PrimerTrimestre\UT05\181_factorial_recursivo" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-b86d7ee83eed-JavaScript-WS-243.19420.26" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23339.15" />
       </set>
     </attachedChunks>
   </component>
@@ -114,7 +122,10 @@
       <workItem from="1729077344879" duration="81000" />
       <workItem from="1729078043752" duration="101000" />
       <workItem from="1729150115261" duration="6000" />
-      <workItem from="1729235239027" duration="5841000" />
+      <workItem from="1729235239027" duration="5862000" />
+      <workItem from="1729494982700" duration="55000" />
+      <workItem from="1729500646613" duration="212000" />
+      <workItem from="1729501028677" duration="5730000" />
     </task>
     <task id="LOCAL-00001" summary="C1">
       <option name="closed" value="true" />
@@ -188,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729069338873</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="C9 harta">
+      <option name="closed" value="true" />
+      <created>1729241280556</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1729241280556</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,7 +225,8 @@
     <MESSAGE value="C6 he sacado el cuadrado" />
     <MESSAGE value="C7 ich habe genug" />
     <MESSAGE value="C8 amen" />
-    <option name="LAST_COMMIT_MESSAGE" value="C8 amen" />
+    <MESSAGE value="C9 harta" />
+    <option name="LAST_COMMIT_MESSAGE" value="C9 harta" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
