@@ -4,13 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb69af3b-28b0-40a6-9c78-d8f8695315ae" name="Changes" comment="C10 deja de copiar">
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT05/185_1_compararLongitudCadenas/CompararLongCadenas.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT05/185_1_compararLongitudCadenas/CompararLongCadenas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT05/185_2_ordenaArray_Longitud_Elementos/ordenaArrayLongitudElementos.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT05/185_2_ordenaArray_Longitud_Elementos/ordenaArrayLongitudElementos.js" afterDir="false" />
+    <list default="true" id="fb69af3b-28b0-40a6-9c78-d8f8695315ae" name="Changes" comment="C11 ya me harté">
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT05/186_1_ordenar_array_local/ordenarArrayLocal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT05/186_1_ordenar_array_local/ordenarArrayLocal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT05/186_2_ordenar_local_parametro/ordenarLocalParametros.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT05/186_2_ordenar_local_parametro/ordenarLocalParemetros.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT05/186_3_array_foreach/arrayForeach.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT05/186_3_array_foreach/arrayForeach.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT05/187_1_conjunto_foreach/conjunto_foreach.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT05/187_1_conjunto_foreach/conjunto_foreach.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT05/187_2_conjunto_mapa_foreach/conjuntoMapaForeach.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT05/187_2_conjunto_mapa_foreach/conjuntoMapaForeach.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrimerTrimestre/UT05/184_dobleCallback/dobleCallback.js" beforeDir="false" afterPath="$PROJECT_DIR$/PrimerTrimestre/UT05/184_dobleCallback/dobleCallback.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimerTrimestre/UT03/Cuadro_9Nueves/C_9_9.css" beforeDir="false" afterPath="$PROJECT_DIR$/PrimerTrimestre/Tareas/Cuadro_9Nueves/C_9_9.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimerTrimestre/UT03/Cuadro_9Nueves/C_9_9.html" beforeDir="false" afterPath="$PROJECT_DIR$/PrimerTrimestre/Tareas/Cuadro_9Nueves/C_9_9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimerTrimestre/UT03/Cuadro_9Nueves/C_9_9.js" beforeDir="false" afterPath="$PROJECT_DIR$/PrimerTrimestre/Tareas/Cuadro_9Nueves/C_9_9.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimerTrimestre/UT03/JuegoSimon/Simon.css" beforeDir="false" afterPath="$PROJECT_DIR$/PrimerTrimestre/Tareas/JuegoSimon/Simon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimerTrimestre/UT03/JuegoSimon/Simon.html" beforeDir="false" afterPath="$PROJECT_DIR$/PrimerTrimestre/Tareas/JuegoSimon/Simon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimerTrimestre/UT03/JuegoSimon/Simon.js" beforeDir="false" afterPath="$PROJECT_DIR$/PrimerTrimestre/Tareas/JuegoSimon/Simon.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +32,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -77,6 +88,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\PrimerTrimestre\Tareas" />
+      <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\PrimerTrimestre" />
       <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\PrimerTrimestre\UT05" />
       <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\PrimerTrimestre\UT05\181_factorial_recursivo" />
     </key>
@@ -122,7 +135,9 @@
       <workItem from="1729494982700" duration="55000" />
       <workItem from="1729500646613" duration="212000" />
       <workItem from="1729501028677" duration="5914000" />
-      <workItem from="1729595206045" duration="5166000" />
+      <workItem from="1729595206045" duration="5405000" />
+      <workItem from="1729667253515" duration="2137000" />
+      <workItem from="1729670747162" duration="2217000" />
     </task>
     <task id="LOCAL-00001" summary="C1">
       <option name="closed" value="true" />
@@ -212,7 +227,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729508089725</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="C11 ya me harté">
+      <option name="closed" value="true" />
+      <created>1729600828001</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1729600828001</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +255,8 @@
     <MESSAGE value="C8 amen" />
     <MESSAGE value="C9 harta" />
     <MESSAGE value="C10 deja de copiar" />
-    <option name="LAST_COMMIT_MESSAGE" value="C10 deja de copiar" />
+    <MESSAGE value="C11 ya me harté" />
+    <option name="LAST_COMMIT_MESSAGE" value="C11 ya me harté" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
