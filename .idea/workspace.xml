@@ -4,24 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb69af3b-28b0-40a6-9c78-d8f8695315ae" name="Changes" comment="C11 ya me harté">
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT05/186_1_ordenar_array_local/ordenarArrayLocal.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT05/186_1_ordenar_array_local/ordenarArrayLocal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT05/186_2_ordenar_local_parametro/ordenarLocalParametros.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT05/186_2_ordenar_local_parametro/ordenarLocalParemetros.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT05/186_3_array_foreach/arrayForeach.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT05/186_3_array_foreach/arrayForeach.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT05/187_1_conjunto_foreach/conjunto_foreach.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT05/187_1_conjunto_foreach/conjunto_foreach.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT05/187_2_conjunto_mapa_foreach/conjuntoMapaForeach.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT05/187_2_conjunto_mapa_foreach/conjuntoMapaForeach.js" afterDir="false" />
+    <list default="true" id="fb69af3b-28b0-40a6-9c78-d8f8695315ae" name="Changes" comment="C11 me quiero morir">
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT05/187_3_crear_nuevo_map/crearNuevoMap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT05/187_3_crear_nuevo_map/crearNuevoMap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT05/188_reduce_recorre_modifica/reduceRecorreModifica.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT05/188_reduce_recorre_modifica/reduceRecorreModifica.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT05/189_filter_recorre_modifica/filterRecorreModifica.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT05/189_filter_recorre_modifica/filterRecorreModifica.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrimerTrimestre/UT03/Cuadro_9Nueves/C_9_9.css" beforeDir="false" afterPath="$PROJECT_DIR$/PrimerTrimestre/Tareas/Cuadro_9Nueves/C_9_9.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrimerTrimestre/UT03/Cuadro_9Nueves/C_9_9.html" beforeDir="false" afterPath="$PROJECT_DIR$/PrimerTrimestre/Tareas/Cuadro_9Nueves/C_9_9.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrimerTrimestre/UT03/Cuadro_9Nueves/C_9_9.js" beforeDir="false" afterPath="$PROJECT_DIR$/PrimerTrimestre/Tareas/Cuadro_9Nueves/C_9_9.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrimerTrimestre/UT03/JuegoSimon/Simon.css" beforeDir="false" afterPath="$PROJECT_DIR$/PrimerTrimestre/Tareas/JuegoSimon/Simon.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrimerTrimestre/UT03/JuegoSimon/Simon.html" beforeDir="false" afterPath="$PROJECT_DIR$/PrimerTrimestre/Tareas/JuegoSimon/Simon.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrimerTrimestre/UT03/JuegoSimon/Simon.js" beforeDir="false" afterPath="$PROJECT_DIR$/PrimerTrimestre/Tareas/JuegoSimon/Simon.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,26 +56,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/IONECOV/WebstormProjects/DWEC2425&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.18255909&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/IONECOV/WebstormProjects/DWEC2425",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.splitter.proportion": "0.18255909",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\PrimerTrimestre\Tareas" />
@@ -97,7 +87,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23339.15" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23726.96" />
       </set>
     </attachedChunks>
   </component>
@@ -137,7 +127,9 @@
       <workItem from="1729501028677" duration="5914000" />
       <workItem from="1729595206045" duration="5405000" />
       <workItem from="1729667253515" duration="2137000" />
-      <workItem from="1729670747162" duration="2217000" />
+      <workItem from="1729670747162" duration="2394000" />
+      <workItem from="1729682930727" duration="23000" />
+      <workItem from="1729839839756" duration="5840000" />
     </task>
     <task id="LOCAL-00001" summary="C1">
       <option name="closed" value="true" />
@@ -235,7 +227,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729600828001</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="C11 me quiero morir">
+      <option name="closed" value="true" />
+      <created>1729673151106</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1729673151106</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,7 +256,8 @@
     <MESSAGE value="C9 harta" />
     <MESSAGE value="C10 deja de copiar" />
     <MESSAGE value="C11 ya me harté" />
-    <option name="LAST_COMMIT_MESSAGE" value="C11 ya me harté" />
+    <MESSAGE value="C11 me quiero morir" />
+    <option name="LAST_COMMIT_MESSAGE" value="C11 me quiero morir" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
