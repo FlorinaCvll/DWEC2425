@@ -5,8 +5,9 @@ function entreComillas() {
         autores: ["Pedro Martinez", "Ana León"], // array
         editorial: { //objeto
             nombre: "Inexistente S.A.",
-            país: "España",
+            pais: "España",
         },
+        /*Diferentes formas de crear arrays*/
         arrayUno: ["uno", "dos"],
         arrayDos: new Array("hola", "adios"),
         map: new Map([[1, "Jose"], [2, "Maria"], [3, "Elena"]]),

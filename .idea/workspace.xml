@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb69af3b-28b0-40a6-9c78-d8f8695315ae" name="Changes" comment="C12 YA VALEEEEEEEEEEEEEEEEEEEE">
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT06/207_1_objeto_literal/objetoLiteral.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT06/207_1_objeto_literal/objetoLiteral.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT06/207_1_objeto_llaves/objetoLlaves.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT06/207_1_objeto_llaves/objetoLlaves.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT06/208_1_objeto_entre_comillas/objetoEntreComillas.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT06/208_1_objeto_entre_comillas/objetoEntreComillas.js" afterDir="false" />
+    <list default="true" id="fb69af3b-28b0-40a6-9c78-d8f8695315ae" name="Changes" comment="C13 A CASA">
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT06/208_objeto_this/objetoThis.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT06/208_objeto_this/objetoThis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT06/210_1_recorrer_propiedades/recorrerPropiedades.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT06/210_1_recorrer_propiedades/recorrerPropiedades.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimerTrimestre/UT06/208_1_objeto_entre_comillas/objetoEntreComillas.js" beforeDir="false" afterPath="$PROJECT_DIR$/PrimerTrimestre/UT06/208_1_objeto_entre_comillas/objetoEntreComillas.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -56,26 +55,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/IONECOV/WebstormProjects/DWEC2425&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.18255909&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/IONECOV/WebstormProjects/DWEC2425",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.idesettings.emmet.xml",
+    "settings.editor.splitter.proportion": "0.18255909",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\PrimerTrimestre\Tareas" />
@@ -131,7 +130,8 @@
       <workItem from="1729682930727" duration="23000" />
       <workItem from="1729839839756" duration="5979000" />
       <workItem from="1730102631062" duration="72000" />
-      <workItem from="1730111061938" duration="3949000" />
+      <workItem from="1730111061938" duration="3998000" />
+      <workItem from="1730203526934" duration="5444000" />
     </task>
     <task id="LOCAL-00001" summary="C1">
       <option name="closed" value="true" />
@@ -245,7 +245,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729845799657</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="C13">
+      <option name="closed" value="true" />
+      <created>1730116332924</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1730116332924</updated>
+    </task>
+    <task id="LOCAL-00016" summary="C13 A CASA">
+      <option name="closed" value="true" />
+      <created>1730116356805</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1730116356805</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,7 +284,9 @@
     <MESSAGE value="C11 ya me harté" />
     <MESSAGE value="C11 me quiero morir" />
     <MESSAGE value="C12 YA VALEEEEEEEEEEEEEEEEEEEE" />
-    <option name="LAST_COMMIT_MESSAGE" value="C12 YA VALEEEEEEEEEEEEEEEEEEEE" />
+    <MESSAGE value="C13" />
+    <MESSAGE value="C13 A CASA" />
+    <option name="LAST_COMMIT_MESSAGE" value="C13 A CASA" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
