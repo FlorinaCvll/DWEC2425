@@ -4,19 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb69af3b-28b0-40a6-9c78-d8f8695315ae" name="Changes" comment="C15">
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT06/215_modificar_object_prototype_array/modiObjeProtoArray.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT06/215_modificar_object_prototype_array/modiObjeProtoArray.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT06/216_json/ejemploJson.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT06/216_json/ejemploJson.js" afterDir="false" />
+    <list default="true" id="fb69af3b-28b0-40a6-9c78-d8f8695315ae" name="Changes" comment="C16 que e esto">
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT06/216_1_json/ejemploJson.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT06/216_2_omitiendo_constructor/omitiendoConstructor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT06/216_2_omitiendo_constructor/omitiendoConstructor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT06/216_3_objetos_herencia/objetosHerencia.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT06/216_3_objetos_herencia/objetosHerencia.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrimerTrimestre/Tareas/Cuadro_9Nueves/C_9_9.css" beforeDir="false" afterPath="$PROJECT_DIR$/PrimerTrimestre/Tareas/Tarea_01/C_9_9.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrimerTrimestre/Tareas/Cuadro_9Nueves/C_9_9.html" beforeDir="false" afterPath="$PROJECT_DIR$/PrimerTrimestre/Tareas/Tarea_01/C_9_9.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrimerTrimestre/Tareas/Cuadro_9Nueves/C_9_9.js" beforeDir="false" afterPath="$PROJECT_DIR$/PrimerTrimestre/Tareas/Tarea_01/C_9_9.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrimerTrimestre/Tareas/JuegoSimon/Simon.css" beforeDir="false" afterPath="$PROJECT_DIR$/PrimerTrimestre/Tareas/Tarea_02/Simon.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrimerTrimestre/Tareas/JuegoSimon/Simon.html" beforeDir="false" afterPath="$PROJECT_DIR$/PrimerTrimestre/Tareas/Tarea_02/Simon.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrimerTrimestre/Tareas/JuegoSimon/Simon.js" beforeDir="false" afterPath="$PROJECT_DIR$/PrimerTrimestre/Tareas/Tarea_02/Simon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrimerTrimestre/UT06/214_prototipos/prototipos.js" beforeDir="false" afterPath="$PROJECT_DIR$/PrimerTrimestre/UT06/214_prototipos/prototipos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimerTrimestre/UT06/216_json/ejemploJson.html" beforeDir="false" afterPath="$PROJECT_DIR$/PrimerTrimestre/UT06/216_1_json/ejemploJson.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimerTrimestre/UT06/216_json/ejemploJson.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +23,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -76,7 +72,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.JavaScript",
+    "settings.editor.selected.configurable": "editing.templates",
     "settings.editor.splitter.proportion": "0.18255909",
     "vue.rearranger.settings.migration": "true"
   }
@@ -142,7 +138,8 @@
       <workItem from="1730276461502" duration="5497000" />
       <workItem from="1730290792609" duration="1000" />
       <workItem from="1730291727137" duration="35000" />
-      <workItem from="1730713850212" duration="6113000" />
+      <workItem from="1730713850212" duration="6142000" />
+      <workItem from="1730809338370" duration="4683000" />
     </task>
     <task id="LOCAL-00001" summary="C1">
       <option name="closed" value="true" />
@@ -288,7 +285,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730281976400</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="C16 que e esto">
+      <option name="closed" value="true" />
+      <created>1730721261828</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1730721261828</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,7 +320,8 @@
     <MESSAGE value="C13 A CASA" />
     <MESSAGE value="C14 estoy harta" />
     <MESSAGE value="C15" />
-    <option name="LAST_COMMIT_MESSAGE" value="C15" />
+    <MESSAGE value="C16 que e esto" />
+    <option name="LAST_COMMIT_MESSAGE" value="C16 que e esto" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
