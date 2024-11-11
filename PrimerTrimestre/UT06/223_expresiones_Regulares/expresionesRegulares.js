@@ -28,11 +28,26 @@ function existeCaracter() {
 }
 
 function empiezaYtermina() {
-
+    let cadena = prompt("Introduzca la cadena (D y z): ");
+    let expEmpiezaYTermina = /^D.+z$/;
+    if (expEmpiezaYTermina.test(cadena)) {
+        console.log("La cadena " + cadena + " si cumple D y z");
+    } else {
+        console.log("La cadena " + cadena + " NO CUMPLE D y z");
+    }
 }
 
 function expresionCompleja() {
-
+    let expresionCom = /^[A-Z][a-z]{2,}[0-9]*[a-z]+$/;
+    console.log(expresionCom);
+    const valroesTest = ["Daa44a", "Daa4aa", "Daaa3A", "Daa4aa", "Daaa", "daa44a", "daa33a", "Da44a", "Daa44"];
+    for (testeo of valroesTest) {
+        if (expresionCom.test(testeo)) {
+            console.log("La cadena " + testeo + " si cumple");
+        } else {
+            console.log("La cadena " + testeo + " NO CUMPLE!!");
+        }
+    }
 }
 
 window.onload = function () {
