@@ -1,26 +1,44 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 html, body {
     height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #cuadrado {
-    height: 100vh;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+}
+
+#filaA, #filaB, #filaC {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
-    border: 2px solid red;
 }
 
 #a1, #a2, #a3, #b1, #b2, #b3, #c1, #c2, #c3 {
     border: 2px solid deeppink;
     display: flex;
-    flex-direction: row;
     justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
     padding: 5vh;
+}
+
+#enviar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #29dab4;
+    padding: 1vh 2vh; /* Ajustar el padding para una mejor apariencia */
+    border: none; /* Quitar bordes predeterminados del botón */
+    cursor: pointer;
+    font-size: 1.2em;
+    border-radius: 5px; /* Añadir bordes redondeados */
 }
 
