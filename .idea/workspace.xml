@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb69af3b-28b0-40a6-9c78-d8f8695315ae" name="Changes" comment="C20 nieeeeet">
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT06/223_expresiones_Regulares/validarCampos.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT06/223_expresiones_Regulares/validarCampos.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT06/229_exec/exec.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT06/229_exec/exec.js" afterDir="false" />
+    <list default="true" id="fb69af3b-28b0-40a6-9c78-d8f8695315ae" name="Changes" comment="C21 nieeeeet">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrimerTrimestre/UT06/223_expresiones_Regulares/expresionesRegulares.html" beforeDir="false" afterPath="$PROJECT_DIR$/PrimerTrimestre/UT06/223_expresiones_Regulares/expresionesRegulares.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrimerTrimestre/UT06/223_expresiones_Regulares/expresionesRegulares.js" beforeDir="false" afterPath="$PROJECT_DIR$/PrimerTrimestre/UT06/223_expresiones_Regulares/expresionesRegulares.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimerTrimestre/Tareas/Tarea_02/Simon.css" beforeDir="false" afterPath="$PROJECT_DIR$/PrimerTrimestre/Tareas/Tarea_02/Simon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimerTrimestre/UT06/229_exec/exec.js" beforeDir="false" afterPath="$PROJECT_DIR$/PrimerTrimestre/UT06/229_exec/exec.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +67,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.General&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;settings.editor.splitter.proportion&quot;: &quot;0.18255909&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -88,7 +84,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23726.96" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-WS-243.21565.180" />
       </set>
     </attachedChunks>
   </component>
@@ -145,7 +141,9 @@
       <workItem from="1731054083836" duration="5144000" />
       <workItem from="1731312842565" duration="4000" />
       <workItem from="1731313107617" duration="4522000" />
-      <workItem from="1731318748920" duration="4655000" />
+      <workItem from="1731318748920" duration="4672000" />
+      <workItem from="1731485357386" duration="887000" />
+      <workItem from="1731489164965" duration="691000" />
     </task>
     <task id="LOCAL-00001" summary="C1">
       <option name="closed" value="true" />
@@ -331,7 +329,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731317709018</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="C21 nieeeeet">
+      <option name="closed" value="true" />
+      <created>1731326056647</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1731326056647</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,7 +369,8 @@
     <MESSAGE value="C18 bueno, ya vale" />
     <MESSAGE value="C19 me duele la espalda" />
     <MESSAGE value="C20 nieeeeet" />
-    <option name="LAST_COMMIT_MESSAGE" value="C20 nieeeeet" />
+    <MESSAGE value="C21 nieeeeet" />
+    <option name="LAST_COMMIT_MESSAGE" value="C21 nieeeeet" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
