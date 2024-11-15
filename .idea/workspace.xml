@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb69af3b-28b0-40a6-9c78-d8f8695315ae" name="Changes" comment="C22 andiamo">
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/251_objeto_navigator/navigator.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/251_objeto_navigator/navigator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/252_objeto_screen/screen.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/252_objeto_screen/screen.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/253_objeto_Location/location.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/253_objeto_Location/location.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/254_objeto_history/history.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/254_objeto_history/history.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/254_objeto_history/origen.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/254_objeto_history/origen.js" afterDir="false" />
+    <list default="true" id="fb69af3b-28b0-40a6-9c78-d8f8695315ae" name="Changes" comment="C17 ajsdhasijhfliasdjhgf">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimerTrimestre/Tareas/Tarea_01/C_9_9.css" beforeDir="false" afterPath="$PROJECT_DIR$/PrimerTrimestre/Tareas/Tarea_01/C_9_9.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimerTrimestre/Tareas/Tarea_01/C_9_9.html" beforeDir="false" afterPath="$PROJECT_DIR$/PrimerTrimestre/Tareas/Tarea_01/C_9_9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimerTrimestre/Tareas/Tarea_02/Simon.css" beforeDir="false" afterPath="$PROJECT_DIR$/PrimerTrimestre/Tareas/Tarea_02/Simon.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimerTrimestre/Tareas/Tarea_02/Simon.html" beforeDir="false" afterPath="$PROJECT_DIR$/PrimerTrimestre/Tareas/Tarea_02/Simon.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -43,7 +37,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/FlorinaCvll/DWEC2425.git&quot;,
-    &quot;accountId&quot;: &quot;a23344ab-95c0-47d2-af84-ce5de48c327d&quot;
+    &quot;accountId&quot;: &quot;a3c185e1-f087-443c-a681-3dd34ecd0095&quot;
   }
 }</component>
   <component name="MaliciousPackageCheckinHandlerState">
@@ -68,14 +62,17 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/IONECOV/WebstormProjects/DIW_2425&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;23.1.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;22.9.0&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/IONECOV/WebstormProjects/DWEC2425&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;C:/Users/flori/AppData/Roaming/JetBrains/WebStorm2024.2/node/versions/23.1.0/node&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.nodejs&quot;,
     &quot;settings.editor.splitter.proportion&quot;: &quot;0.18255909&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -92,7 +89,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-WS-243.21565.180" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23726.96" />
       </set>
     </attachedChunks>
   </component>
@@ -144,17 +141,8 @@
       <workItem from="1730291727137" duration="35000" />
       <workItem from="1730713850212" duration="6142000" />
       <workItem from="1730809338370" duration="4928000" />
-      <workItem from="1730880664978" duration="5029000" />
-      <workItem from="1731053086286" duration="978000" />
-      <workItem from="1731054083836" duration="5144000" />
-      <workItem from="1731312842565" duration="4000" />
-      <workItem from="1731313107617" duration="4522000" />
-      <workItem from="1731318748920" duration="4672000" />
-      <workItem from="1731485357386" duration="887000" />
-      <workItem from="1731489164965" duration="728000" />
-      <workItem from="1731499928266" duration="192000" />
-      <workItem from="1731658898390" duration="661000" />
-      <workItem from="1731659571531" duration="4010000" />
+      <workItem from="1730880664978" duration="4999000" />
+      <workItem from="1731529567332" duration="3628000" />
     </task>
     <task id="LOCAL-00001" summary="C1">
       <option name="closed" value="true" />
@@ -316,47 +304,7 @@
       <option name="project" value="LOCAL" />
       <updated>1730814273058</updated>
     </task>
-    <task id="LOCAL-00021" summary="C18 bueno, ya vale">
-      <option name="closed" value="true" />
-      <created>1730886241965</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1730886241965</updated>
-    </task>
-    <task id="LOCAL-00022" summary="C19 me duele la espalda">
-      <option name="closed" value="true" />
-      <created>1731059326885</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1731059326885</updated>
-    </task>
-    <task id="LOCAL-00023" summary="C20 nieeeeet">
-      <option name="closed" value="true" />
-      <created>1731317709018</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1731317709018</updated>
-    </task>
-    <task id="LOCAL-00024" summary="C21 nieeeeet">
-      <option name="closed" value="true" />
-      <created>1731326056647</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1731326056647</updated>
-    </task>
-    <task id="LOCAL-00025" summary="C22 andiamo">
-      <option name="closed" value="true" />
-      <created>1731495831285</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1731495831285</updated>
-    </task>
-    <option name="localTasksCounter" value="26" />
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -385,12 +333,7 @@
     <MESSAGE value="C15" />
     <MESSAGE value="C16 que e esto" />
     <MESSAGE value="C17 ajsdhasijhfliasdjhgf" />
-    <MESSAGE value="C18 bueno, ya vale" />
-    <MESSAGE value="C19 me duele la espalda" />
-    <MESSAGE value="C20 nieeeeet" />
-    <MESSAGE value="C21 nieeeeet" />
-    <MESSAGE value="C22 andiamo" />
-    <option name="LAST_COMMIT_MESSAGE" value="C22 andiamo" />
+    <option name="LAST_COMMIT_MESSAGE" value="C17 ajsdhasijhfliasdjhgf" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
