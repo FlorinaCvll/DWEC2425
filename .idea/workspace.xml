@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb69af3b-28b0-40a6-9c78-d8f8695315ae" name="Changes" comment="c24 tatkatk">
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/259_recuperar_Tipo_Nodo/recuperarTipoNodo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/259_recuperar_Tipo_Nodo/recuperarTipoNodo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/261_seleccionar_por_tags/seleccionarPorTags.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/261_seleccionar_por_tags/seleccionarPorTags.js" afterDir="false" />
+    <list default="true" id="fb69af3b-28b0-40a6-9c78-d8f8695315ae" name="Changes" comment="c25 nie nie">
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/263_1_selectores/selectoresCSS.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/263_1_selectores/selectoresCSS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/263_2_obtener_valor_atributo/obtenerValorAtributo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/263_2_obtener_valor_atributo/obtenerValorAtributo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -146,7 +146,8 @@
       <workItem from="1731917300737" duration="9000" />
       <workItem from="1731924278225" duration="503000" />
       <workItem from="1731924792292" duration="4098000" />
-      <workItem from="1732017845336" duration="2182000" />
+      <workItem from="1732017845336" duration="2362000" />
+      <workItem from="1732090470091" duration="4651000" />
     </task>
     <task id="LOCAL-00001" summary="C1">
       <option name="closed" value="true" />
@@ -324,7 +325,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731930286060</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="c25 nie nie">
+      <option name="closed" value="true" />
+      <created>1732020403431</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1732020403431</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -355,7 +364,8 @@
     <MESSAGE value="C17 ajsdhasijhfliasdjhgf" />
     <MESSAGE value="c23 ya vale" />
     <MESSAGE value="c24 tatkatk" />
-    <option name="LAST_COMMIT_MESSAGE" value="c24 tatkatk" />
+    <MESSAGE value="c25 nie nie" />
+    <option name="LAST_COMMIT_MESSAGE" value="c25 nie nie" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
