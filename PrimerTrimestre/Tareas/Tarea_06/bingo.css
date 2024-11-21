@@ -1,0 +1,41 @@
+body {
+    background-color: lightgray;
+    box-sizing: border-box;
+}
+
+#padre {
+    background-color: aliceblue;
+    border: 1px solid black;
+    display: flex;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#columnas {
+    background-color: bisque;
+    border: 1px solid black;
+    width: 100%;
+    height: px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.bloque {
+    width: 100%;
+    border: 1px solid black;
+    height: 80px;
+    background-color: lightgreen;
+    align-items: center;
+}
+
+#columnas div:first-child {
+    background-color: white;
+    height: 40px;
+
+}
+

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora Simple</title>
+    <link href="calculadora.css" rel="stylesheet">
+    <script defer src="calculadora.js"></script>
+</head>
+<body>
+<div class="calculadora">
+    <div class="mostrar" id="mostrar">0</div>
+    <div class="botones">
+        <div class="boton" onclick="agnadirNum('7')">7</div>
+        <div class="boton" onclick="agnadirNum('8')">8</div>
+        <div class="boton" onclick="agnadirNum('9')">9</div>
+        <div class="boton" onclick="elegirOperacion('/')">/</div>
+
+        <div class="boton" onclick="agnadirNum('4')">4</div>
+        <div class="boton" onclick="agnadirNum('5')">5</div>
+        <div class="boton" onclick="agnadirNum('6')">6</div>
+        <div class="boton" onclick="elegirOperacion('*')">*</div>
+
+        <div class="boton" onclick="agnadirNum('1')">1</div>
+        <div class="boton" onclick="agnadirNum('2')">2</div>
+        <div class="boton" onclick="agnadirNum('3')">3</div>
+        <div class="boton" onclick="elegirOperacion('-')">-</div>
+
+        <div class="boton" onclick="agnadirNum('0')">0</div>
+        <div class="boton" onclick="clearDisplay()">C</div>
+        <div class="boton" onclick="calculate()">=</div>
+        <div class="boton" onclick="elegirOperacion('+')">+</div>
+    </div>
+</div>
+
+</body>
+</html>
