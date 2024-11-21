@@ -1,0 +1,46 @@
+html, body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    height: 30vh;
+}
+
+#columnas {
+    background-color: rgb(132, 159, 202);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 2px dotted #0d39ac;
+    border-radius: 5px;
+}
+
+fieldset, #resultadoFigura {
+    border-radius: 5px;
+    border: 2px dotted pink;
+}
+
+#botones {
+    display: flex;
+}
+
+label {
+    margin-right: 1em;
+}
+
+.entradas {
+    margin: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#resultadoFigura {
+    background-color: rgb(101, 139, 158);
+    height: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

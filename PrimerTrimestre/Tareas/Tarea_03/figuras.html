@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Figuras</title>
+    <script src="figuras.js"></script>
+    <link href="figuras.css" rel="stylesheet">
+</head>
+<body>
+<form action="#" method="post">
+    <div id="columnas">
+        <div id="botones">
+            <fieldset class="entradas">
+                <label for="base">Base</label>
+                <input class="input" id="base" name="" type="text" value="5">
+            </fieldset>
+            <fieldset class="entradas">
+                <label for="altura">Altura</label>
+                <input class="input" disabled id="altura" name="" type="text" value="5">
+            </fieldset>
+            <fieldset class="entradas">
+                <label for="tipoFigura">Elija figura</label>
+                <select class="tamanio entradas" id="tipoFigura" name="figuras">
+                    <option value="cuadrado">Cuadrado</option>
+                    <option value="rectangulo">Rectángulo</option>
+                    <option value="triangulo">Triángulo</option>
+                </select>
+                <label for="formas">Elija forma</label>
+                <select class="formas" id="formas" name="formas">
+                    <option value="asterisco">Asterisco</option>
+                    <option value="rayas">Rayas</option>
+                </select>
+                <button class="entradas" id="generarFigura">Generar figura</button>
+            </fieldset>
+
+        </div>
+        <pre id="resultadoFigura">Cargando figura...</pre>
+    </div>
+</form>
+</body>
+</html>
