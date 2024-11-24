@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="Ej4.js"></script>
+    <link rel="stylesheet" href="Ej4.css">
+</head>
+<body>
+<p id="label">Seleccione el primer valor</p>
+<div id="padreSelect">
+    <select name="" id="valor1">
+        <option value="5">5</option>
+        <option value="10">10</option>
+        <option value="3">3</option>
+    </select>
+    <select name="" id="operadoresComparacion" onchange="operadoresComparacion()">
+        <option value="==">==</option>
+        <option value="===">===</option>
+        <option value="!=">!=</option>
+        <option value="!==">!==</option>
+        <option value="<"><</option>
+        <option value="<="><=</option>
+        <option value=">">></option>
+        <option value=">=">>=</option>
+    </select>
+
+    <select name="" id="valor2">
+        <option value="5">5</option>
+        <option value="10">10</option>
+        <option value="3">3</option>
+    </select>
+    <button onclick="compararValores()">Comparar</button>
+</div>
+
+<div id="padreResultado">
+    <div id="resultado"><p>
+    </div>
+</body>
+</html>

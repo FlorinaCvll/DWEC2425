@@ -1,0 +1,48 @@
+
+* {
+    margin: 0vw;
+    box-sizing: content-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3vw;
+}
+
+html, body {
+    background-color: rgb(168, 228, 255);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.columnas {
+    background-color: rgb(193, 136, 246);
+    border-radius: 1vw;
+    padding: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.filas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.celda {
+    background-color: rgb(254, 254, 168);
+    border-radius: 0.75vw;
+    border: 0.15vw solid;
+    text-align: center;
+    width: 15vw;
+    margin: 1vw;
+}
+
+.barraSeparacion {
+    color: white;
+    border: 0.25vw solid;
+}
+
+.barraOperacion {
+    border: 0.2vw dashed;
+}

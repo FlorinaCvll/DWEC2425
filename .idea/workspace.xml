@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb69af3b-28b0-40a6-9c78-d8f8695315ae" name="Changes" comment="c26 andiuamno">
-      <change afterPath="$PROJECT_DIR$/Lilly/PEB/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/PEB/proyectt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/PEB/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lilly/HW/02.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lilly/HW/p_02/02.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lilly/HW/02.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lilly/HW/p_02/02.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lilly/amen.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrimerTrimestre/Tareas/Tarea_02/Simon.css" beforeDir="false" afterPath="$PROJECT_DIR$/PrimerTrimestre/Tareas/Tarea_02/Simon.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrimerTrimestre/Tareas/Tarea_02/Simon.html" beforeDir="false" afterPath="$PROJECT_DIR$/PrimerTrimestre/Tareas/Tarea_02/Simon.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrimerTrimestre/Tareas/Tarea_02/Simon.js" beforeDir="false" afterPath="$PROJECT_DIR$/PrimerTrimestre/Tareas/Tarea_02/Simon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrimerTrimestre/Tareas/Tarea_03/figuras.html" beforeDir="false" afterPath="$PROJECT_DIR$/PrimerTrimestre/Tareas/Tarea_03/figuras.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrimerTrimestre/Tareas/Tarea_06/bingo.css" beforeDir="false" afterPath="$PROJECT_DIR$/PrimerTrimestre/Tareas/Tarea_06/bingo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrimerTrimestre/Tareas/Tarea_06/bingo.html" beforeDir="false" afterPath="$PROJECT_DIR$/PrimerTrimestre/Tareas/Tarea_06/bingo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrimerTrimestre/Tareas/Tarea_06/bingo.js" beforeDir="false" afterPath="$PROJECT_DIR$/PrimerTrimestre/Tareas/Tarea_06/bingo.js" afterDir="false" />
-    </list>
+    <list default="true" id="fb69af3b-28b0-40a6-9c78-d8f8695315ae" name="Changes" comment="c27 preparacion examen 1.0" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -344,7 +329,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732020403431</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="c27 preparacion examen 1.0">
+      <option name="closed" value="true" />
+      <created>1732484221217</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1732484221217</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -376,7 +369,8 @@
     <MESSAGE value="c23 ya vale" />
     <MESSAGE value="c24 tatkatk" />
     <MESSAGE value="c25 nie nie" />
-    <option name="LAST_COMMIT_MESSAGE" value="c25 nie nie" />
+    <MESSAGE value="c27 preparacion examen 1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="c27 preparacion examen 1.0" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

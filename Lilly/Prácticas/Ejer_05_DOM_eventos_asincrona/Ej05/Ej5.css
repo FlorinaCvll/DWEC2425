@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+}
+
+#padre {
+    display: flex;
+    flex-wrap: wrap;
+    border: 10px solid black;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    width: 20%;
+}
+
+.hijo {
+    display: flex;
+    height: 80px;
+    border: 1px solid black;
+    width: 32.8%;
+    flex-wrap: initial;
+    margin: 0;
+}
+
+#lighPink {
+    background-color: lightpink;
+}
+
+#lighBlue {
+    background-color: lightblue;
+}
+
+#lighGreen {
+    background-color: lightgreen;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#green {
+    background-color: green;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#red {
+    background-color: red;
+}
+
+#orange {
+    background-color: orange;
+}
+
+#pink {
+    background-color: rgb(255, 0, 149);
+}
+
+#white {
+    background-color: white;
+}

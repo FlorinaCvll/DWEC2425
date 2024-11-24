@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+}
+
+body, html {
+    height: 100%;
+}
+
+#principal {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background-color: rgb(145, 182, 252);
+    height: 100%;
+}
+
+.tamanio {
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    width: 40vw;
+    padding: 0px;
+    border: 0.25vw gray solid;
+    border-radius: 1vw;
+    margin-top: 5vw;
+    margin-right: 1vw;
+    font-size: 3vw;
+}
+
+.resultado {
+    background-color: rgb(129, 169, 244);
+}

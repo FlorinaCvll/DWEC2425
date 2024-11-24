@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+    text-align: center;
+}
+
+#padre {
+    background-color: aliceblue;
+    border: 1px solid black;
+    display: flex;
+    height: 680px;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-left: 10%;
+    margin: auto;
+}
+
+#columnas1, #columnas2, #columnas3, #columnas4, #columnas5, #columnas6, #columnas7, #columnas8, #columnas9, #columnas10 {
+    border: 1px solid black;
+    width: 6%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    display: none;
+
+}
+
+.bloque {
+    width: 100%;
+    border: 1px solid black;
+    height: 60px;
+    background-color: whitesmoke;
+    align-items: center;
+}
+
+#botones {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 7%;
+}
+
+.opciones {
+    text-align: center;
+    background-color: rgb(217, 245, 245);
+    width: 100%;
+    border: 1px solid black;
+    font-size: 1rem;
+    margin: 10px;
+}
+
+.opciones p {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.agua {
+    background-image: url(img/agua.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.barco5 {
+    background-image: url(img/barco5.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.barco4 {
+    background-image: url(img/barco4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.barco3 {
+    background-image: url(img/barco3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
