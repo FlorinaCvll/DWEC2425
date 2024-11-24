@@ -1,10 +1,10 @@
 body {
-    background-color: lightgray;
+    background-color: #c69f9f;
     box-sizing: border-box;
 }
 
 #padre {
-    background-color: aliceblue;
+    background-color: rgba(118, 23, 44, 0.4);
     border: 1px solid black;
     display: flex;
     height: 700px;
@@ -13,11 +13,11 @@ body {
 
 }
 
-#columnas {
-    background-color: bisque;
+.columnas {
+    background-color: rgba(205, 25, 64, 0.4);
     border: 1px solid black;
-    width: 100%;
-    height: px;
+    width: 50vw;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,11 +29,11 @@ body {
     width: 100%;
     border: 1px solid black;
     height: 80px;
-    background-color: lightgreen;
+    background-color: #849fca;
     align-items: center;
 }
 
-#columnas div:first-child {
+.columnas div:first-child {
     background-color: white;
     height: 40px;
 

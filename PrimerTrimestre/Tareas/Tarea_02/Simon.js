@@ -35,12 +35,14 @@ function mostrarSecuencia() {
 
 function entradaSecuenciaJugador() {
     secuenciaUsuario = [];
-    const colorD = document.getElementById(color);
-    colorD.addEventListener('click', () => {
-        secuenciaUsuario.push(color);
-        if (secuenciaUsuario.length === secuenciaPC.length) {
-            verificarSecuencia();
-        }
+    colores.forEach(color => {
+        const colorD = document.getElementById(color);
+        colorD.addEventListener('click', () => {
+            secuenciaUsuario.push(color);
+            if (secuenciaUsuario.length === secuenciaPC.length) {
+                verificarSecuencia();
+            }
+        });
     });
 
 }
