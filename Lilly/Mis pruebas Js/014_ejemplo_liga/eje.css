@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 5vh;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+html, body {
+    height: 100%;
+    background-color: rgb(238, 238, 82);
+}
+
+#general {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+#arriba, #abajo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.on {
+    border: 1vh solid black;
+    width: 20vh;
+    height: 10vh;
+    border-radius: 25%;
+    background-color: antiquewhite;
+    margin: 10vh;
+}
+
+#Barça:hover {
+    background-color: red;
+}
+
+#Madrid:hover {
+    background-color: blueviolet;
+}
+
+#Atleti:hover {
+    background-color: firebrick;
+}
+
+#Girona:hover {
+    background-color: gold;
+}

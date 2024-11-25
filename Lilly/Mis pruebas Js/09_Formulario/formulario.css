@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    background-color: bisque;
+}
+
+#general {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+
+[type="submit"] {
+    font-size: 2vh;
+
+}
+
+#form {
+    margin: 3vh auto;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+label {
+    display: block;
+    margin-bottom: 1vh;
+}
+
+input {
+    width: 100%;
+    padding: 1vh;
+    margin-bottom: 1rem;
+
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+}
+
+.dato {
+    border: 1px solid black;
+    width: 25vh;
+    height: 5vh;
+    text-align: center;
+    background-color: #fff;
+}
+
+#der {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 25vh;
+}

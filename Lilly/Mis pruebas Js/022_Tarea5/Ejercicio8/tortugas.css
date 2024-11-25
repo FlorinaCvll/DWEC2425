@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#carrera img {
+    width: 25vh;
+    height: 25vh;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+#carrera {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+#meta {
+    position: absolute;
+    bottom: 5%;
+    top: 4%;
+    left: 80%;
+    transform: translateX(50%);
+    z-index: 0;
+}
+
+#meta img {
+    width: 30vh;
+    height: auto;
+}

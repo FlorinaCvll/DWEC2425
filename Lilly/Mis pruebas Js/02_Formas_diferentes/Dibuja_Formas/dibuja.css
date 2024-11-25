@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    background-image: url(img/fondo.jpg);
+}
+
+#general {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+#num {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 5vh;
+}
+
+.pinta:hover {
+    background-color: red;
+}
+
+#valor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 5vh;
+}
+
+.pinta {
+    border: 1px solid black;
+    width: 7vh;
+    height: 7vh;
+    font-size: 4vh;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+#l {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#figuras {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+#cuadrado {
+    border: 1vh solid transparent;
+    width: 20vh;
+    height: 20vh;
+    background-color: black;
+    margin-right: 10vh;
+    box-shadow: 1vh 1vh 1vh black;
+}
+
+#rectangulo {
+    border: 1vh solid transparent;
+    width: 10vh;
+    height: 20vh;
+    background-color: black;
+    margin-left: 10vh;
+    box-shadow: 1vh 1vh 1vh black;
+
+}
+
+#rectangulo:hover {
+    background-color: red;
+
+}
+
+#triangulo:hover {
+    border-bottom: 20vh solid red;
+
+}
+
+#cuadrado:hover {
+    background-color: red;
+
+}
+
+#pintado {
+    border: 1vh solid black;
+    width: 100vh;
+    height: 35vh;
+    background-color: aliceblue;
+}
+
+#triangulo {
+    width: 0vh;
+    height: 0vh;
+    border-bottom: 20vh solid black;
+    border-left: 10vh solid transparent;
+    border-right: 10vh solid transparent;
+
+}
+
+#estilo {
+    text-align: center;
+    font-size: 2.5vh;
+    padding: 2vh;
+}

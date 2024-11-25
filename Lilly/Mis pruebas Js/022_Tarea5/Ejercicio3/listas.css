@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: bisque;
+}
+
+#getElementByClassName {
+    margin-left: 45vh;
+    border: 1px solid black;
+    padding: 10vh;
+    background-color: white;
+}
+
+#querySelectorAll {
+    padding: 10vh;
+    border: 1px solid black;
+    margin-right: 45vh;
+    background-color: white;
+
+}
+
+ul li {
+    list-style-type: none;
+    margin: 1vh;
+}
+
+#cont {
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15vh;
+}
+
+#eliminacion {
+    width: 25vh;
+    margin-left: 45%;
+    margin-top: 5%;
+}
+
+#temporizador {
+    width: 25vh;
+}
+
+#eliminacion:hover {
+    background-color: rgb(38, 124, 153);
+    color: white;
+}
+
+#temporizador:hover {
+    background-color: rgb(53, 194, 40);
+}
