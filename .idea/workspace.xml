@@ -4,219 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb69af3b-28b0-40a6-9c78-d8f8695315ae" name="Changes" comment="c27 me duele el cuello">
-      <change afterPath="$PROJECT_DIR$/Lilly/Ahorcado CGPT/ahorcado.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Ahorcado CGPT/ahorcado.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Ahorcado CGPT/ahorcado.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/.vscode/settings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/010_UT04/ComparaValores/compara.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/010_UT04/ComparaValores/compara.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/010_UT04/ComparaValores/compara.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/010_UT04/cuatro.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/010_UT04/cuatro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/011_Tres_en_raya/tresEnRaya.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/011_Tres_en_raya/tresEnRaya.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/011_Tres_en_raya/tresEnRaya.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/012_Buscaminas/buscaminas.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/012_Buscaminas/buscaminas.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/012_Buscaminas/buscaminas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/013_evaluacion_01_SOLUCION/.vscode/settings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/013_evaluacion_01_SOLUCION/001_relaciona/relaciona.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/013_evaluacion_01_SOLUCION/001_relaciona/relaciona.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/013_evaluacion_01_SOLUCION/001_relaciona/relaciona.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/013_evaluacion_01_SOLUCION/002_preguntas/preguntas.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/013_evaluacion_01_SOLUCION/002_preguntas/preguntas.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/013_evaluacion_01_SOLUCION/002_preguntas/preguntas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/014_ejemplo_liga/eje.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/014_ejemplo_liga/eje.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/014_ejemplo_liga/eje.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/015_Ahorcado/ahorcado.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/015_Ahorcado/ahorcado.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/015_Ahorcado/ahorcado.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/016_cartas/cartas.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/016_cartas/cartas.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/016_cartas/cartas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/016_cartas/img/B1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/016_cartas/img/B10.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/016_cartas/img/B11.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/016_cartas/img/B12.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/016_cartas/img/B2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/016_cartas/img/B3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/016_cartas/img/B4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/016_cartas/img/B5.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/016_cartas/img/B6.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/016_cartas/img/B7.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/016_cartas/img/B8.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/016_cartas/img/B9.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/016_cartas/img/C1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/016_cartas/img/C10.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/016_cartas/img/C11.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/016_cartas/img/C12.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/016_cartas/img/C2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/016_cartas/img/C3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/016_cartas/img/C4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/016_cartas/img/C5.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/016_cartas/img/C6.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/016_cartas/img/C7.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/016_cartas/img/C8.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/016_cartas/img/C9.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/016_cartas/img/E1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/016_cartas/img/E10.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/016_cartas/img/E11.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/016_cartas/img/E12.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/016_cartas/img/E2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/016_cartas/img/E3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/016_cartas/img/E4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/016_cartas/img/E5.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/016_cartas/img/E6.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/016_cartas/img/E7.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/016_cartas/img/E8.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/016_cartas/img/E9.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/016_cartas/img/O1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/016_cartas/img/O10.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/016_cartas/img/O11.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/016_cartas/img/O12.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/016_cartas/img/O2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/016_cartas/img/O3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/016_cartas/img/O4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/016_cartas/img/O5.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/016_cartas/img/O6.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/016_cartas/img/O7.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/016_cartas/img/O8.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/016_cartas/img/O9.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/016_cartas/img/S.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/016_cartas/img/T.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/017_Ecualizador/ecualizador.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/017_Ecualizador/ecualizador.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/017_Ecualizador/ecualizador.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/018_examen_joel_garrido/examen/assets/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/018_examen_joel_garrido/examen/assets/images/globo-azul.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/018_examen_joel_garrido/examen/assets/images/globo-rojo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/018_examen_joel_garrido/examen/assets/images/globo-verde.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/018_examen_joel_garrido/examen/assets/js/Balloon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/018_examen_joel_garrido/examen/assets/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/018_examen_joel_garrido/examen/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/019_Juego/juego.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/019_Juego/juego.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/019_Juego/juego.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/01_Numeros_distintos/Aleatorios/aleatorios.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/01_Numeros_distintos/Aleatorios/aleatorios.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/01_Numeros_distintos/Aleatorios/aleatorios.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/01_Numeros_distintos/Numeros/numeros.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/01_Numeros_distintos/Numeros/numeros.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/01_Numeros_distintos/Numeros/numeros.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/01_Numeros_distintos/Numeros2/numeros.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/01_Numeros_distintos/Numeros2/numeros.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/01_Numeros_distintos/Numeros2/numeros.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/020_Parejas/img/goma-de-borrar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/020_Parejas/img/libros.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/020_Parejas/img/mochila.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/020_Parejas/img/ordenador-portatil.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/020_Parejas/img/reglas.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/020_Parejas/img/signo-de-interrogacion.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/020_Parejas/img/silla.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/020_Parejas/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/020_Parejas/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/020_Parejas/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/021_Tarea3/Ejercicio1/ejercicio1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/021_Tarea3/Ejercicio1/ejercicio1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/021_Tarea3/Ejercicio1/ejercicio1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/021_Tarea3/Ejercicio2/ejercicio2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/021_Tarea3/Ejercicio2/ejercicio2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/021_Tarea3/Ejercicio2/ejercicio2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/021_Tarea3/Ejercicio3/ejercicio3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/021_Tarea3/Ejercicio3/ejercicio3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/021_Tarea3/Ejercicio3/ejercicio3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/021_Tarea3/Ejercicio4/ejercicio4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/021_Tarea3/Ejercicio4/ejercicio4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/021_Tarea3/Ejercicio4/ejercicio4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/021_Tarea3/Ejercicio5/ejercicio5.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/021_Tarea3/Ejercicio5/ejercicio5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/021_Tarea3/Ejercicio5/ejercicio5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/021_Tarea3/Ejercicio6/ejercicio6.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/021_Tarea3/Ejercicio6/ejercicio6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/021_Tarea3/Ejercicio6/ejercicio6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/021_Tarea3/Ejercicio7/ejercicio7.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/021_Tarea3/Ejercicio7/ejercicio7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/021_Tarea3/Ejercicio7/ejercicio7.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/021_Tarea3/Ejercicio8/ejercicio8.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/021_Tarea3/Ejercicio8/ejercicio8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/021_Tarea3/Ejercicio8/ejercicio8.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/022_Tarea5/Ejercicio1/nodo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/022_Tarea5/Ejercicio1/nodo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/022_Tarea5/Ejercicio1/nodo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/022_Tarea5/Ejercicio2/aniadirImg.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/022_Tarea5/Ejercicio2/aniadirImg.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/022_Tarea5/Ejercicio2/aniadirImg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/022_Tarea5/Ejercicio2/img/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/022_Tarea5/Ejercicio2/img/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/022_Tarea5/Ejercicio2/img/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/022_Tarea5/Ejercicio2/img/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/022_Tarea5/Ejercicio2/img/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/022_Tarea5/Ejercicio3/listas.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/022_Tarea5/Ejercicio3/listas.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/022_Tarea5/Ejercicio3/listas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/022_Tarea5/Ejercicio4/diana.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/022_Tarea5/Ejercicio4/diana.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/022_Tarea5/Ejercicio4/diana.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/022_Tarea5/Ejercicio4/img/Imagen2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/022_Tarea5/Ejercicio4/img/dardo.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/022_Tarea5/Ejercicio5/colores.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/022_Tarea5/Ejercicio5/colores.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/022_Tarea5/Ejercicio5/colores.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/022_Tarea5/Ejercicio6/semaforo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/022_Tarea5/Ejercicio6/semaforo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/022_Tarea5/Ejercicio6/semaforo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/022_Tarea5/Ejercicio7/errores.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/022_Tarea5/Ejercicio7/errores.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/022_Tarea5/Ejercicio8/img/meta.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/022_Tarea5/Ejercicio8/img/tortuga.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/022_Tarea5/Ejercicio8/tortugas.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/022_Tarea5/Ejercicio8/tortugas.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/022_Tarea5/Ejercicio8/tortugas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/023_ejemplo1/eje.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/023_ejemplo1/eje.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/023_ejemplo1/eje.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/02_Formas_diferentes/Dibuja_Formas/dibuja.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/02_Formas_diferentes/Dibuja_Formas/dibuja.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/02_Formas_diferentes/Dibuja_Formas/dibuja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/02_Formas_diferentes/Dibuja_Formas/img/fondo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/02_Formas_diferentes/Formas/formas.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/02_Formas_diferentes/Formas/formas.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/02_Formas_diferentes/Formas/formas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/02_Formas_diferentes/Formas/img/fondo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/03_LogAlertConfirmPrompt/logAlertConfirmPrompt.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/03_LogAlertConfirmPrompt/logAlertConfirmPrompt.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/03_LogAlertConfirmPrompt/logAlertConfirmPrompt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/04_mapas_set/mapasSet.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/04_mapas_set/mapasSet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/05_ordenaNumeros/ordenaNumeros.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/05_ordenaNumeros/ordenaNumeros.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/05_ordenaNumeros/ordenaNumeros.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/06_Cara/cara.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/06_Cara/cara.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/06_Cara/cara.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/07_Notas/Nota/nota.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/07_Notas/Nota/nota.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/07_Notas/Nota/nota.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/07_Notas/Notas_medias/notasMedias.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/07_Notas/Notas_medias/notasMedias.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/07_Notas/Notas_medias/notasMedias.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/08_Par_Impar/parImpar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/08_Par_Impar/parImpar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/08_Par_Impar/parImpar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/09_Formulario/formulario.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/09_Formulario/formulario.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Mis pruebas Js/09_Formulario/formulario.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/ajedrez/ajedrez.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/ajedrez/ajedrez.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/ajedrez/ajedrz.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/blackjack/blackjack.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/blackjack/blackjack.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/blackjack/blackjack.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/ExamenPrimeraEvaluacion_FlorinaCovaliu/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/ExamenPrimeraEvaluacion_FlorinaCovaliu/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/ExamenPrimeraEvaluacion_FlorinaCovaliu/styles.css" afterDir="false" />
+    <list default="true" id="fb69af3b-28b0-40a6-9c78-d8f8695315ae" name="Changes" comment="c29 examen">
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/264_1_modificar_atributos/modificarAtributos.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/264_1_modificar_atributos/modificarAtributos.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/264_1_modificar_atributos/modificarAtributos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/264_2_obtener_todos_atributos/obtenerTodosAtributos.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/264_2_obtener_todos_atributos/obtenerTodosAtributos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/268_1_obtener_estilo/obtenerEstilo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/268_1_obtener_estilo/obtenerEstilo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/268_2_manipular_clases/manipularClases.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/268_2_manipular_clases/manipularClases.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/268_3_mostrar_valores_clase/mostrarValoresClase.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/268_3_mostrar_valores_clase/mostrarValoresClase.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -227,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -262,30 +61,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "#1 on master",
-    "javascript.nodejs.core.library.configured.version": "22.3.0",
-    "javascript.nodejs.core.library.typings.version": "22.3.0",
-    "last_opened_file_path": "C:/Users/IONECOV/WebstormProjects/DWEC2425/Lilly",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "settings.editor.splitter.proportion": "0.18255909",
-    "ts.external.directory.path": "C:\\Users\\IONECOV\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;#1 on master&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;22.3.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;22.3.0&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/IONECOV/WebstormProjects/DWEC2425/Lilly&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.18255909&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\IONECOV\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\Lilly" />
@@ -363,6 +162,7 @@
       <workItem from="1732177407165" duration="10429000" />
       <workItem from="1732262690336" duration="603000" />
       <workItem from="1732264970055" duration="2949000" />
+      <workItem from="1732623402458" duration="4477000" />
     </task>
     <task id="LOCAL-00001" summary="C1">
       <option name="closed" value="true" />
@@ -556,7 +356,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732190931214</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="c29 examen">
+      <option name="closed" value="true" />
+      <created>1732533908364</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1732533908364</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -589,7 +397,8 @@
     <MESSAGE value="c24 tatkatk" />
     <MESSAGE value="c25 nie nie" />
     <MESSAGE value="c27 me duele el cuello" />
-    <option name="LAST_COMMIT_MESSAGE" value="c27 me duele el cuello" />
+    <MESSAGE value="c29 examen" />
+    <option name="LAST_COMMIT_MESSAGE" value="c29 examen" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
