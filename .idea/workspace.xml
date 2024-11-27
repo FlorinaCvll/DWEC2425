@@ -4,18 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb69af3b-28b0-40a6-9c78-d8f8695315ae" name="Changes" comment="c29 examen">
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/264_1_modificar_atributos/modificarAtributos.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/264_1_modificar_atributos/modificarAtributos.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/264_1_modificar_atributos/modificarAtributos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/264_2_obtener_todos_atributos/obtenerTodosAtributos.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/264_2_obtener_todos_atributos/obtenerTodosAtributos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/268_1_obtener_estilo/obtenerEstilo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/268_1_obtener_estilo/obtenerEstilo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/268_2_manipular_clases/manipularClases.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/268_2_manipular_clases/manipularClases.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/268_3_mostrar_valores_clase/mostrarValoresClase.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/268_3_mostrar_valores_clase/mostrarValoresClase.js" afterDir="false" />
+    <list default="true" id="fb69af3b-28b0-40a6-9c78-d8f8695315ae" name="Changes" comment="c30">
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/269_modificar_clases/modificarClases.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/269_modificar_clases/modificarClases.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/269_modificar_clases/modificarClases.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/270_1_obtener_atributo_data/obtenerAtributoData.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/270_1_obtener_atributo_data/obtenerAtributoData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/270_2_obtener_hijo_DOM/obtenerHijoDOM.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/270_2_obtener_hijo_DOM/obtenerHijoDOM.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/273_crear_y_modificar_elementos/crearModificarElementos.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/273_crear_y_modificar_elementos/crearModificarElementos.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +25,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -162,7 +160,8 @@
       <workItem from="1732177407165" duration="10429000" />
       <workItem from="1732262690336" duration="603000" />
       <workItem from="1732264970055" duration="2949000" />
-      <workItem from="1732623402458" duration="4477000" />
+      <workItem from="1732623402458" duration="4492000" />
+      <workItem from="1732694638260" duration="5543000" />
     </task>
     <task id="LOCAL-00001" summary="C1">
       <option name="closed" value="true" />
@@ -364,7 +363,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732533908364</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="c30">
+      <option name="closed" value="true" />
+      <created>1732628609300</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1732628609300</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -398,7 +405,8 @@
     <MESSAGE value="c25 nie nie" />
     <MESSAGE value="c27 me duele el cuello" />
     <MESSAGE value="c29 examen" />
-    <option name="LAST_COMMIT_MESSAGE" value="c29 examen" />
+    <MESSAGE value="c30" />
+    <option name="LAST_COMMIT_MESSAGE" value="c30" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
