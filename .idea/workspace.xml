@@ -4,16 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb69af3b-28b0-40a6-9c78-d8f8695315ae" name="Changes" comment="c30">
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/269_modificar_clases/modificarClases.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/269_modificar_clases/modificarClases.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/269_modificar_clases/modificarClases.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/270_1_obtener_atributo_data/obtenerAtributoData.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/270_1_obtener_atributo_data/obtenerAtributoData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/270_2_obtener_hijo_DOM/obtenerHijoDOM.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/270_2_obtener_hijo_DOM/obtenerHijoDOM.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/273_crear_y_modificar_elementos/crearModificarElementos.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/UT07/273_crear_y_modificar_elementos/crearModificarElementos.js" afterDir="false" />
+    <list default="true" id="fb69af3b-28b0-40a6-9c78-d8f8695315ae" name="Changes" comment="c31">
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/CorreccionExamen1ev/Z_imagenes_ENTREGAR/android_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/CorreccionExamen1ev/Z_imagenes_ENTREGAR/android_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/CorreccionExamen1ev/Z_imagenes_ENTREGAR/android_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/CorreccionExamen1ev/Z_imagenes_ENTREGAR/android_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/CorreccionExamen1ev/Z_imagenes_ENTREGAR/android_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/CorreccionExamen1ev/Z_imagenes_ENTREGAR/android_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/CorreccionExamen1ev/Z_imagenes_ENTREGAR/android_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/CorreccionExamen1ev/Z_imagenes_ENTREGAR/android_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/CorreccionExamen1ev/Z_imagenes_ENTREGAR/android_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/CorreccionExamen1ev/Z_imagenes_ENTREGAR/dino_rojo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/CorreccionExamen1ev/Z_imagenes_ENTREGAR/dino_verde.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/CorreccionExamen1ev/Z_imagenes_ENTREGAR/fuchsia_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/CorreccionExamen1ev/Z_imagenes_ENTREGAR/fuchsia_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/CorreccionExamen1ev/Z_imagenes_ENTREGAR/fuchsia_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/CorreccionExamen1ev/Z_imagenes_ENTREGAR/fuchsia_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/CorreccionExamen1ev/Z_imagenes_ENTREGAR/fuchsia_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/CorreccionExamen1ev/Z_imagenes_ENTREGAR/fuchsia_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/CorreccionExamen1ev/Z_imagenes_ENTREGAR/fuchsia_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/CorreccionExamen1ev/Z_imagenes_ENTREGAR/fuchsia_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/CorreccionExamen1ev/Z_imagenes_ENTREGAR/fuchsia_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/CorreccionExamen1ev/Z_imagenes_ENTREGAR/ios_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/CorreccionExamen1ev/Z_imagenes_ENTREGAR/ios_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/CorreccionExamen1ev/Z_imagenes_ENTREGAR/ios_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/CorreccionExamen1ev/Z_imagenes_ENTREGAR/ios_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/CorreccionExamen1ev/Z_imagenes_ENTREGAR/ios_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/CorreccionExamen1ev/Z_imagenes_ENTREGAR/ios_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/CorreccionExamen1ev/Z_imagenes_ENTREGAR/ios_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/CorreccionExamen1ev/Z_imagenes_ENTREGAR/ios_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/CorreccionExamen1ev/Z_imagenes_ENTREGAR/ios_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/CorreccionExamen1ev/ordenarIMG.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/CorreccionExamen1ev/ordenarIMG.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrimerTrimestre/CorreccionExamen1ev/ordenarIMG.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_11_2024_18_57_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_20_11_2024_18_57__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2024_17_08_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_11_2024_17_08__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_11_2024_19_42_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_24_11_2024_19_42__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,9 +53,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -59,32 +88,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;#1 on master&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;22.3.0&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;22.3.0&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/IONECOV/WebstormProjects/DWEC2425/Lilly&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.18255909&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\IONECOV\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "#1 on master",
+    "javascript.nodejs.core.library.configured.version": "22.3.0",
+    "javascript.nodejs.core.library.typings.version": "22.3.0",
+    "last_opened_file_path": "C:/Users/IONECOV/WebstormProjects/DWEC2425/PrimerTrimestre/CorreccionExamen1ev",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.splitter.proportion": "0.18255909",
+    "ts.external.directory.path": "C:\\Users\\IONECOV\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\PrimerTrimestre\CorreccionExamen1ev" />
       <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\Lilly" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -161,7 +191,10 @@
       <workItem from="1732262690336" duration="603000" />
       <workItem from="1732264970055" duration="2949000" />
       <workItem from="1732623402458" duration="4492000" />
-      <workItem from="1732694638260" duration="5543000" />
+      <workItem from="1732694638260" duration="5574000" />
+      <workItem from="1733126841762" duration="75000" />
+      <workItem from="1733130472300" duration="286000" />
+      <workItem from="1733133859778" duration="4499000" />
     </task>
     <task id="LOCAL-00001" summary="C1">
       <option name="closed" value="true" />
@@ -371,7 +404,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732628609300</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="c31">
+      <option name="closed" value="true" />
+      <created>1732700624524</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1732700624524</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,7 +422,6 @@
     <option name="UPDATE_COPYRIGHT" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="C1" />
     <MESSAGE value="C2 prueba" />
     <MESSAGE value="C3" />
     <MESSAGE value="C4 andiamo" />
@@ -406,7 +446,8 @@
     <MESSAGE value="c27 me duele el cuello" />
     <MESSAGE value="c29 examen" />
     <MESSAGE value="c30" />
-    <option name="LAST_COMMIT_MESSAGE" value="c30" />
+    <MESSAGE value="c31" />
+    <option name="LAST_COMMIT_MESSAGE" value="c31" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
