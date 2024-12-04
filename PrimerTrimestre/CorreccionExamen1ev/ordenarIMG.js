@@ -16,17 +16,32 @@ function comprobarColocados() {
         alert("¡Enhorabuena! Has completado el puzzle");
         let imgs = document.getElementsByClassName("img");
         for (let i = 1; i <= imgs.length; i++) {
-            document.getElementById("img" + 1).classList.add("completado");
+            document.getElementById("img" + i).classList.add("completado");
         }
     }
 }
 
 function comprobarVidas(imgUnoLocal, imgDosLocal) {
-    let pierdeVida = true;
+    // let pierdeVida = true;
     let altUno = document.getElementById(imgUnoLocal).getAttribute("alt");
     let srcUno = document.getElementById(imgUnoLocal).getAttribute("src");
     let altDos = document.getElementById(imgDosLocal).getAttribute("alt");
     let srcDos = document.getElementById(imgDosLocal).getAttribute("src");
+    if (altUno !== srcDos || altDos !== srcUno) {
+        //pierdeVida = false;
+    } else {
+        document.getElementById("dino" + vidas).setAttribute("src", "./Z_imagenes_ENTREGAR/dino_rojo.png");
+        vidas++;
+    }
+    if (vidas === 4) {
+        cargarIMGs();
+        descolocarIMG();
+        let imgDINOS = document.getElementsByClassName("dino");
+        for (let i = 1; i <= imgDINOS.length; i++) {
+            imgDINOS[i].setAttribute("src", "./Z_imagenes_ENTREGAR/dino_verde.png");
+        }
+        vidas = 1;
+    }
 }
 
 function cambiarIMGs(elemento) {
