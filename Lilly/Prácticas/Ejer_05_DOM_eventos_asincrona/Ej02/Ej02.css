@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: beige;
+
+}
+
+#boton {
+    display: flex;
+    justify-content: center;
+}
+
+#contenedor {
+    margin-top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    padding: 1%;
+}
+
+#contenedor img {
+    margin: 1%;
+    width: 30%;
+    height: 50vh;
+}
+
+.imagen {
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 50vh;
+}
+

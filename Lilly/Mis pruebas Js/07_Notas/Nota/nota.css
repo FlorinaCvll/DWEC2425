@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    background-color: palevioletred;
+}
+
+#general {
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+fieldset {
+    width: 45vh;
+    height: 15vh;
+    background-color: aliceblue;
+}
+
+p {
+    text-align: center;
+    font-size: 4vh;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#enviar {
+    width: 15vh;
+    height: 5vh;
+    font-size: 3vh;
+}

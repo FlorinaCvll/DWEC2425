@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+#hexaPadre {
+    background-color: aliceblue;
+    border: 1px solid black;
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+#hijos {
+    background-color: bisque;
+    border: 1px solid black;
+    width: 98%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bloques {
+    background-color: white;
+    border: 1px solid black;
+    width: 5%;
+    height: 50px;
+    text-align: center;
+    font-size: 2rem;
+}

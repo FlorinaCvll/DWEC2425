@@ -1,0 +1,19 @@
+body {
+    height: 100vh;
+    background-color: #ebdd90;
+}
+
+header {
+    display: flex;
+    justify-content: right;
+}
+
+header figure img {
+    width: 5em;
+    height: 6em;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}

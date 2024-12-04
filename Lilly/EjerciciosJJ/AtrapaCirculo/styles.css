@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+}
+
+#pantalla {
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    background-color: #dcdcdc;
+    border: 2px solid #000;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#circulo {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+}
+
+#info {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#puntuacion,
+#tiempo {
+    font-size: 1.5rem;
+    margin: 0 20px;
+    color: #333;
+}

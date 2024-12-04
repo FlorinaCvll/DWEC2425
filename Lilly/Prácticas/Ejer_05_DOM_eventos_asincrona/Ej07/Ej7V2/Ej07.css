@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+#padre {
+    display: flex;
+    align-items: center;
+}
+
+.sumas {
+    font-size: 24px;
+    margin: 0 5px;
+}
+
+#resultado {
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.submit {
+    margin-top: 10px;
+}
+
+#enviar {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#enviar:hover {
+    background-color: #45a049;
+}
+  
+  

@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: azure;
+}
+
+#padreSelect {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+
+}
+
+#label {
+    background-color: rgb(149, 239, 239);
+    border: 1px solid black;
+    border-radius: 2px;
+    height: 40px;
+    width: 20%;
+    text-align: center;
+    font-size: 1rem;
+
+
+}
+
+select {
+    background-color: aliceblue;
+    margin-left: 40px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+}
+
+#padreResultado {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    font-size: 2rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 60px;
+    align-items: center;
+    margin-left: 10%;
+    background-color: rgb(255, 249, 241);
+}

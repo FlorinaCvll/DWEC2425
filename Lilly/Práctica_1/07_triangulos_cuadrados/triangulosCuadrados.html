@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="triangulosCuadrados.js"></script>
+    <link rel="stylesheet" href="triangulosCuadrados.css">
+</head>
+<body>
+<div id="columnas">
+    <div id="botones">
+        <fieldset class="entradas">
+            <legend for="base">Base</legend>
+            <input type="text" name="" id="base" class="input" value="5">
+        </fieldset>
+        <fieldset class="entradas">
+            <legend for="base">Altura</legend>
+            <input type="text" name="" id="altura" class="input" value="5" disabled>
+        </fieldset>
+        <select name="figuras" id="tipoFigura" class="tamanio entradas">
+            <option value="cuadrado">Cuadrado</option>
+            <option value="rectangulo">Rectángulo</option>
+            <option value="triangulo">Triángulo</option>
+        </select>
+        <!-- <div id="generarFigura">Generar figura</div> -->
+        <button id="generarFigura" class="entradas">Generar figura</button>
+    </div>
+    <pre id="resultadoFigura">...</pre>
+</div>
+</body>
+</html>

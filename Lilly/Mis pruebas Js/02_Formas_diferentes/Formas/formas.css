@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    background-image: url(img/fondo.jpg);
+}
+
+#general {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+}
+
+#pintado {
+    border: 1vh solid black;
+    width: 100vh;
+    height: 50vh;
+    background-color: aliceblue;
+}
+
+form {
+    max-width: 90%;
+    margin: 3vh auto;
+    background-color: #fff;
+    padding: 4rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+label {
+    display: block;
+    margin-bottom: 1vh;
+}
+
+input {
+    width: 100%;
+    padding: 1vh;
+
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+}
+
+#estilo {
+    text-align: center;
+    font-size: 2.5vh;
+    padding: 2vh;
+}

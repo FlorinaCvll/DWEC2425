@@ -1,0 +1,133 @@
+/**{
+    box-sizing: border-box;
+}
+body{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    text-align: center;
+}
+#elementos{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.elementoPrincipal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    height: 5vh;
+    width: 8%;
+}
+#listas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    margin-top: 5%;
+}
+#sectionElemnts,#sectionQuerySelector{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+input{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+#temportizado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 4%;
+}
+#botonTemporizador {
+width: 20%;
+}
+*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+#elementos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.elementoPrincipal {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.elementoPrincipal:hover {
+    background-color: #f0f0f0;
+}
+
+#listas {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+#sectionElemnts,
+#sectionQuerySelector {
+    text-align: center;
+}
+
+#listaElements,
+#listaQuery {
+    list-style: none;
+    padding: 0;
+}
+
+#listaElements li,
+#listaQuery li {
+    margin-bottom: 5px;
+}
+
+input[type="button"] {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+input[type="button"]:hover {
+    background-color: #45a049;
+}
+
+#temportizado {
+    text-align: center;
+    margin-top: 20px;
+}
+  

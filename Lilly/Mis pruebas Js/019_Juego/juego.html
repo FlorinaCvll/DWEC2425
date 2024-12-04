@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego</title>
+    <script src="juego.js"></script>
+    <link rel="stylesheet" href="juego.css">
+</head>
+<body>
+<div id="general">
+    <div class="container1">
+        <div id="ladoDer">
+            <div class="jugadores">Jugador 1</div>
+            <div id="celda1" class="contenedor" onclick="jugar(this)">
+                <div class="nombre"></div>
+                <div class="fuerza"></div>
+                <div class="defensa"></div>
+                <div class="habilidad"></div>
+            </div>
+            <div id="celda2" class="contenedor" onclick="jugar(this)">
+                <div class="nombre"></div>
+                <div class="fuerza"></div>
+                <div class="defensa"></div>
+                <div class="habilidad"></div>
+            </div>
+            <div id="celda3" class="contenedor" onclick="jugar(this)">
+                <div class="nombre"></div>
+                <div class="fuerza"></div>
+                <div class="defensa"></div>
+                <div class="habilidad"></div>
+            </div>
+        </div>
+    </div>
+    <div id="ladocentro">
+        <div>
+            <div id="jugador1"></div>
+            <input type="submit" value="Elegir J1" class="redondo2" id="elegir1">
+        </div>
+    </div>
+    <div id="todos">
+        <div id="centro">
+            <p><label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre">
+            </p>
+
+            <p><label for="fuerza">Fuerza:</label>
+                <input type="number" name="fuerza" id="fuerza">
+            </p>
+
+            <p><label for="defensa">Defensa:</label>
+                <input type="number" name="defensa" id="defensa">
+            </p>
+
+            <p><label for="habilidad">Habilidad:</label>
+                <input type="number" name="habilidad" id="habilidad">
+            </p>
+
+            <input type="submit" value="Crear" id="crear">
+        </div>
+        <div class="cajas">
+            <input type="submit" value="Ocultar" id="ocultarGeneral" class="redondo">
+            <input type="submit" value="Mostrar" id="mostrarGeneral" class="redondo">
+        </div>
+        <div id="debajo">
+            <div id="comp"><input type="submit" value="Comparar" id="comparar" class="redondo3"></div>
+            <div id="celdaNULL1" class="contenedor2"></div>
+            <div id="celdaNULL2" class="contenedor2"></div>
+        </div>
+
+    </div>
+
+    <div id="ladocentro">
+        <div>
+            <div id="jugador2"></div>
+            <input type="submit" value="Elegir J2" id="elegir2" class="redondo2">
+
+        </div>
+    </div>
+
+    <div class="container2">
+        <div id="ladoIzq">
+            <div class="jugadores">Jugador 2</div>
+            <div id="celda4" class="contenedor" onclick="jugar(this)">
+                <div class="nombre"></div>
+                <div class="fuerza"></div>
+                <div class="defensa"></div>
+                <div class="habilidad"></div>
+            </div>
+            <div id="celda5" class="contenedor" onclick="jugar(this)">
+                <div class="nombre"></div>
+                <div class="fuerza"></div>
+                <div class="defensa"></div>
+                <div class="habilidad"></div>
+            </div>
+            <div id="celda6" class="contenedor" onclick="jugar(this)">
+                <div class="nombre"></div>
+                <div class="fuerza"></div>
+                <div class="defensa"></div>
+                <div class="habilidad"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

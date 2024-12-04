@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Dibuja</title>
+    <script src="formas.js"></script>
+    <link rel="stylesheet" href="formas.css"/>
+</head>
+<body>
+<div id="general">
+    <form method="post" id="fo">
+        <label for="numero">Número</label>
+        <input type="number" min="1" max="10" name="numero" id="numero">
+        <label for="fig">Figura</label>
+        <select name="fig" id="fig">
+            <option value="rectangulo">Rectangulo</option>
+            <option value="cuadrado">Cuadrado</option>
+            <option value="triangulo">Triangulo</option>
+        </select>
+        <label for="val">Forma</label>
+        <select name="val" id="val">
+            <option value="*">*</option>
+            <option value="|_|">|</option>
+        </select>
+
+        <input type="submit" value="Registrar" id="registrar"/>
+    </form>
+
+    <div id="pintado">
+        <pre id="estilo"></pre>
+    </div>
+
+</div>
+</body>
+</html>
