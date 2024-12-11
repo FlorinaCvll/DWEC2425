@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Document</title>
+    <link href="calculadora.css" rel="stylesheet">
+    <script src="calculadora.js"></script>
+</head>
+<body>
+<div id="principal">
+    <div id="primera">
+        <div class="resultado" id="resultado">0</div>
+    </div>
+    <div class="fila" id="segunda">
+        <div class="elemento" id="division">%</div>
+        <div class="elemento" id="multiplicacion">x</div>
+        <div class="elemento" id="resta">-</div>
+        <div class="elemento" id="suma">+</div>
+    </div>
+    <div class="una" id="dosPrimeras">
+        <div>
+            <div class="fila" id="tercera">
+                <div class="elemento" id="siete">7</div>
+                <div class="elemento" id="ocho">8</div>
+                <div class="elemento" id="nueve">9</div>
+                <div class="elemento elementoC" id="limpiar">C</div>
+            </div>
+            <div class="fila medio" id="cuarta">
+                <div class="elemento" id="cuatro">4</div>
+                <div class="elemento" id="cinco">5</div>
+                <div class="elemento" id="seis">6</div>
+                <div id="limpiar"></div>
+            </div>
+            <div class="fila" id="quinta">
+                <div class="elemento" id="uno">1</div>
+                <div class="elemento" id="dos">2</div>
+                <div class="elemento" id="tres">3</div>
+                <div class="elemento" id="igual">=</div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="debug">
+    <div class="dato">
+        <span class="titulo">valorUno:</span><span class="valor" id="valorUno">...</span>
+    </div>
+    <div class="dato">
+        <span class="titulo">operacion: </span><span class="valor" id="operacion">...</span>
+    </div>
+    <div class="dato">
+        <span class="titulo">valorDos: </span><span class="valor" id="valorDos">...</span>
+    </div>
+</div>
+</body>
+</html>
