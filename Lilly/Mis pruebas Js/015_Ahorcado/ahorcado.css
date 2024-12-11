@@ -1,0 +1,33 @@
+html {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, pink, rgb(230, 73, 230));
+}
+
+#ahorcado {
+    font-size: 3vh;
+    background-color: white;
+}
+
+#casillas {
+    font-size: 3vh;
+    margin-top: 7vh;
+    background-color: white;
+
+}
+
+#letras {
+    font-size: 3vh;
+    margin-top: 7vh;
+    background-color: white;
+
+}
+
+#mensaje {
+    text-align: center;
+    font-size: 4vh;
+    margin-top: 15vh;
+
+}
+

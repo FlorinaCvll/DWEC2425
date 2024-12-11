@@ -1,0 +1,98 @@
+body {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.padreLuces {
+    display: flex;
+    width: 8%;
+    height: 45vh;
+
+}
+
+.padreMastil {
+    display: flex;
+    border: 3px solid black;
+    width: 2%;
+    height: 30vh;
+
+}
+
+.padrePie {
+    display: flex;
+    width: 5%;
+    height: 5vh;
+    border-radius: 1vw;
+    border: 4px solid black;
+
+}
+
+#lamparas {
+    display: flex;
+    border: 3px solid black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1vw;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.luz {
+    margin: 3%;
+    display: flex;
+    width: 80%;
+    border-radius: 50%;
+    border: 2px solid black;
+    height: 12vh;
+    justify-content: center;
+    padding: 0;
+    border: 0;
+
+}
+
+#lamparas, .padrePie, .padreMastil {
+    background-color: rgb(18, 68, 18);
+}
+
+#lamparas, .padrePie {
+    border-radius: 1vw;
+}
+
+.solapa {
+    display: flex;
+    border: 5px solid black;
+    justify-content: center;
+    border-top-left-radius: 150%;
+    border-top-right-radius: 150%;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    background-color: rgb(69, 69, 69);
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 80%;
+    height: 20%;
+
+}
+
+.fondo {
+    background-color: black;
+}
+
+.rojo {
+    background-color: red;
+}
+
+.verde {
+    background-color: green;
+}
+
+.amarillo {
+    background-color: yellow;
+
+}

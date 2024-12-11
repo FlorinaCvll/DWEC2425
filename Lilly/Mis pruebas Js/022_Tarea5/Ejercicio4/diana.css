@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: pink;
+}
+
+#uno, #dos, #tres, #cuatro, #cinco, #seis {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+#uno {
+
+    width: 65vh;
+    height: 65vh;
+    margin-left: 30vw;
+    background-color: blue;
+}
+
+#dos, #cuatro, #seis {
+    position: relative;
+}
+
+#dos {
+    width: 60vh;
+    height: 60vh;
+    background-color: white;
+}
+
+#tres {
+
+    width: 40vh;
+    height: 40vh;
+    background-color: red;
+
+}
+
+#cuatro {
+    width: 35vh;
+    height: 35vh;
+    background-color: white;
+
+}
+
+#cinco {
+
+    width: 25vh;
+    height: 25vh;
+    background-color: chartreuse;
+}
+
+#seis {
+    width: 15vh;
+    height: 15vh;
+    background-color: white;
+}
+
+.dardo-rojo {
+    width: auto;
+    height: 6rem;
+    position: absolute;
+    top: 83vh;
+    rotate: 90deg;
+    transition: top 0.5s ease, left 0.5s ease;
+}
+
+.dardo_seleccionado {
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+#dardo-rojo_1 {
+    left: 10vw;
+}
+
+#dardo-rojo_2 {
+    left: 40vw;
+}
+
+#dardo-rojo_3 {
+    left: 75vw;
+}
+
+button {
+    margin-left: 90vw;
+    width: 15vh;
+    height: 10vh;
+}
+
+#punto {
+    text-align: center;
+    font-size: 1.5rem;
+    border: 2px solid black;
+    width: 45%;
+}
+
+

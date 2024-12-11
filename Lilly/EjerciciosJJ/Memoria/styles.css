@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+#estado {
+    margin: 20px 0;
+    font-size: 1.2rem;
+}
+
+#tablero {
+    display: grid;
+    grid-template-columns: repeat(4, 100px); /* 4 columnas */
+    grid-gap: 10px;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.carta {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 2rem;
+    color: transparent;
+    border: 2px solid #666;
+}
+
+.carta.revelada {
+    color: black;
+    background-color: #fff;
+    cursor: default;
+}
+  

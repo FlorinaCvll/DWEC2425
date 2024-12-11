@@ -1,0 +1,37 @@
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 130);
+}
+
+#columnas {
+    background-color: rgb(127, 176, 255);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#botones {
+    display: flex;
+}
+
+.entradas {
+    margin: 1vw;
+}
+
+#resultadoFigura {
+    background-color: rgb(135, 213, 252);
+    height: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

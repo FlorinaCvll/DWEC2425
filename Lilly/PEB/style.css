@@ -1,0 +1,45 @@
+#padre {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    border: 1px solid black;
+    flex-direction: column;
+}
+
+#hijoa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 50%;
+}
+
+#hijob {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 50%;
+}
+
+.variablles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 5%;
+    margin: 5%;
+    width: 80%;
+}
+
+#padreVari {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5%;
+    width: 80%;
+}

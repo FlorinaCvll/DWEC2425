@@ -1,0 +1,23 @@
+
+html {
+    background-color: rgb(193, 179, 244);
+}
+
+#tradicional {
+    font-size: 1.5rem;
+}
+
+#anonima {
+    font-size: 1.5rem;
+}
+
+#flecha {
+    font-size: 1.5rem;
+}
+
+#resultado {
+    margin-top: 5%;
+    background-color: aliceblue;
+    font-size: 1.5rem;
+}
+

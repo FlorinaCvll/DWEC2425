@@ -1,0 +1,54 @@
+.cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    margin: 0;
+}
+
+#trafico-luz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(62, 197, 62);
+    position: relative;
+}
+
+
+.luz {
+    width: 15vh;
+    height: 15vh;
+    border-radius: 50%;
+    margin: 2vh;
+    background-color: #333;
+}
+
+#rojo {
+    background-color: red;
+}
+
+#naranja {
+    background-color: orange;
+}
+
+#verde {
+    background-color: green;
+}
+
+.boton-cont {
+    margin-top: 10vh;
+    margin-left: 15%;
+}
+
+#boton {
+
+    width: 15%;
+}
+
+.pie {
+    width: 10vh;
+    height: 33vh;
+    background-color: rgb(62, 197, 62);
+    position: absolute;
+    bottom: 5px;
+}

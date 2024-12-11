@@ -1,0 +1,47 @@
+td {
+    border: 2px solid black;
+    padding: 55px;
+}
+
+table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.uno {
+    background-color: antiquewhite;
+}
+
+.dos {
+    background-color: plum;
+}
+
+.tres {
+    background-color: yellowgreen;
+}
+
+.cuatro {
+    background-color: yellow;
+}
+
+.cinco {
+    background-color: greenyellow;
+}
+
+.seis {
+    background-color: blue;
+}
+
+.siete {
+    background-color: red;
+}
+
+.ocho {
+    background-color: orange;
+}
+
+.nueve {
+    background-color: palevioletred;
+}
