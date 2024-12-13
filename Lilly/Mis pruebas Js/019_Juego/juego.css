@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0vh;
+    padding: 0vh;
+}
+
+html {
+    background-color: rgb(237, 209, 172);
+}
+
+.jugadores {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#ladoIzq {
+    margin-left: 6vh;
+}
+
+#general {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+}
+
+.contenedor {
+    border: 1px solid black;
+    width: 25vh;
+    height: 25vh;
+    background-color: white;
+    margin-bottom: 2vh;
+}
+
+.contenedor2 {
+    border: 1px solid black;
+    width: 25vh;
+    height: 25vh;
+    background-color: white;
+    margin: 2vh;
+}
+
+#centro {
+    margin-top: 25vh;
+    margin-left: 15vh;
+}
+
+#debajo {
+    display: flex;
+    flex-direction: row;
+    margin-top: 21vh;
+
+}
+
+.colorError {
+    background-color: red;
+}
+
+.colorAcierto {
+    background-color: greenyellow;
+}
+
+.colorEmpate {
+    background-color: orange;
+}
+
+#crear {
+    width: 15vh;
+    height: 3vh;
+    margin-left: 7vh;
+}
+
+.redondo {
+    width: 15vh;
+    height: 5vh;
+    margin: 2vh;
+}
+
+#ladocentro {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+
+}
+
+.cajas {
+    margin-top: 3%;
+    margin-left: 15vh;
+}
+
+.redondo2 {
+    width: 15vh;
+    height: 5vh;
+    margin: 2vh;
+}
+
+.redondo3 {
+    width: 15vh;
+}
+
+.container1 {
+    background-color: aqua;
+    padding: 6vh;
+    border-radius: 1vh;
+    margin: 1vh;
+}
+
+.container2 {
+    background-color: aqua;
+    padding: 4vh;
+    border-radius: 1vh;
+    margin: 1vh;
+    margin-left: 10vh;
+
+}

@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F5E1D3; /* Color de fondo pastel */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    background-color: #B9D1E0; /* Color de fondo pastel */
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #D8D8D8; /* Color de borde pastel */
+    border-radius: 5px;
+    background-color: #FFFFFF; /* Color de fondo blanco */
+}
+
+button {
+    background-color: #FFB6C1; /* Color de botón pastel */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #FFFFFF; /* Color de texto blanco */
+}
+
+button:hover {
+    background-color: #FF69B4; /* Cambio de color al pasar el ratón por encima */
+}
+
+#resultadoCadenaTexto {
+    background-color: #C5E3BF; /* Color de fondo pastel */
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 400px;
+}
+  

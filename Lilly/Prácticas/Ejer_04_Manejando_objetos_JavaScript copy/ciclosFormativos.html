@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Document</title>
+    <script src="ciclosFormativos.js"></script>
+    <link rel="stylesheet" href="ciclosFormativos.css"/>
+</head>
+<body>
+<div id="padre">
+    <form action="" id="formulario">
+        <div class="elemento">
+            <label for="codigo">Código</label>
+            <input type="number" id="codigo" name="codigo"/>
+        </div>
+        <div class="elemento">
+            <label for="nombreCiclo">Nombre del Ciclo</label>
+            <input type="text" id="nombreC" name="nombreC"/>
+        </div>
+        <div class="elemento">
+            <label for="grado">Grado</label>
+            <select name="grado" id="grado">
+                <option value=""></option>
+                <option value="Básica">Básica</option>
+                <option value="Medio">Medio</option>
+                <option value="Superior">Superior</option>
+            </select>
+        </div>
+        <div class="elemento">
+            <label for="comunidadA">Comunidad Autónoma</label>
+            <select id="comunidadA" name="comunidadA">
+                <option value=""></option>
+                <option value="Andalucia">Andalucía</option>
+                <option value="Aragon">Aragón</option>
+                <option value="Asturias">Asturias</option>
+                <option value="Baleares">Baleares</option>
+                <option value="Canarias">Canarias</option>
+                <option value="Cantabria">Cantabria</option>
+                <option value="CastillaLaMancha">Castilla-La Mancha</option>
+                <option value="Castilla y León">Castilla y León</option>
+                <option value="Cataluna">Cataluña</option>
+                <option value="Extremadura">Extremadura</option>
+                <option value="Galicia">Galicia</option>
+                <option value="Madrid">Madrid</option>
+                <option value="Murcia">Murcia</option>
+                <option value="Navarra">Navarra</option>
+                <option value="PaisVasco">País Vasco</option>
+                <option value="LaRioja">La Rioja</option>
+                <option value="Valencia">Comunidad Valenciana</option>
+                <option value="Ceuta">Ceuta</option>
+                <option value="Melilla">Melilla</option>
+            </select>
+        </div>
+        <div class="elemento">
+            <label for="provincia">Provincia</label>
+            <input type="text" id="provincia" name="provincia"/>
+        </div>
+        <div class="elemento">
+            <label for="localidad">Localidad</label>
+            <input type="text" id="localidad" name="localidad"/>
+        </div>
+    </form>
+</div>
+<section id="section1">
+    <div id="aniadir" class="metodo">Añadir Ciclo</div>
+    <div id="mostrar" class="metodo">Mostrar Ciclos</div>
+    <div id="actualizar" class="metodo actualizar">Actualizar Ciclo</div>
+    <div id="buscar" class="metodo">Buscar Ciclo</div>
+</section>
+<section id="section3">
+    <div class="sonSecton3">
+        <div class="mostrarDinamico2 codigo2"><strong>Codigo</strong></div>
+    </div>
+    <div class="sonSecton3">
+        <div class="mostrarDinamico2 nombreCi"><strong>Nombre Ciclo</strong></div>
+    </div>
+    <div class="sonSecton3">
+        <div class="mostrarDinamico2 grado"><strong>Grado</strong></div>
+    </div>
+    <div class="sonSecton3">
+        <div class="mostrarDinamico2 comuA"><strong>Comunidad Aut</strong></div>
+    </div>
+    <div class="sonSecton3">
+        <div class="mostrarDinamico2 provincia"><strong>Provincia</strong></div>
+    </div>
+    <div class="sonSecton3">
+        <div class="mostrarDinamico2 localidad"><strong>Localidad</strong></div>
+    </div>
+    <div class="sonSecton3">
+        <div class="mostrarDinamico2"><strong>Modificadores</strong></div>
+    </div>
+</section>
+<section id="section2">
+    <div id="codigoCreado" class="sonSecton2"></div>
+    <div id="nombreCiclo" class="sonSecton2"></div>
+    <div id="gradoCreado" class="sonSecton2"></div>
+    <div id="comunidadAutonoma" class="sonSecton2"></div>
+    <div id="provinciaCreada" class="sonSecton2"></div>
+    <div id="localidadCreada" class="sonSecton2"></div>
+    <div id="botones" class="sonSecton2"></div>
+</section>
+</body>
+</html>

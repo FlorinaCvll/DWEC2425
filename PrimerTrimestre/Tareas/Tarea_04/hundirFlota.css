@@ -1,0 +1,46 @@
+body {
+    background-color: #d2e7e4;
+}
+
+#general {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+#general p {
+    text-align: center;
+    color: deeppink;
+    font-size: 1.5em;
+    background-color: pink;
+}
+
+button {
+    background-color: lightpink;
+    color: deeppink;
+    margin-top: 2px;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(10, 50px);
+    grid-template-rows: repeat(10, 50px);
+    gap: 2px;
+}
+
+.celda {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.agua {
+    background-color: lightblue;
+}
+
+.barco {
+    background-color: lightgrey;
+}

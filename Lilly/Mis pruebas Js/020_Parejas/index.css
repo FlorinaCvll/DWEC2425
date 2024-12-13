@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: rgb(215, 215, 18);
+}
+
+#general {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.rotacion {
+    transform: rotate(360deg);
+}
+
+img {
+    width: 35%;
+    height: 25%;
+}
+
+#pareja {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: palevioletred;
+    padding: 10px;
+}
+
+.intro {
+    background-color: plum;
+    border: 1px solid black;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+#colocar {
+    width: 25%;
+    height: 25%;
+
+}
+
+#derecha {
+    margin-left: 5%;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 15%;
+}
+
+#izquierda {
+    margin-right: 5%;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 15%;
+
+}
+
+#secundario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    background-color: rgba(104, 104, 104, 0.909);
+}
+
+input {
+    margin: 5%;
+    border-radius: 25%;
+    background-color: rgb(8, 90, 8);
+    color: white;
+    padding: 2%;
+}

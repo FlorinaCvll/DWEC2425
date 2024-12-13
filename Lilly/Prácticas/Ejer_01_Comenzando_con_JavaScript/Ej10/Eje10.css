@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: rgb(195, 191, 191);
+}
+
+#figurasDiv {
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+}
+
+#figura {
+    background-color: rgb(232, 197, 202);
+    border: 1px solid black;
+    width: 300px;
+    height: 60px;
+    text-align: center;
+}
+
+#figura p {
+    align-items: center;
+}
+
+h2 {
+
+    text-align: center;
+    height: 2%;
+}
+
+button {
+    background-color: rgb(232, 197, 202);
+}

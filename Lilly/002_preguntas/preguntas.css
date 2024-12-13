@@ -1,0 +1,49 @@
+
+html, body {
+    background-color: rgb(255, 255, 168);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 4vh;
+}
+
+#principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#respuesta0 {
+    text-align: center;
+    margin: 5vw;
+}
+
+.elemento {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 0.25vw solid gray;
+    margin: 5vh;
+    padding: 2vh;
+    border-radius: 5vh;
+}
+
+.color1 {
+    background-color: yellowgreen;
+}
+
+.color2 {
+    background-color: rgb(249, 111, 111);
+}
+
+.color3 {
+    background-color: rgb(158, 158, 255);
+}
+
+.color4 {
+    background-color: rgb(241, 230, 79);
+}

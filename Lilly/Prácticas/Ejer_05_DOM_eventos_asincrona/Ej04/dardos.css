@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+}
+
+body {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#padre {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 50vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.child {
+    display: flex;
+    border: 1px solid #333;
+    align-items: center;
+    justify-content: center;
+}
+
+#circulo1 {
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    background-color: #5e97d1; /* verde */
+}
+
+#circulo2 {
+    width: 95%;
+    height: 95%;
+    border-radius: 50%;
+    background-color: #ffe4b5; /* almendra claro */
+    background-color: #ffe4b5; /* almendra claro */
+}
+
+#circulo3 {
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+    background-color: #ffd700;
+}
+
+#circulo4 {
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    background-color: #ffe4b5;
+}
+
+#circulo5 {
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    background-color: #4caf50;
+}
+
+#circulo6 {
+    width: 40%;
+    height: 40%;
+    border-radius: 50%;
+    background-color: #ff4500;
+}
+
+#puntuacion {
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    text-align: center;
+    align-items: center;
+}
+
+.punto {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: 1px solid #333;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.punto p {
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+}
+
+#puntos1 {
+    background-color: #5e97d1; /* verde */
+    color: white;
+}
+
+#puntos2 {
+    background-color: #ffe4b5; /* almendra claro */
+    color: black;
+}
+
+#puntos3 {
+    background-color: #ffd700;
+    color: black;
+}
+
+#puntos4 {
+    background-color: #ffe4b5; /* almendra claro */
+    color: black;
+}
+
+#puntos5 {
+    background-color: #4caf50;
+    color: white;
+}
+
+#puntos6 {
+    background-color: #ff4500;
+    color: white;
+}
+
+#marcador {
+    display: flex;
+    width: 13%;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 1%;
+}
+
+.jugador1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.jugador2 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+
+#marcador1 {
+    border: 1px solid black;
+    width: 50%;
+    text-align: center;
+    margin-left: 5%;
+}
+
+#marcador2 {
+    border: 1px solid black;
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+    margin-left: 5%;
+}
+
+.ganador {
+    background-color: rgb(145, 239, 145);
+}
+
+.empate {
+    background-color: rgb(236, 197, 123);
+}
+
+#again {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

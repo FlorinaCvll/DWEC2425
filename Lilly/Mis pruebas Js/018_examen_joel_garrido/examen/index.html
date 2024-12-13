@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen segunda evaluación</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<main>
+    <section id="balloon-data-form">
+        <form>
+            <fieldset>
+                <legend>Datos globo</legend>
+                <div>
+                    <label for="balloon-time">Tiempo (2, 3 o 4):</label>
+                    <input type="number" name="balloon-time" id="balloon-time">
+                </div>
+                <div>
+                    <label for="balloon-color">Color (rojo, verde o azul):</label>
+                    <input type="text" name="balloon-color" id="balloon-color">
+                </div>
+                <div>
+                    <input type="button" value="Añadir globo" id="add-balloon">
+                    <input type="button" value="Inflar globos" id="inflate-balloons">
+                </div>
+            </fieldset>
+        </form>
+    </section>
+
+    <section id="balloons-data-table">
+        <div class="balloon-table">
+            <div class="balloon-table-cell">Id</div>
+            <div class="balloon-table-cell">Tiempo</div>
+            <div class="balloon-table-cell">Color</div>
+        </div>
+        <div class="balloon-table">
+            <div class="balloon-table-cell">.</div>
+            <div class="balloon-table-cell">.</div>
+            <div class="balloon-table-cell">.</div>
+        </div>
+        <div class="balloon-table">
+            <div class="balloon-table-cell">..</div>
+            <div class="balloon-table-cell">..</div>
+            <div class="balloon-table-cell">..</div>
+        </div>
+        <div class="balloon-table">
+            <div class="balloon-table-cell">...</div>
+            <div class="balloon-table-cell">...</div>
+            <div class="balloon-table-cell">...</div>
+        </div>
+    </section>
+</main>
+<aside>
+    <div id="ballon-container">
+        <img src="" alt="globo" id="balloon-image">
+    </div>
+    <div id="current-balloon-data">
+        <div class="balloon-data">-</div>
+        <div class="balloon-data">--</div>
+        <div class="balloon-data">---</div>
+    </div>
+</aside>
+
+<script src="./assets/js/main.js" type="module"></script>
+</body>
+</html>

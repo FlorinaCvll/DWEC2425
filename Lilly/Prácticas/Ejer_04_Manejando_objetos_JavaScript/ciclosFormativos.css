@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#padre {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.elemento {
+    flex-basis: 48%; /* Para dejar espacio entre los elementos */
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+select {
+    width: 106%;
+    border: 1px solid #ccc;
+    padding: 7px;
+    border-radius: 4px;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+
+.metodo {
+    flex-basis: 18%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.metodo:hover {
+    background-color: #45a049;
+}
+
+
+.mostrarDinamico {
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 30px;
+
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.eliminar {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    cursor: pointer;
+    background-color: #e74c3c;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.modificar {
+    display: flex;
+    width: 100%;
+    margin-left: 10%;
+    justify-content: space-around;
+    cursor: pointer;
+    background-color: yellow;
+    color: #000000;
+    transition: background-color 0.3s ease;
+}
+
+
+.modificar:hover {
+    background-color: rgb(150, 150, 0);
+}
+
+.eliminar:hover {
+    background-color: #7e271d;
+}
+
+.sonSecton3:hover {
+    background-color: #a3a2a2;
+
+}
+
+.dynamic-div {
+    display: none;
+}
+
+.sonSecton2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sonSecton3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: 1px solid #ccc;
+}
+
+#section3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+
+}
+
+.mostrarDinamico2 {
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+
+}

@@ -1,0 +1,69 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(147, 112, 219, 0.15);
+}
+
+h1 {
+    color: #391e86;
+}
+#cuadrado {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    justify-content: space-around;
+    margin-bottom: 3vh;
+    background-color: rgba(240, 128, 128, 0.5);
+}
+
+.fila {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.fila div {
+    border: 2px solid deepskyblue;
+    padding: 9vh;
+    border-radius: 5px;
+}
+#enviar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: colors 5s infinite ease-in-out;
+    padding: 1vh 2vh; /* Ajustar el padding para una mejor apariencia */
+    border: none; /* Quitar bordes predeterminados del botón */
+    cursor: pointer;
+    font-size: 1.2em;
+    border-radius: 5px; /* Añadir bordes redondeados */
+}
+
+@keyframes colors {
+    0% {
+        background-color: rgb(184, 107, 118);
+    }
+    25% {
+        background-color: rgb(222, 166, 189);
+    }
+    50% {
+        background-color: rgb(229, 208, 217);
+    }
+    75% {
+        background-color: rgb(148, 141, 194);
+    }
+    100% {
+        background-color: rgb(68, 125, 191);
+    }
+}
+
