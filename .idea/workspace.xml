@@ -4,14 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb69af3b-28b0-40a6-9c78-d8f8695315ae" name="Changes" comment="c35">
-      <change afterPath="$PROJECT_DIR$/SegundoTrimestre/UT08/304_3_asignar_eventos_dinamico/asignarEventosDinamico.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SegundoTrimestre/UT08/304_3_asignar_eventos_dinamico/asignarEventosDinamico.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SegundoTrimestre/UT08/306_objeto_event_target/objetoEventoTarget.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SegundoTrimestre/UT08/306_objeto_event_target/objetoEventoTarget.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SegundoTrimestre/UT08/307_obtener_coordenadas_evento/obtenerCoordenadasEvento.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SegundoTrimestre/UT08/307_obtener_coordenadas_evento/obtenerCoordenadasEvento.js" afterDir="false" />
+    <list default="true" id="fb69af3b-28b0-40a6-9c78-d8f8695315ae" name="Changes" comment="c36 amen señor">
+      <change afterPath="$PROJECT_DIR$/SegundoTrimestre/UT08/307_2_obtener_tecla_pulsada/obtenerTeclaPulsada.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SegundoTrimestre/UT08/307_2_obtener_tecla_pulsada/obtenerTeclaPulsada.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SegundoTrimestre/UT08/307_3_mover_con_teclas/moverConTeclas.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SegundoTrimestre/UT08/307_3_mover_con_teclas/moverConTeclas.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SegundoTrimestre/UT08/307_3_mover_con_teclas/moverConTeclas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SegundoTrimestre/UT08/309_1_anular_comport_predet/anularComportPredet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SegundoTrimestre/UT08/309_1_anular_comport_predet/anularComportPredet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SegundoTrimestre/UT08/309_1_anular_comport_predet/anularComportPredet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SegundoTrimestre/UT08/309_2_cancelar_propagacion/cancelarPropagacion.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SegundoTrimestre/UT08/309_2_cancelar_propagacion/cancelarPropagacion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SegundoTrimestre/UT08/311_lanzar_eventos/lancarEventos.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SegundoTrimestre/UT08/311_lanzar_eventos/lanzarEventos.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SegundoTrimestre/UT08/307_obtener_coordenadas_evento/obtenerCoordenadasEvento.html" beforeDir="false" afterPath="$PROJECT_DIR$/SegundoTrimestre/UT08/307_1_obtener_coordenadas_evento/obtenerCoordenadasEvento.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SegundoTrimestre/UT08/307_obtener_coordenadas_evento/obtenerCoordenadasEvento.js" beforeDir="false" afterPath="$PROJECT_DIR$/SegundoTrimestre/UT08/307_1_obtener_coordenadas_evento/obtenerCoordenadasEvento.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +178,9 @@
       <workItem from="1733314219828" duration="8000" />
       <workItem from="1733832319763" duration="5184000" />
       <workItem from="1733906211653" duration="1123000" />
-      <workItem from="1733907782845" duration="2105000" />
+      <workItem from="1733907782845" duration="2915000" />
+      <workItem from="1733919027984" duration="26000" />
+      <workItem from="1734077050820" duration="5548000" />
     </task>
     <task id="LOCAL-00001" summary="C1">
       <option name="closed" value="true" />
@@ -420,7 +430,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733838014670</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="c36 amen señor">
+      <option name="closed" value="true" />
+      <created>1733910021411</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1733910021411</updated>
+    </task>
+    <task id="LOCAL-00033" summary="c36 amen señor">
+      <option name="closed" value="true" />
+      <created>1733910034620</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1733910034620</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -430,7 +456,6 @@
     <option name="UPDATE_COPYRIGHT" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="C6 he sacado el cuadrado" />
     <MESSAGE value="C7 ich habe genug" />
     <MESSAGE value="C8 amen" />
     <MESSAGE value="C9 harta" />
@@ -455,7 +480,8 @@
     <MESSAGE value="c33" />
     <MESSAGE value="c34" />
     <MESSAGE value="c35" />
-    <option name="LAST_COMMIT_MESSAGE" value="c35" />
+    <MESSAGE value="c36 amen señor" />
+    <option name="LAST_COMMIT_MESSAGE" value="c36 amen señor" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
