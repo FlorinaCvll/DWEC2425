@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f8ff;
+    margin: 0;
+    overflow: hidden;
+}
+
+.snowdrop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: sway 2s ease-in-out infinite;
+}
+
+.stem {
+    width: 2px;
+    height: 100px;
+    background-color: green;
+    animation: grow 2s forwards;
+}
+
+.flower {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -10px;
+    animation: bloom 2s forwards;
+}
+
+.petal {
+    width: 20px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50% 50% 0 0;
+    position: absolute;
+}
+
+.petal:nth-child(1) {
+    transform: rotate(0deg) translate(15px);
+}
+
+.petal:nth-child(2) {
+    transform: rotate(120deg) translate(15px);
+}
+
+.petal:nth-child(3) {
+    transform: rotate(240deg) translate(15px);
+}
+
+@keyframes grow {
+    from {
+        height: 0;
+    }
+    to {
+        height: 100px;
+    }
+}
+
+@keyframes bloom {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes sway {
+    0%, 100% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(5deg);
+    }
+}

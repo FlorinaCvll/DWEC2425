@@ -4,22 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb69af3b-28b0-40a6-9c78-d8f8695315ae" name="Changes" comment="c36 amen señor">
-      <change afterPath="$PROJECT_DIR$/SegundoTrimestre/UT08/307_2_obtener_tecla_pulsada/obtenerTeclaPulsada.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SegundoTrimestre/UT08/307_2_obtener_tecla_pulsada/obtenerTeclaPulsada.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SegundoTrimestre/UT08/307_3_mover_con_teclas/moverConTeclas.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SegundoTrimestre/UT08/307_3_mover_con_teclas/moverConTeclas.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SegundoTrimestre/UT08/307_3_mover_con_teclas/moverConTeclas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SegundoTrimestre/UT08/309_1_anular_comport_predet/anularComportPredet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SegundoTrimestre/UT08/309_1_anular_comport_predet/anularComportPredet.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SegundoTrimestre/UT08/309_1_anular_comport_predet/anularComportPredet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SegundoTrimestre/UT08/309_2_cancelar_propagacion/cancelarPropagacion.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SegundoTrimestre/UT08/309_2_cancelar_propagacion/cancelarPropagacion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SegundoTrimestre/UT08/311_lanzar_eventos/lancarEventos.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SegundoTrimestre/UT08/311_lanzar_eventos/lanzarEventos.js" afterDir="false" />
+    <list default="true" id="fb69af3b-28b0-40a6-9c78-d8f8695315ae" name="Changes" comment="cX4">
+      <change afterPath="$PROJECT_DIR$/Lilly/Flores/Snowdrop/Index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lilly/Flores/Snowdrop/Style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SegundoTrimestre/UT09/361_2_encadenamiento_metodos/encadenamientoMetodos.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SegundoTrimestre/UT09/361_2_encadenamiento_metodos/encadenamientoMetodos.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SegundoTrimestre/UT08/307_obtener_coordenadas_evento/obtenerCoordenadasEvento.html" beforeDir="false" afterPath="$PROJECT_DIR$/SegundoTrimestre/UT08/307_1_obtener_coordenadas_evento/obtenerCoordenadasEvento.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SegundoTrimestre/UT08/307_obtener_coordenadas_evento/obtenerCoordenadasEvento.js" beforeDir="false" afterPath="$PROJECT_DIR$/SegundoTrimestre/UT08/307_1_obtener_coordenadas_evento/obtenerCoordenadasEvento.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +37,12 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/FlorinaCvll/DWEC2425.git&quot;,
-    &quot;accountId&quot;: &quot;a23344ab-95c0-47d2-af84-ce5de48c327d&quot;
+    &quot;accountId&quot;: &quot;fbe1b735-9995-4026-9649-09a409dd8fd4&quot;
   }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
 }</component>
   <component name="MaliciousPackageCheckinHandlerState">
     <option name="packageCheck" value="true" />
@@ -71,7 +65,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;#1 on master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;22.3.0&quot;,
     &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;22.3.0&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/IONECOV/WebstormProjects/DWEC2425/SegundoTrimestre/UT08/304_1_propagacion_Eventos_Orden&quot;,
@@ -82,7 +76,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.General&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;settings.editor.splitter.proportion&quot;: &quot;0.18255909&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\IONECOV\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
@@ -96,17 +90,17 @@
       <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\Lilly" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\SegundoTrimestre\UT09" />
+      <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\SegundoTrimestre\UT08\318_evento_submit" />
       <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\SegundoTrimestre\UT08" />
       <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\SegundoTrimestre\UT07" />
       <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\PrimerTrimestre\ExamenPrimeraEvaluacion" />
-      <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\PrimerTrimestre" />
-      <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\PrimerTrimestre\UT06" />
     </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-WS-243.22562.112" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-WS-243.22562.222" />
       </set>
     </attachedChunks>
   </component>
@@ -180,7 +174,17 @@
       <workItem from="1733906211653" duration="1123000" />
       <workItem from="1733907782845" duration="2915000" />
       <workItem from="1733919027984" duration="26000" />
-      <workItem from="1734077050820" duration="5548000" />
+      <workItem from="1734077050820" duration="6593000" />
+      <workItem from="1734336517999" duration="46000" />
+      <workItem from="1734348300151" duration="1081000" />
+      <workItem from="1734422485574" duration="70000" />
+      <workItem from="1734436903273" duration="18000" />
+      <workItem from="1734436925231" duration="4939000" />
+      <workItem from="1734509229637" duration="1932000" />
+      <workItem from="1734511704620" duration="1412000" />
+      <workItem from="1734513419828" duration="1583000" />
+      <workItem from="1734523274959" duration="12000" />
+      <workItem from="1736762067253" duration="5485000" />
     </task>
     <task id="LOCAL-00001" summary="C1">
       <option name="closed" value="true" />
@@ -446,7 +450,39 @@
       <option name="project" value="LOCAL" />
       <updated>1733910034620</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="cX">
+      <option name="closed" value="true" />
+      <created>1734082961219</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1734082961219</updated>
+    </task>
+    <task id="LOCAL-00035" summary="cX2">
+      <option name="closed" value="true" />
+      <created>1734422520220</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1734422520220</updated>
+    </task>
+    <task id="LOCAL-00036" summary="cX3">
+      <option name="closed" value="true" />
+      <created>1734442765786</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1734442765786</updated>
+    </task>
+    <task id="LOCAL-00037" summary="cX4">
+      <option name="closed" value="true" />
+      <created>1734515131533</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1734515131533</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -456,10 +492,6 @@
     <option name="UPDATE_COPYRIGHT" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="C7 ich habe genug" />
-    <MESSAGE value="C8 amen" />
-    <MESSAGE value="C9 harta" />
-    <MESSAGE value="C10 deja de copiar" />
     <MESSAGE value="C11 ya me harté" />
     <MESSAGE value="C11 me quiero morir" />
     <MESSAGE value="C12 YA VALEEEEEEEEEEEEEEEEEEEE" />
@@ -481,7 +513,11 @@
     <MESSAGE value="c34" />
     <MESSAGE value="c35" />
     <MESSAGE value="c36 amen señor" />
-    <option name="LAST_COMMIT_MESSAGE" value="c36 amen señor" />
+    <MESSAGE value="cX" />
+    <MESSAGE value="cX2" />
+    <MESSAGE value="cX3" />
+    <MESSAGE value="cX4" />
+    <option name="LAST_COMMIT_MESSAGE" value="cX4" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

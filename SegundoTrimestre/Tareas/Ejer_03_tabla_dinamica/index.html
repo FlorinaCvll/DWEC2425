@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 03 - Tabla dinamica</title>
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Florina Covaliu" name="author">
+    <link href="Style.css" rel="stylesheet" type="text/css">
+    <script src="Script.js"></script>
+</head>
+<body>
+<div class="container">
+    <form id="data-form"> <!-- Campos del formulario -->
+        <label for="nombre">Nombre:</label>
+        <input id="nombre" minlength="3" placeholder="Nombre" required type="text">
+        <label for="apellidoUno">Primer Apellido</label>
+        <input id="apellidoUno" minlength="2" placeholder="Primer Apellido" required type="text">
+        <label for="apellidoDos">Segundo Apellido</label>
+        <input id="apellidoDos" minlength="2" placeholder="Segundo Apellido" type="text">
+        <label for="fechaNacimiento">Fecha de Nacimiento</label>
+        <input id="fechaNacimiento" placeholder="Fecha de Nacimiento" required type="date">
+        <label for="localidad">Localidad</label>
+        <input id="localidad" minlength="2" placeholder="Localidad" required type="text">
+        <label for="codigoPostal">Codigo Postal</label>
+        <input id="codigoPostal" pattern="\d{5}" placeholder="Código Postal" required type="text">
+        <button id="addData" type="button">Insertar</button>
+        <button id="generateRandomData" type="button">Generar Datos Aleatorios</button>
+        <button id="addFive" type="button">Añadir 5 Datos</button>
+        <button id="addTen" type="button">Añadir 10 Datos</button>
+        <button id="addFifteen" type="button">Añadir 15 Datos</button>
+    </form>
+    <div class="table" id="data-table">
+        <div class="row header">
+            <div class="cell" data-field="id">ID</div>
+            <div class="cell" data-field="nombre">Nombre</div>
+            <div class="cell" data-field="apellidoUno">Apellido 1</div>
+            <div class="cell" data-field="apellidoDos">Apellido 2</div>
+            <div class="cell" data-field="fechaNacimiento">Fecha Nacimiento</div>
+            <div class="cell" data-field="edad">Edad</div>
+            <div class="cell" data-field="localidad">Localidad</div>
+            <div class="cell" data-field="codigoPostal">Código Postal</div>
+            <div class="cell" data-field="provincia">Provincia</div>
+            <div class="cell" data-field="ccaa">CCAA</div>
+            <div class="cell">Acciones</div>
+        </div> <!-- Filas de datos se añadirán aquí dinámicamente --> </div>
+</div>
+</body>
+</html>
