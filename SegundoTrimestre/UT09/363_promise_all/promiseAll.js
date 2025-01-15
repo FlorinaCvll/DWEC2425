@@ -19,7 +19,7 @@ function promiseAll() {
             console.log(`Promesa nº ${n}: Mensaje: ${resultado}`);
             n++;
         }
-    })
+    });
 }
 
 window.onload = function () {
