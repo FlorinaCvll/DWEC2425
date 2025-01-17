@@ -7,5 +7,5 @@ async function asyncTryCatch() {
 }
 
 window.onload = function () {
-    document.getElementById("asyncTryCatch").addEventListener("click", asyncTryCatch);
+    document.getElementById("asyncSoloCatch").addEventListener("click", asyncTryCatch);
 }
