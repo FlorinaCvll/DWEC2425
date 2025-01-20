@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb69af3b-28b0-40a6-9c78-d8f8695315ae" name="Changes" comment="c150125">
-      <change afterPath="$PROJECT_DIR$/SegundoTrimestre/UT09/365_4_async_try_catch/asyncSoloCatch.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SegundoTrimestre/UT09/365_4_async_try_catch/asyncSoloCatch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SegundoTrimestre/UT10/380_01_XMLHTTPRequest/Hello.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SegundoTrimestre/UT10/380_01_XMLHTTPRequest/XMLHTTPRequest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SegundoTrimestre/UT10/380_01_XMLHTTPRequest/XMLHTTPRequest.js" afterDir="false" />
+    <list default="true" id="fb69af3b-28b0-40a6-9c78-d8f8695315ae" name="Changes" comment="c160125">
+      <change afterPath="$PROJECT_DIR$/SegundoTrimestre/UT10/381_1_interfaz_fetch/interfazFetch.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SegundoTrimestre/UT10/381_1_interfaz_fetch/interfazFetch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SegundoTrimestre/UT10/381_2_fetch_error/fetchError.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SegundoTrimestre/UT10/381_2_fetch_error/fetchError.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SegundoTrimestre/UT09/365_3_async_try_catch/asyncTryCatch.html" beforeDir="false" afterPath="$PROJECT_DIR$/SegundoTrimestre/UT09/365_3_async_solo_catch/asyncTryCatch.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SegundoTrimestre/UT09/365_3_async_try_catch/asyncTryCatch.js" beforeDir="false" afterPath="$PROJECT_DIR$/SegundoTrimestre/UT09/365_3_async_solo_catch/asyncTryCatch.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +75,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "#5 on master",
     "javascript.nodejs.core.library.configured.version": "22.3.0",
     "javascript.nodejs.core.library.typings.version": "22.3.0",
     "last_opened_file_path": "C:/Users/IONECOV/WebstormProjects/DWEC2425/SegundoTrimestre/UT09",
@@ -89,7 +86,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_interpreter_path": "node",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "settings.editor.splitter.proportion": "0.18255909",
     "ts.external.directory.path": "C:\\Users\\IONECOV\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
@@ -104,17 +101,17 @@
       <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\PrimerTrimestre\CorreccionExamen1ev" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\SegundoTrimestre\UT10" />
       <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\SegundoTrimestre\UT09" />
       <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\SegundoTrimestre\UT08\318_evento_submit" />
       <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\SegundoTrimestre\UT08" />
       <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\SegundoTrimestre\UT07" />
-      <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\PrimerTrimestre\ExamenPrimeraEvaluacion" />
     </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-WS-243.22562.222" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-WS-243.23654.120" />
       </set>
     </attachedChunks>
   </component>
@@ -203,7 +200,9 @@
       <workItem from="1736928271319" duration="2338000" />
       <workItem from="1736931652045" duration="2216000" />
       <workItem from="1736945088226" duration="18000" />
-      <workItem from="1737101276122" duration="6194000" />
+      <workItem from="1737101276122" duration="6242000" />
+      <workItem from="1737361651609" duration="15000" />
+      <workItem from="1737366616279" duration="5447000" />
     </task>
     <task id="LOCAL-00001" summary="C1">
       <option name="closed" value="true" />
@@ -525,7 +524,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736934275049</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="c160125">
+      <option name="closed" value="true" />
+      <created>1737114128897</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1737114128897</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -535,7 +542,6 @@
     <option name="UPDATE_COPYRIGHT" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="C13" />
     <MESSAGE value="C13 A CASA" />
     <MESSAGE value="C14 estoy harta" />
     <MESSAGE value="C15" />
@@ -560,7 +566,8 @@
     <MESSAGE value="c130125" />
     <MESSAGE value="c140125" />
     <MESSAGE value="c150125" />
-    <option name="LAST_COMMIT_MESSAGE" value="c150125" />
+    <MESSAGE value="c160125" />
+    <option name="LAST_COMMIT_MESSAGE" value="c160125" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
