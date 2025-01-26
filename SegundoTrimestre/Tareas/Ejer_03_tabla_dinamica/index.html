@@ -7,8 +7,8 @@
     <title>Ejercicio 03 - Tabla Dinámica</title>
 </head>
 <body>
-<div class="container">
-    <form id="dataForm">
+<div class="cont">
+    <form id="formularioDatos">
         <input id="nombre" placeholder="Nombre" required type="text">
         <input id="apellido1" placeholder="Apellido 1" required type="text">
         <input id="apellido2" placeholder="Apellido 2" type="text">
@@ -18,33 +18,33 @@
         <input id="provincia" placeholder="Provincia" readonly type="text">
         <input id="comunidad" placeholder="Comunidad Autónoma" readonly type="text">
         <button type="submit">Agregar</button>
-        <button onclick="generar5DatosAleatorios()" type="button">Generar 5 Datos Aleatorios</button>
-        <button onclick="generar10DatosAleatorios()" type="button">Generar 10 Datos Aleatorios</button>
-        <button onclick="generar15DatosAleatorios()" type="button">Generar 15 Datos Aleatorios</button>
+        <button id="generar5" type="button">Generar 5 Datos Aleatorios</button>
+        <button id="generar10" type="button">Generar 10 Datos Aleatorios</button>
+        <button id="generar15" type="button">Generar 15 Datos Aleatorios</button>
     </form>
-    <input id="searchInput" onkeyup="buscarDatos()" placeholder="Buscar..." type="text">
-    <div id="tablaContainer">
-        <table id="dataTable">
+    <input id="buscador" placeholder="Buscar..." type="text">
+    <div id="contenedorTabla">
+        <table id="datosTabla">
             <thead>
             <tr>
-                <th onclick="ordenarTabla(0)">Identificador</th>
-                <th onclick="ordenarTabla(1)">Nombre</th>
-                <th onclick="ordenarTabla(2)">Apellido 1</th>
-                <th onclick="ordenarTabla(3)">Apellido 2</th>
-                <th onclick="ordenarTabla(4)">Fecha de Nacimiento</th>
-                <th onclick="ordenarTabla(5)">Edad</th>
-                <th onclick="ordenarTabla(6)">Localidad</th>
-                <th onclick="ordenarTabla(7)">Código Postal</th>
-                <th onclick="ordenarTabla(8)">Provincia</th>
+                <th data-index="0">Identificador</th>
+                <th data-index="1">Nombre</th>
+                <th data-index="2">Apellido 1</th>
+                <th data-index="3">Apellido 2</th>
+                <th data-index="4">Fecha de Nacimiento</th>
+                <th data-index="5">Edad</th>
+                <th data-index="6">Localidad</th>
+                <th data-index="7">Código Postal</th>
+                <th data-index="8">Provincia</th>
                 <th>Acciones</th>
             </tr>
             </thead>
-            <tbody id="dataBody">
-            <!-- Los datos se agregarán aquí -->
+            <tbody id="datos">
+            <!-- Aqui van los datos -->
             </tbody>
         </table>
     </div>
 </div>
-<script src="Script.js"></script>
+<script defer src="Script.js"></script>
 </body>
 </html>

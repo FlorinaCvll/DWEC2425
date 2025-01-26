@@ -4,60 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb69af3b-28b0-40a6-9c78-d8f8695315ae" name="Changes" comment="c210125">
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/Alert/alert.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/Alert/alert.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/Confirm/Confirm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/Confirm/confirm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/Console/Console.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/Const/Const.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/Const/Const.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/NumAleatorio/numAleatorio.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/NumAleatorio/numAleatorio.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/Prompt/prompt.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/Prompt/prompt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/TiposDeDatos/tiposDeDatos.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/TiposDeDatos/tiposDeDatos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/VarLet/VarLet.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/VarLet/VarLet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT04/Arrays/Notas" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT04/Arrays/arrays.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT04/Arrays/arrays.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT04/Fors/Notas" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT04/Fors/fors.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT04/Fors/fors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT04/LocaleCompare/Notas" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT04/LocaleCompare/localeCompare.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT04/LocaleCompare/localeCompare.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT04/Map/Map.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT04/Map/Notas" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT04/Map/map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT04/Set/Notas" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT04/Set/Set.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT04/Set/set.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT05/Callback/Callback.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT05/Callback/Notas" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT05/Callback/callback.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT05/Function/Functions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT05/Function/Notas" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT05/Function/functions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT05/MetodosArray/Notas" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT05/MetodosArray/metodosArray.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT05/MetodosArray/metodosArray.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT05/Pilas/Notas" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT05/Pilas/Pilas.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT05/Pilas/pilas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT05/Recursividad/Notas" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT05/Recursividad/Recursividad.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT05/Recursividad/Recursividad.js" afterDir="false" />
+    <list default="true" id="fb69af3b-28b0-40a6-9c78-d8f8695315ae" name="Changes" comment="c260125">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lilly/Ahorcado CGPT/ahorcado.css" beforeDir="false" afterPath="$PROJECT_DIR$/Lilly/Ahorcado CGPT/ahorcado.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SegundoTrimestre/Tareas/Ejer_03_tabla_dinamica/Script.js" beforeDir="false" afterPath="$PROJECT_DIR$/SegundoTrimestre/Tareas/Ejer_03_tabla_dinamica/Script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SegundoTrimestre/Tareas/Ejer_03_tabla_dinamica/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/SegundoTrimestre/Tareas/Ejer_03_tabla_dinamica/Style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SegundoTrimestre/Tareas/Ejer_03_tabla_dinamica/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/SegundoTrimestre/Tareas/Ejer_03_tabla_dinamica/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SegundoTrimestre/UT10/381_1_interfaz_fetch/interfazFetch.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SegundoTrimestre/UT10/381_1_interfaz_fetch/interfazFetch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SegundoTrimestre/UT10/381_2_fetch_error/fetchError.html" beforeDir="false" afterPath="$PROJECT_DIR$/Brenn batene/UT03/Console/Console.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SegundoTrimestre/UT10/381_2_fetch_error/fetchError.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -265,7 +217,7 @@
       <workItem from="1737897560031" duration="198000" />
       <workItem from="1737897862587" duration="9000" />
       <workItem from="1737898026973" duration="590000" />
-      <workItem from="1737898715027" duration="393000" />
+      <workItem from="1737898715027" duration="4008000" />
     </task>
     <task id="LOCAL-00001" summary="C1">
       <option name="closed" value="true" />
@@ -619,7 +571,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737466629891</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="c260125">
+      <option name="closed" value="true" />
+      <created>1737899226898</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1737899226898</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -629,7 +589,6 @@
     <option name="UPDATE_COPYRIGHT" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="C15" />
     <MESSAGE value="C16 que e esto" />
     <MESSAGE value="C17 ajsdhasijhfliasdjhgf" />
     <MESSAGE value="c23 ya vale" />
@@ -654,7 +613,8 @@
     <MESSAGE value="c160125" />
     <MESSAGE value="c200125" />
     <MESSAGE value="c210125" />
-    <option name="LAST_COMMIT_MESSAGE" value="c210125" />
+    <MESSAGE value="c260125" />
+    <option name="LAST_COMMIT_MESSAGE" value="c260125" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
