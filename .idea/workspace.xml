@@ -1,16 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AngularSettings">
-    <option name="innerServiceType" value="AUTO" />
-  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb69af3b-28b0-40a6-9c78-d8f8695315ae" name="Changes" comment="c220125">
-      <change afterPath="$PROJECT_DIR$/SegundoTrimestre/UT10/393_ajax_get/ajaxGet.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SegundoTrimestre/UT10/393_ajax_get/ajaxGet.js" afterDir="false" />
+    <list default="true" id="fb69af3b-28b0-40a6-9c78-d8f8695315ae" name="Changes" comment="c210125">
+      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/Alert/alert.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/Alert/alert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/Confirm/Confirm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/Confirm/confirm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/Console/Console.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/Const/Const.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/Const/Const.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/NumAleatorio/numAleatorio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/NumAleatorio/numAleatorio.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/Prompt/prompt.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/Prompt/prompt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/TiposDeDatos/tiposDeDatos.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/TiposDeDatos/tiposDeDatos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/VarLet/VarLet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/VarLet/VarLet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Brenn batene/UT04/Arrays/Notas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Brenn batene/UT04/Arrays/arrays.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Brenn batene/UT04/Arrays/arrays.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Brenn batene/UT04/Fors/Notas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Brenn batene/UT04/Fors/fors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Brenn batene/UT04/Fors/fors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Brenn batene/UT04/LocaleCompare/Notas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Brenn batene/UT04/LocaleCompare/localeCompare.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Brenn batene/UT04/LocaleCompare/localeCompare.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Brenn batene/UT04/Map/Map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Brenn batene/UT04/Map/Notas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Brenn batene/UT04/Map/map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Brenn batene/UT04/Set/Notas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Brenn batene/UT04/Set/Set.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Brenn batene/UT04/Set/set.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Brenn batene/UT05/Callback/Callback.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Brenn batene/UT05/Callback/Notas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Brenn batene/UT05/Callback/callback.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Brenn batene/UT05/Function/Functions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Brenn batene/UT05/Function/Notas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Brenn batene/UT05/Function/functions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Brenn batene/UT05/MetodosArray/Notas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Brenn batene/UT05/MetodosArray/metodosArray.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Brenn batene/UT05/MetodosArray/metodosArray.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Brenn batene/UT05/Pilas/Notas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Brenn batene/UT05/Pilas/Pilas.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Brenn batene/UT05/Pilas/pilas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Brenn batene/UT05/Recursividad/Notas" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Brenn batene/UT05/Recursividad/Recursividad.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Brenn batene/UT05/Recursividad/Recursividad.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SegundoTrimestre/Tareas/Ejer_03_tabla_dinamica/Script.js" beforeDir="false" afterPath="$PROJECT_DIR$/SegundoTrimestre/Tareas/Ejer_03_tabla_dinamica/Script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SegundoTrimestre/Tareas/Ejer_03_tabla_dinamica/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/SegundoTrimestre/Tareas/Ejer_03_tabla_dinamica/Style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SegundoTrimestre/Tareas/Ejer_03_tabla_dinamica/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/SegundoTrimestre/Tareas/Ejer_03_tabla_dinamica/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SegundoTrimestre/UT10/381_1_interfaz_fetch/interfazFetch.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SegundoTrimestre/UT10/381_1_interfaz_fetch/interfazFetch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SegundoTrimestre/UT10/381_2_fetch_error/fetchError.html" beforeDir="false" afterPath="$PROJECT_DIR$/Brenn batene/UT03/Console/Console.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SegundoTrimestre/UT10/381_2_fetch_error/fetchError.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +75,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -39,7 +91,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/FlorinaCvll/DWEC2425.git&quot;,
-    &quot;accountId&quot;: &quot;fbe1b735-9995-4026-9649-09a409dd8fd4&quot;
+    &quot;accountId&quot;: &quot;a3c185e1-f087-443c-a681-3dd34ecd0095&quot;
   },
   &quot;recentNewPullRequestHead&quot;: {
     &quot;server&quot;: {
@@ -63,37 +115,38 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2mKCMo25stLCFY8MAoCl3Tz8PaL" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "javascript.nodejs.core.library.configured.version": "23.2.0",
-    "javascript.nodejs.core.library.typings.version": "22.10.7",
-    "last_opened_file_path": "C:/Users/IONECOV/WebstormProjects/DWEC2425/SegundoTrimestre/UT09",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "settings.editor.splitter.proportion": "0.18255909",
-    "ts.external.directory.path": "C:\\Users\\IONECOV\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;disable.download.node.interpreter.editor.notification&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;#7 on master&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;23.2.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;22.10.7&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/IONECOV/WebstormProjects/DWEC2425/SegundoTrimestre/UT09&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.18255909&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\IONECOV\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\SegundoTrimestre\UT09" />
@@ -113,7 +166,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-b81319f9767f-JavaScript-WS-251.17181.21" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-WS-243.23654.120" />
       </set>
     </attachedChunks>
   </component>
@@ -206,11 +259,13 @@
       <workItem from="1737361651609" duration="15000" />
       <workItem from="1737366616279" duration="5467000" />
       <workItem from="1737461950665" duration="4047000" />
-      <workItem from="1737533695911" duration="4929000" />
-      <workItem from="1737547644193" duration="4000" />
-      <workItem from="1737706746227" duration="4000" />
-      <workItem from="1737706934306" duration="1291000" />
-      <workItem from="1737711100268" duration="557000" />
+      <workItem from="1737533695911" duration="4896000" />
+      <workItem from="1737890837276" duration="60000" />
+      <workItem from="1737890998172" duration="812000" />
+      <workItem from="1737897560031" duration="198000" />
+      <workItem from="1737897862587" duration="9000" />
+      <workItem from="1737898026973" duration="590000" />
+      <workItem from="1737898715027" duration="393000" />
     </task>
     <task id="LOCAL-00001" summary="C1">
       <option name="closed" value="true" />
@@ -564,15 +619,7 @@
       <option name="project" value="LOCAL" />
       <updated>1737466629891</updated>
     </task>
-    <task id="LOCAL-00045" summary="c220125">
-      <option name="closed" value="true" />
-      <created>1737539110784</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1737539110784</updated>
-    </task>
-    <option name="localTasksCounter" value="46" />
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -582,6 +629,7 @@
     <option name="UPDATE_COPYRIGHT" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="C15" />
     <MESSAGE value="C16 que e esto" />
     <MESSAGE value="C17 ajsdhasijhfliasdjhgf" />
     <MESSAGE value="c23 ya vale" />
@@ -606,8 +654,7 @@
     <MESSAGE value="c160125" />
     <MESSAGE value="c200125" />
     <MESSAGE value="c210125" />
-    <MESSAGE value="c220125" />
-    <option name="LAST_COMMIT_MESSAGE" value="c220125" />
+    <option name="LAST_COMMIT_MESSAGE" value="c210125" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
