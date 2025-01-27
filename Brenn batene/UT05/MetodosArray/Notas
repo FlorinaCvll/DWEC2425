@@ -1,0 +1,42 @@
+// forEach
+El método forEach ejecuta una función proporcionada una vez por cada elemento del array.
+Es útil para realizar operaciones que no modifican el array original ni devuelven un nuevo array.
+
+    array.forEach(callback(currentValue, index, array) {
+      // Código a ejecutar para cada elemento
+    });
+
+
+// map
+El método map crea un nuevo array con los resultados de la función proporcionada ejecutada en cada elemento del array original.
+Es útil para transformar los elementos de un array.
+
+    let nuevoArray = array.map(callback(currentValue, index, array) {
+      // Devuelve el valor transformado
+    });
+
+
+// filter
+El método reduce aplica una función a un acumulador y a cada elemento del array (de izquierda a derecha) para reducirlo a un solo valor.
+Es útil para sumar, concatenar o cualquier operación que reduzca el array a un solo valor.
+
+    let resultado = array.reduce(callback(accumulator, currentValue, index, array) {
+        // Devuelve el nuevo valor del acumulador
+    }, initialValue);
+
+
+// reduce
+El método filter crea un nuevo array con todos los elementos que pasan la prueba implementada por la función proporcionada.
+Es útil para filtrar elementos basados en una condición.
+    let nuevoArray = array.filter(callback(element, index, array) {
+      // Devuelve true si el elemento debe ser incluido en el nuevo array
+    });
+
+
+
+Método	Descripción	Usos Principales
+forEach	→ Ejecuta una función para cada elemento del array, sin modificar el array.	 → Realizar operaciones en cada elemento (como logs).
+map → Crea un nuevo array con los resultados de la función aplicada a cada elemento. → Transformar elementos (como crear un array de cuadrados).
+reduce → Aplica una función a un acumulador y a cada elemento para reducirlo a un solo valor. → Sumar elementos, concatenar valores, calcular promedios.
+filter → Crea un nuevo array con todos los elementos que pasan una condición. → Filtrar elementos basados en una condición.
+
