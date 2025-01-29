@@ -1,0 +1,636 @@
+Index: SegundoTrimestre/UT10/381_2_fetch_error/fetchError.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SegundoTrimestre/UT10/381_2_fetch_error/fetchError.html b/SegundoTrimestre/UT10/381_2_fetch_error/fetchError.html
+deleted file mode 100644
+--- a/SegundoTrimestre/UT10/381_2_fetch_error/fetchError.html	(revision effec613a7821e36667c7e7fd51fa5470f5e021a)
++++ /dev/null	(revision effec613a7821e36667c7e7fd51fa5470f5e021a)
+@@ -1,12 +0,0 @@
+-<!DOCTYPE html>
+-<html lang="en">
+-<head>
+-    <meta charset="UTF-8">
+-    <title>Title</title>
+-    <link href="" rel="stylesheet" type="text/css">
+-    <script src=""></script>
+-</head>
+-<body>
+-
+-</body>
+-</html>
+\ No newline at end of file
+Index: SegundoTrimestre/UT10/381_1_interfaz_fetch/interfazFetch.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SegundoTrimestre/UT10/381_1_interfaz_fetch/interfazFetch.html b/SegundoTrimestre/UT10/381_1_interfaz_fetch/interfazFetch.html
+deleted file mode 100644
+--- a/SegundoTrimestre/UT10/381_1_interfaz_fetch/interfazFetch.html	(revision effec613a7821e36667c7e7fd51fa5470f5e021a)
++++ /dev/null	(revision effec613a7821e36667c7e7fd51fa5470f5e021a)
+@@ -1,14 +0,0 @@
+-<!DOCTYPE html>
+-<html lang="en">
+-<head>
+-    <meta charset="UTF-8">
+-    <title>Title</title>
+-    <link href="" rel="stylesheet" type="text/css">
+-    <script src="interfazFetch.js"></script>
+-</head>
+-<body>
+-<p id="interfazFetch">
+-    Realizar una peticion AJAX mediante peticion Fetch
+-</p>
+-</body>
+-</html>
+\ No newline at end of file
+Index: SegundoTrimestre/UT10/381_1_interfaz_fetch/interfazFetch.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SegundoTrimestre/UT10/381_1_interfaz_fetch/interfazFetch.js b/SegundoTrimestre/UT10/381_1_interfaz_fetch/interfazFetch.js
+deleted file mode 100644
+--- a/SegundoTrimestre/UT10/381_1_interfaz_fetch/interfazFetch.js	(revision effec613a7821e36667c7e7fd51fa5470f5e021a)
++++ /dev/null	(revision effec613a7821e36667c7e7fd51fa5470f5e021a)
+@@ -1,13 +0,0 @@
+-function interfazFetch() {
+-    fetch("SegundoTrimestre/UT10/Ficheros PHP/nifAleatorio.php")
+-        .then(response => {
+-            console.log(response.status);
+-        })
+-        .catch(error => {
+-            console.log("Error: " + error);
+-        })
+-}
+-
+-window.onload = function () {
+-    document.getElementById("interfazFetch").addEventListener("click", interfazFetch);
+-}
+\ No newline at end of file
+Index: SegundoTrimestre/UT10/381_2_fetch_error/fetchError.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SegundoTrimestre/UT10/381_2_fetch_error/fetchError.js b/Brenn batene/UT03/TiposDeDatos/tiposDeDatos.js
+rename from SegundoTrimestre/UT10/381_2_fetch_error/fetchError.js
+rename to Brenn batene/UT03/TiposDeDatos/tiposDeDatos.js
+--- a/SegundoTrimestre/UT10/381_2_fetch_error/fetchError.js	(revision effec613a7821e36667c7e7fd51fa5470f5e021a)
++++ b/Brenn batene/UT03/TiposDeDatos/tiposDeDatos.js	(date 1737809455763)
+@@ -1,0 +1,35 @@
++/*
++let numero = 42;             // Number
++let texto = "Hola, mundo!";  // String
++let verdadero = true;        // Boolean
++let persona = {              // Object
++    nombre: "Juan",
++    edad: 30
++};
++let numeros = [1, 2, 3, 4, 5]; // Array
++let valorNulo = null;        // Null
++let indefinido;              // Undefined
++let simbolo = Symbol("id");  // Symbol
++let numeroGrande = BigInt(9007199254740991); // BigInt
++
++*/
++
++let variables = [
++    42,
++    "Hola, mundo!",
++    true,
++    undefined,
++    Symbol("id"),
++    BigInt(9007199254740991),
++    { nombre: "Juan", edad: 30 },
++    null,
++    function() { return "Hola!"; }
++];
++
++variables.forEach(variable => {
++    if (typeof variable === 'symbol') {
++        console.log(`${variable.toString()}: ${typeof variable}`);
++    } else {
++        console.log(`${variable}: ${typeof variable}`);
++    }
++});
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"fb69af3b-28b0-40a6-9c78-d8f8695315ae\" name=\"Changes\" comment=\"c210125\">\r\n      <change afterPath=\"$PROJECT_DIR$/SegundoTrimestre/UT10/386_ajax_json/ajaxJson.html\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/SegundoTrimestre/UT10/386_ajax_json/ajaxJson.js\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/SegundoTrimestre/UT10/386_ajax_json/nif.json\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/SegundoTrimestre/UT10/388_ajax_binario/Princess.jpg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/SegundoTrimestre/UT10/388_ajax_binario/ajaxBinario.html\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/SegundoTrimestre/UT10/388_ajax_binario/ajaxBinario.js\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/SegundoTrimestre/UT10/385_ajax_texto/ajaxTexto.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/SegundoTrimestre/UT10/385_ajax_texto/ajaxTexto.js\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/SegundoTrimestre/UT10/Ficheros PHP/jsonplaceholder.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/SegundoTrimestre/UT10/jsonplaceholder.php\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/SegundoTrimestre/UT10/Ficheros PHP/nifAleatorio.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/SegundoTrimestre/UT10/nifAleatorio.php\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/SegundoTrimestre/UT10/Ficheros PHP/poemaAleatorio.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/SegundoTrimestre/UT10/poemaAleatorio.php\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/SegundoTrimestre/UT10/Ficheros PHP/validarNif.php\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/SegundoTrimestre/UT10/validarNif.php\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"CSS File\" />\r\n        <option value=\"tsconfig.json\" />\r\n        <option value=\"HTML File\" />\r\n        <option value=\"JavaScript File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;FlorinaCvll&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/FlorinaCvll/DWEC2425.git&quot;,\r\n    &quot;accountId&quot;: &quot;fbe1b735-9995-4026-9649-09a409dd8fd4&quot;\r\n  },\r\n  &quot;recentNewPullRequestHead&quot;: {\r\n    &quot;server&quot;: {\r\n      &quot;useHttp&quot;: false,\r\n      &quot;host&quot;: &quot;github.com&quot;,\r\n      &quot;port&quot;: null,\r\n      &quot;suffix&quot;: null\r\n    },\r\n    &quot;owner&quot;: &quot;FlorinaCvll&quot;,\r\n    &quot;repository&quot;: &quot;DWEC2425&quot;\r\n  }\r\n}</component>\r\n  <component name=\"KubernetesApiPersistence\">{}</component>\r\n  <component name=\"KubernetesApiProvider\">{\r\n  &quot;isMigrated&quot;: true\r\n}</component>\r\n  <component name=\"MaliciousPackageCheckinHandlerState\">\r\n    <option name=\"packageCheck\" value=\"true\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 8\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2mKCMo25stLCFY8MAoCl3Tz8PaL\" />\r\n  <component name=\"ProjectLevelVcsManager\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"ASKED_SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"DefaultHtmlFileTemplate\": \"HTML File\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"RunOnceActivity.git.unshallow\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"git-widget-placeholder\": \"master\",\r\n    \"javascript.nodejs.core.library.configured.version\": \"23.2.0\",\r\n    \"javascript.nodejs.core.library.typings.version\": \"22.10.7\",\r\n    \"last_opened_file_path\": \"C:/Users/IONECOV/WebstormProjects/DWEC2425/SegundoTrimestre/UT09\",\r\n    \"list.type.of.created.stylesheet\": \"CSS\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_interpreter_path\": \"node\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"settings.editor.selected.configurable\": \"preferences.pluginManager\",\r\n    \"settings.editor.splitter.proportion\": \"0.18255909\",\r\n    \"ts.external.directory.path\": \"C:\\\\Users\\\\IONECOV\\\\AppData\\\\Local\\\\Programs\\\\WebStorm\\\\plugins\\\\javascript-plugin\\\\jsLanguageServicesImpl\\\\external\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\IONECOV\\WebstormProjects\\DWEC2425\\SegundoTrimestre\\UT09\" />\r\n      <recent name=\"C:\\Users\\IONECOV\\WebstormProjects\\DWEC2425\\SegundoTrimestre\\UT09\\362_1_cargar_mapa_promesas\" />\r\n      <recent name=\"C:\\Users\\IONECOV\\WebstormProjects\\DWEC2425\\SegundoTrimestre\\UT08\\304_1_propagacion_Eventos_Orden\" />\r\n      <recent name=\"C:\\Users\\IONECOV\\WebstormProjects\\DWEC2425\\SegundoTrimestre\" />\r\n      <recent name=\"C:\\Users\\IONECOV\\WebstormProjects\\DWEC2425\\PrimerTrimestre\\CorreccionExamen1ev\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\IONECOV\\WebstormProjects\\DWEC2425\\SegundoTrimestre\\UT10\\388_ajax_binario\" />\r\n      <recent name=\"C:\\Users\\IONECOV\\WebstormProjects\\DWEC2425\\SegundoTrimestre\\UT10\" />\r\n      <recent name=\"C:\\Users\\IONECOV\\WebstormProjects\\DWEC2425\\SegundoTrimestre\\UT09\" />\r\n      <recent name=\"C:\\Users\\IONECOV\\WebstormProjects\\DWEC2425\\SegundoTrimestre\\UT08\\318_evento_submit\" />\r\n      <recent name=\"C:\\Users\\IONECOV\\WebstormProjects\\DWEC2425\\SegundoTrimestre\\UT08\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-js-predefined-d6986cc7102b-b81319f9767f-JavaScript-WS-251.14649.56\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"SvnConfiguration\">\r\n    <configuration>C:\\Users\\IONECOV\\AppData\\Roaming\\Subversion</configuration>\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"fb69af3b-28b0-40a6-9c78-d8f8695315ae\" name=\"Changes\" comment=\"\" />\r\n      <created>1726815836096</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1726815836096</updated>\r\n      <workItem from=\"1726815837121\" duration=\"4942000\" />\r\n      <workItem from=\"1727074740587\" duration=\"12000\" />\r\n      <workItem from=\"1727080938341\" duration=\"5376000\" />\r\n      <workItem from=\"1727175941889\" duration=\"5062000\" />\r\n      <workItem from=\"1727247507866\" duration=\"897000\" />\r\n      <workItem from=\"1727691715496\" duration=\"1930000\" />\r\n      <workItem from=\"1727780414435\" duration=\"2188000\" />\r\n      <workItem from=\"1727852974825\" duration=\"3508000\" />\r\n      <workItem from=\"1727939604141\" duration=\"41000\" />\r\n      <workItem from=\"1728291422170\" duration=\"3226000\" />\r\n      <workItem from=\"1728295901410\" duration=\"243000\" />\r\n      <workItem from=\"1728296152664\" duration=\"374000\" />\r\n      <workItem from=\"1728296534578\" duration=\"1785000\" />\r\n      <workItem from=\"1728545504310\" duration=\"85000\" />\r\n      <workItem from=\"1729063753638\" duration=\"900000\" />\r\n      <workItem from=\"1729065547456\" duration=\"3570000\" />\r\n      <workItem from=\"1729077344879\" duration=\"81000\" />\r\n      <workItem from=\"1729078043752\" duration=\"101000\" />\r\n      <workItem from=\"1729150115261\" duration=\"6000\" />\r\n      <workItem from=\"1729235239027\" duration=\"5862000\" />\r\n      <workItem from=\"1729494982700\" duration=\"55000\" />\r\n      <workItem from=\"1729500646613\" duration=\"212000\" />\r\n      <workItem from=\"1729501028677\" duration=\"5914000\" />\r\n      <workItem from=\"1729595206045\" duration=\"5405000\" />\r\n      <workItem from=\"1729667253515\" duration=\"2137000\" />\r\n      <workItem from=\"1729670747162\" duration=\"2394000\" />\r\n      <workItem from=\"1729682930727\" duration=\"23000\" />\r\n      <workItem from=\"1729839839756\" duration=\"5979000\" />\r\n      <workItem from=\"1730102631062\" duration=\"72000\" />\r\n      <workItem from=\"1730111061938\" duration=\"3998000\" />\r\n      <workItem from=\"1730203526934\" duration=\"5522000\" />\r\n      <workItem from=\"1730275252475\" duration=\"792000\" />\r\n      <workItem from=\"1730276461502\" duration=\"5497000\" />\r\n      <workItem from=\"1730290792609\" duration=\"1000\" />\r\n      <workItem from=\"1730291727137\" duration=\"35000\" />\r\n      <workItem from=\"1730713850212\" duration=\"6142000\" />\r\n      <workItem from=\"1730809338370\" duration=\"4928000\" />\r\n      <workItem from=\"1730880664978\" duration=\"4999000\" />\r\n      <workItem from=\"1731529567332\" duration=\"3628000\" />\r\n      <workItem from=\"1731917300737\" duration=\"9000\" />\r\n      <workItem from=\"1731924278225\" duration=\"503000\" />\r\n      <workItem from=\"1731924792292\" duration=\"4098000\" />\r\n      <workItem from=\"1732017845336\" duration=\"2362000\" />\r\n      <workItem from=\"1732090470091\" duration=\"4651000\" />\r\n      <workItem from=\"1732177407165\" duration=\"10429000\" />\r\n      <workItem from=\"1732262690336\" duration=\"603000\" />\r\n      <workItem from=\"1732264970055\" duration=\"2949000\" />\r\n      <workItem from=\"1732623402458\" duration=\"4492000\" />\r\n      <workItem from=\"1732694638260\" duration=\"5574000\" />\r\n      <workItem from=\"1733126841762\" duration=\"75000\" />\r\n      <workItem from=\"1733130472300\" duration=\"286000\" />\r\n      <workItem from=\"1733133859778\" duration=\"4530000\" />\r\n      <workItem from=\"1733227500410\" duration=\"5829000\" />\r\n      <workItem from=\"1733299307433\" duration=\"5333000\" />\r\n      <workItem from=\"1733314219828\" duration=\"8000\" />\r\n      <workItem from=\"1733832319763\" duration=\"5184000\" />\r\n      <workItem from=\"1733906211653\" duration=\"1123000\" />\r\n      <workItem from=\"1733907782845\" duration=\"2915000\" />\r\n      <workItem from=\"1733919027984\" duration=\"26000\" />\r\n      <workItem from=\"1734077050820\" duration=\"6593000\" />\r\n      <workItem from=\"1734336517999\" duration=\"46000\" />\r\n      <workItem from=\"1734348300151\" duration=\"1081000\" />\r\n      <workItem from=\"1734422485574\" duration=\"70000\" />\r\n      <workItem from=\"1734436903273\" duration=\"18000\" />\r\n      <workItem from=\"1734436925231\" duration=\"4939000\" />\r\n      <workItem from=\"1734509229637\" duration=\"1932000\" />\r\n      <workItem from=\"1734511704620\" duration=\"1412000\" />\r\n      <workItem from=\"1734513419828\" duration=\"1583000\" />\r\n      <workItem from=\"1734523274959\" duration=\"12000\" />\r\n      <workItem from=\"1736762067253\" duration=\"5532000\" />\r\n      <workItem from=\"1736856381503\" duration=\"5307000\" />\r\n      <workItem from=\"1736928271319\" duration=\"2338000\" />\r\n      <workItem from=\"1736931652045\" duration=\"2216000\" />\r\n      <workItem from=\"1736945088226\" duration=\"18000\" />\r\n      <workItem from=\"1737101276122\" duration=\"6242000\" />\r\n      <workItem from=\"1737361651609\" duration=\"15000\" />\r\n      <workItem from=\"1737366616279\" duration=\"5467000\" />\r\n      <workItem from=\"1737461950665\" duration=\"4047000\" />\r\n      <workItem from=\"1737533695911\" duration=\"4896000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"C1\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1726821719471</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1726821719471</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"C2 prueba\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1727176049108</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1727176049108</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"C3\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1727247623015</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1727247623015</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"C3\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1727247656152</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1727247656152</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"C4 andiamo\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1727693653194</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1727693653194</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"C5 no entiendo nada\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1727786548135</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1727786548135</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"C6 he sacado el cuadrado\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1727856500571</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1727856500571</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"C7 ich habe genug\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1728464174616</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1728464174616</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"C8 amen\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1729069338873</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1729069338873</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"C9 harta\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1729241280556</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1729241280556</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"C10 deja de copiar\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1729508089725</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1729508089725</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"C11 ya me harté\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1729600828001</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1729600828001</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"C11 me quiero morir\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1729673151106</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1729673151106</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00014\" summary=\"C12 YA VALEEEEEEEEEEEEEEEEEEEE\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1729845799657</created>\r\n      <option name=\"number\" value=\"00014\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1729845799657</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00015\" summary=\"C13\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1730116332924</created>\r\n      <option name=\"number\" value=\"00015\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00015\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1730116332924</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00016\" summary=\"C13 A CASA\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1730116356805</created>\r\n      <option name=\"number\" value=\"00016\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00016\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1730116356805</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00017\" summary=\"C14 estoy harta\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1730209041079</created>\r\n      <option name=\"number\" value=\"00017\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00017\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1730209041079</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00018\" summary=\"C15\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1730281976400</created>\r\n      <option name=\"number\" value=\"00018\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00018\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1730281976400</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00019\" summary=\"C16 que e esto\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1730721261828</created>\r\n      <option name=\"number\" value=\"00019\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00019\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1730721261828</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00020\" summary=\"C17 ajsdhasijhfliasdjhgf\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1730814273058</created>\r\n      <option name=\"number\" value=\"00020\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00020\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1730814273058</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00021\" summary=\"c23 ya vale\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1731663886306</created>\r\n      <option name=\"number\" value=\"00021\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00021\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1731663886306</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00022\" summary=\"c24 tatkatk\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1731930286060</created>\r\n      <option name=\"number\" value=\"00022\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00022\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1731930286060</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00023\" summary=\"c25 nie nie\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1732020403431</created>\r\n      <option name=\"number\" value=\"00023\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00023\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1732020403431</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00024\" summary=\"c27 me duele el cuello\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1732190931214</created>\r\n      <option name=\"number\" value=\"00024\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00024\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1732190931214</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00025\" summary=\"c29 examen\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1732533908364</created>\r\n      <option name=\"number\" value=\"00025\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00025\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1732533908364</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00026\" summary=\"c30\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1732628609300</created>\r\n      <option name=\"number\" value=\"00026\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00026\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1732628609300</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00027\" summary=\"c31\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1732700624524</created>\r\n      <option name=\"number\" value=\"00027\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00027\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1732700624524</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00028\" summary=\"c32\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1733139912397</created>\r\n      <option name=\"number\" value=\"00028\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00028\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1733139912397</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00029\" summary=\"c33\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1733233189137</created>\r\n      <option name=\"number\" value=\"00029\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00029\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1733233189137</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00030\" summary=\"c34\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1733305552693</created>\r\n      <option name=\"number\" value=\"00030\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00030\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1733305552693</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00031\" summary=\"c35\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1733838014670</created>\r\n      <option name=\"number\" value=\"00031\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00031\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1733838014670</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00032\" summary=\"c36 amen señor\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1733910021411</created>\r\n      <option name=\"number\" value=\"00032\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00032\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1733910021411</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00033\" summary=\"c36 amen señor\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1733910034620</created>\r\n      <option name=\"number\" value=\"00033\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00033\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1733910034620</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00034\" summary=\"cX\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1734082961219</created>\r\n      <option name=\"number\" value=\"00034\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00034\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1734082961219</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00035\" summary=\"cX2\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1734422520220</created>\r\n      <option name=\"number\" value=\"00035\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00035\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1734422520220</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00036\" summary=\"cX3\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1734442765786</created>\r\n      <option name=\"number\" value=\"00036\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00036\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1734442765786</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00037\" summary=\"cX4\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1734515131533</created>\r\n      <option name=\"number\" value=\"00037\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00037\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1734515131533</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00038\" summary=\"c130125\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1736769098000</created>\r\n      <option name=\"number\" value=\"00038\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00038\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1736769098000</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00039\" summary=\"c140125\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1736861922630</created>\r\n      <option name=\"number\" value=\"00039\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00039\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1736861922630</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00040\" summary=\"c150125\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1736934275049</created>\r\n      <option name=\"number\" value=\"00040\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00040\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1736934275049</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00041\" summary=\"c160125\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1737114128897</created>\r\n      <option name=\"number\" value=\"00041\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00041\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1737114128897</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00042\" summary=\"c200125\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1737374050667</created>\r\n      <option name=\"number\" value=\"00042\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00042\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1737374050667</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00043\" summary=\"c210125\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1737466624655</created>\r\n      <option name=\"number\" value=\"00043\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00043\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1737466624655</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00044\" summary=\"c210125\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1737466629891</created>\r\n      <option name=\"number\" value=\"00044\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00044\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1737466629891</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"45\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"UpdateCopyrightCheckinHandler\">\r\n    <option name=\"UPDATE_COPYRIGHT\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"C15\" />\r\n    <MESSAGE value=\"C16 que e esto\" />\r\n    <MESSAGE value=\"C17 ajsdhasijhfliasdjhgf\" />\r\n    <MESSAGE value=\"c23 ya vale\" />\r\n    <MESSAGE value=\"c24 tatkatk\" />\r\n    <MESSAGE value=\"c25 nie nie\" />\r\n    <MESSAGE value=\"c27 me duele el cuello\" />\r\n    <MESSAGE value=\"c29 examen\" />\r\n    <MESSAGE value=\"c30\" />\r\n    <MESSAGE value=\"c31\" />\r\n    <MESSAGE value=\"c32\" />\r\n    <MESSAGE value=\"c33\" />\r\n    <MESSAGE value=\"c34\" />\r\n    <MESSAGE value=\"c35\" />\r\n    <MESSAGE value=\"c36 amen señor\" />\r\n    <MESSAGE value=\"cX\" />\r\n    <MESSAGE value=\"cX2\" />\r\n    <MESSAGE value=\"cX3\" />\r\n    <MESSAGE value=\"cX4\" />\r\n    <MESSAGE value=\"c130125\" />\r\n    <MESSAGE value=\"c140125\" />\r\n    <MESSAGE value=\"c150125\" />\r\n    <MESSAGE value=\"c160125\" />\r\n    <MESSAGE value=\"c200125\" />\r\n    <MESSAGE value=\"c210125\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"c210125\" />\r\n    <option name=\"OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT\" value=\"true\" />\r\n    <option name=\"REFORMAT_BEFORE_PROJECT_COMMIT\" value=\"true\" />\r\n    <option name=\"REARRANGE_BEFORE_PROJECT_COMMIT\" value=\"true\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision effec613a7821e36667c7e7fd51fa5470f5e021a)
++++ b/.idea/workspace.xml	(date 1737815364199)
+@@ -4,19 +4,19 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="fb69af3b-28b0-40a6-9c78-d8f8695315ae" name="Changes" comment="c210125">
+-      <change afterPath="$PROJECT_DIR$/SegundoTrimestre/UT10/386_ajax_json/ajaxJson.html" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/SegundoTrimestre/UT10/386_ajax_json/ajaxJson.js" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/SegundoTrimestre/UT10/386_ajax_json/nif.json" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/SegundoTrimestre/UT10/388_ajax_binario/Princess.jpg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/SegundoTrimestre/UT10/388_ajax_binario/ajaxBinario.html" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/SegundoTrimestre/UT10/388_ajax_binario/ajaxBinario.js" afterDir="false" />
++    <list default="true" id="fb69af3b-28b0-40a6-9c78-d8f8695315ae" name="Changes" comment="c200125">
++      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/Console/Console.html" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/Console/Console.js" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/TiposDeDatos/tiposDeDatos.html" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/VarLet/VarLet.html" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/VarLet/VarLet.js" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/SegundoTrimestre/UT10/385_ajax_texto/ajaxTexto.js" beforeDir="false" afterPath="$PROJECT_DIR$/SegundoTrimestre/UT10/385_ajax_texto/ajaxTexto.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/SegundoTrimestre/UT10/Ficheros PHP/jsonplaceholder.php" beforeDir="false" afterPath="$PROJECT_DIR$/SegundoTrimestre/UT10/jsonplaceholder.php" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/SegundoTrimestre/UT10/Ficheros PHP/nifAleatorio.php" beforeDir="false" afterPath="$PROJECT_DIR$/SegundoTrimestre/UT10/nifAleatorio.php" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/SegundoTrimestre/UT10/Ficheros PHP/poemaAleatorio.php" beforeDir="false" afterPath="$PROJECT_DIR$/SegundoTrimestre/UT10/poemaAleatorio.php" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/SegundoTrimestre/UT10/Ficheros PHP/validarNif.php" beforeDir="false" afterPath="$PROJECT_DIR$/SegundoTrimestre/UT10/validarNif.php" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/SegundoTrimestre/Tareas/Ejer_03_tabla_dinamica/Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/SegundoTrimestre/Tareas/Ejer_03_tabla_dinamica/Style.css" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/SegundoTrimestre/Tareas/Ejer_03_tabla_dinamica/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/SegundoTrimestre/Tareas/Ejer_03_tabla_dinamica/index.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/SegundoTrimestre/UT10/381_1_interfaz_fetch/interfazFetch.html" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/SegundoTrimestre/UT10/381_1_interfaz_fetch/interfazFetch.js" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/SegundoTrimestre/UT10/381_2_fetch_error/fetchError.html" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/SegundoTrimestre/UT10/381_2_fetch_error/fetchError.js" beforeDir="false" afterPath="$PROJECT_DIR$/Brenn batene/UT03/TiposDeDatos/tiposDeDatos.js" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -27,9 +27,8 @@
+     <option name="RECENT_TEMPLATES">
+       <list>
+         <option value="CSS File" />
+-        <option value="tsconfig.json" />
+-        <option value="HTML File" />
+         <option value="JavaScript File" />
++        <option value="HTML File" />
+       </list>
+     </option>
+   </component>
+@@ -45,7 +44,7 @@
+   <component name="GithubPullRequestsUISettings">{
+   &quot;selectedUrlAndAccountId&quot;: {
+     &quot;url&quot;: &quot;https://github.com/FlorinaCvll/DWEC2425.git&quot;,
+-    &quot;accountId&quot;: &quot;fbe1b735-9995-4026-9649-09a409dd8fd4&quot;
++    &quot;accountId&quot;: &quot;a3c185e1-f087-443c-a681-3dd34ecd0095&quot;
+   },
+   &quot;recentNewPullRequestHead&quot;: {
+     &quot;server&quot;: {
+@@ -69,37 +68,38 @@
+   &quot;associatedIndex&quot;: 8
+ }</component>
+   <component name="ProjectId" id="2mKCMo25stLCFY8MAoCl3Tz8PaL" />
+-  <component name="ProjectLevelVcsManager">
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+     <ConfirmationsSetting value="2" id="Add" />
+   </component>
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "DefaultHtmlFileTemplate": "HTML File",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "RunOnceActivity.git.unshallow": "true",
+-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "git-widget-placeholder": "master",
+-    "javascript.nodejs.core.library.configured.version": "23.2.0",
+-    "javascript.nodejs.core.library.typings.version": "22.10.7",
+-    "last_opened_file_path": "C:/Users/IONECOV/WebstormProjects/DWEC2425/SegundoTrimestre/UT09",
+-    "list.type.of.created.stylesheet": "CSS",
+-    "node.js.detected.package.eslint": "true",
+-    "node.js.detected.package.tslint": "true",
+-    "node.js.selected.package.eslint": "(autodetect)",
+-    "node.js.selected.package.tslint": "(autodetect)",
+-    "nodejs_interpreter_path": "node",
+-    "nodejs_package_manager_path": "npm",
+-    "settings.editor.selected.configurable": "preferences.pluginManager",
+-    "settings.editor.splitter.proportion": "0.18255909",
+-    "ts.external.directory.path": "C:\\Users\\IONECOV\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+-    "vue.rearranger.settings.migration": "true"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
++    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;disable.download.node.interpreter.editor.notification&quot;: &quot;true&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;#7 on master&quot;,
++    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;23.2.0&quot;,
++    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;22.10.7&quot;,
++    &quot;last_opened_file_path&quot;: &quot;C:/Users/IONECOV/WebstormProjects/DWEC2425/SegundoTrimestre/UT09&quot;,
++    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
++    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
++    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
++    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
++    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
++    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
++    &quot;settings.editor.splitter.proportion&quot;: &quot;0.18255909&quot;,
++    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\IONECOV\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
++    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
+       <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\SegundoTrimestre\UT09" />
+@@ -109,17 +109,17 @@
+       <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\PrimerTrimestre\CorreccionExamen1ev" />
+     </key>
+     <key name="MoveFile.RECENT_KEYS">
+-      <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\SegundoTrimestre\UT10\388_ajax_binario" />
++      <recent name="C:\Users\flori\WebstormProjects\DWEC2425\Brenn batene\UT03\Console" />
++      <recent name="C:\Users\flori\WebstormProjects\DWEC2425\SegundoTrimestre\UT10" />
+       <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\SegundoTrimestre\UT10" />
+       <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\SegundoTrimestre\UT09" />
+       <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\SegundoTrimestre\UT08\318_evento_submit" />
+-      <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\SegundoTrimestre\UT08" />
+     </key>
+   </component>
+   <component name="SharedIndexes">
+     <attachedChunks>
+       <set>
+-        <option value="bundled-js-predefined-d6986cc7102b-b81319f9767f-JavaScript-WS-251.14649.56" />
++        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-WS-243.23654.120" />
+       </set>
+     </attachedChunks>
+   </component>
+@@ -211,8 +211,9 @@
+       <workItem from="1737101276122" duration="6242000" />
+       <workItem from="1737361651609" duration="15000" />
+       <workItem from="1737366616279" duration="5467000" />
+-      <workItem from="1737461950665" duration="4047000" />
+-      <workItem from="1737533695911" duration="4896000" />
++      <workItem from="1737461950665" duration="3647000" />
++      <workItem from="1737738538894" duration="23000" />
++      <workItem from="1737801005626" duration="5133000" />
+     </task>
+     <task id="LOCAL-00001" summary="C1">
+       <option name="closed" value="true" />
+@@ -550,23 +551,7 @@
+       <option name="project" value="LOCAL" />
+       <updated>1737374050667</updated>
+     </task>
+-    <task id="LOCAL-00043" summary="c210125">
+-      <option name="closed" value="true" />
+-      <created>1737466624655</created>
+-      <option name="number" value="00043" />
+-      <option name="presentableId" value="LOCAL-00043" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1737466624655</updated>
+-    </task>
+-    <task id="LOCAL-00044" summary="c210125">
+-      <option name="closed" value="true" />
+-      <created>1737466629891</created>
+-      <option name="number" value="00044" />
+-      <option name="presentableId" value="LOCAL-00044" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1737466629891</updated>
+-    </task>
+-    <option name="localTasksCounter" value="45" />
++    <option name="localTasksCounter" value="43" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -576,6 +561,7 @@
+     <option name="UPDATE_COPYRIGHT" value="true" />
+   </component>
+   <component name="VcsManagerConfiguration">
++    <MESSAGE value="C14 estoy harta" />
+     <MESSAGE value="C15" />
+     <MESSAGE value="C16 que e esto" />
+     <MESSAGE value="C17 ajsdhasijhfliasdjhgf" />
+@@ -600,8 +586,7 @@
+     <MESSAGE value="c150125" />
+     <MESSAGE value="c160125" />
+     <MESSAGE value="c200125" />
+-    <MESSAGE value="c210125" />
+-    <option name="LAST_COMMIT_MESSAGE" value="c210125" />
++    <option name="LAST_COMMIT_MESSAGE" value="c200125" />
+     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+Index: SegundoTrimestre/Tareas/Ejer_03_tabla_dinamica/index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <title>Ejercicio 03 - Tabla dinamica</title>\r\n    <meta content=\"ie=edge\" http-equiv=\"X-UA-Compatible\">\r\n    <meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\r\n    <meta content=\"Florina Covaliu\" name=\"author\">\r\n    <link href=\"Style.css\" rel=\"stylesheet\" type=\"text/css\">\r\n    <script src=\"Script.js\"></script>\r\n</head>\r\n<body>\r\n<div class=\"container\">\r\n    <form id=\"data-form\"> <!-- Campos del formulario -->\r\n        <label for=\"nombre\">Nombre:</label>\r\n        <input id=\"nombre\" minlength=\"3\" placeholder=\"Nombre\" required type=\"text\">\r\n        <label for=\"apellidoUno\">Primer Apellido</label>\r\n        <input id=\"apellidoUno\" minlength=\"2\" placeholder=\"Primer Apellido\" required type=\"text\">\r\n        <label for=\"apellidoDos\">Segundo Apellido</label>\r\n        <input id=\"apellidoDos\" minlength=\"2\" placeholder=\"Segundo Apellido\" type=\"text\">\r\n        <label for=\"fechaNacimiento\">Fecha de Nacimiento</label>\r\n        <input id=\"fechaNacimiento\" placeholder=\"Fecha de Nacimiento\" required type=\"date\">\r\n        <label for=\"localidad\">Localidad</label>\r\n        <input id=\"localidad\" minlength=\"2\" placeholder=\"Localidad\" required type=\"text\">\r\n        <label for=\"codigoPostal\">Codigo Postal</label>\r\n        <input id=\"codigoPostal\" pattern=\"\\d{5}\" placeholder=\"Código Postal\" required type=\"text\">\r\n        <button id=\"addData\" type=\"button\">Insertar</button>\r\n        <button id=\"generateRandomData\" type=\"button\">Generar Datos Aleatorios</button>\r\n        <button id=\"addFive\" type=\"button\">Añadir 5 Datos</button>\r\n        <button id=\"addTen\" type=\"button\">Añadir 10 Datos</button>\r\n        <button id=\"addFifteen\" type=\"button\">Añadir 15 Datos</button>\r\n    </form>\r\n    <div class=\"table\" id=\"data-table\">\r\n        <div class=\"row header\">\r\n            <div class=\"cell\" data-field=\"id\">ID</div>\r\n            <div class=\"cell\" data-field=\"nombre\">Nombre</div>\r\n            <div class=\"cell\" data-field=\"apellidoUno\">Apellido 1</div>\r\n            <div class=\"cell\" data-field=\"apellidoDos\">Apellido 2</div>\r\n            <div class=\"cell\" data-field=\"fechaNacimiento\">Fecha Nacimiento</div>\r\n            <div class=\"cell\" data-field=\"edad\">Edad</div>\r\n            <div class=\"cell\" data-field=\"localidad\">Localidad</div>\r\n            <div class=\"cell\" data-field=\"codigoPostal\">Código Postal</div>\r\n            <div class=\"cell\" data-field=\"provincia\">Provincia</div>\r\n            <div class=\"cell\" data-field=\"ccaa\">CCAA</div>\r\n            <div class=\"cell\">Acciones</div>\r\n        </div> <!-- Filas de datos se añadirán aquí dinámicamente --> </div>\r\n</div>\r\n</body>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SegundoTrimestre/Tareas/Ejer_03_tabla_dinamica/index.html b/SegundoTrimestre/Tareas/Ejer_03_tabla_dinamica/index.html
+--- a/SegundoTrimestre/Tareas/Ejer_03_tabla_dinamica/index.html	(revision effec613a7821e36667c7e7fd51fa5470f5e021a)
++++ b/SegundoTrimestre/Tareas/Ejer_03_tabla_dinamica/index.html	(date 1737802700733)
+@@ -1,49 +1,28 @@
+ <!DOCTYPE html>
+-<html lang="en">
++<html lang="es">
+ <head>
+     <meta charset="UTF-8">
+-    <title>Ejercicio 03 - Tabla dinamica</title>
+-    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+-    <meta content="Florina Covaliu" name="author">
+-    <link href="Style.css" rel="stylesheet" type="text/css">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Tabla de Lista</title>
++    <link rel="stylesheet" href="Style.css">
+     <script src="Script.js"></script>
+ </head>
+ <body>
+-<div class="container">
+-    <form id="data-form"> <!-- Campos del formulario -->
+-        <label for="nombre">Nombre:</label>
+-        <input id="nombre" minlength="3" placeholder="Nombre" required type="text">
+-        <label for="apellidoUno">Primer Apellido</label>
+-        <input id="apellidoUno" minlength="2" placeholder="Primer Apellido" required type="text">
+-        <label for="apellidoDos">Segundo Apellido</label>
+-        <input id="apellidoDos" minlength="2" placeholder="Segundo Apellido" type="text">
+-        <label for="fechaNacimiento">Fecha de Nacimiento</label>
+-        <input id="fechaNacimiento" placeholder="Fecha de Nacimiento" required type="date">
+-        <label for="localidad">Localidad</label>
+-        <input id="localidad" minlength="2" placeholder="Localidad" required type="text">
+-        <label for="codigoPostal">Codigo Postal</label>
+-        <input id="codigoPostal" pattern="\d{5}" placeholder="Código Postal" required type="text">
+-        <button id="addData" type="button">Insertar</button>
+-        <button id="generateRandomData" type="button">Generar Datos Aleatorios</button>
+-        <button id="addFive" type="button">Añadir 5 Datos</button>
+-        <button id="addTen" type="button">Añadir 10 Datos</button>
+-        <button id="addFifteen" type="button">Añadir 15 Datos</button>
+-    </form>
+-    <div class="table" id="data-table">
+-        <div class="row header">
+-            <div class="cell" data-field="id">ID</div>
+-            <div class="cell" data-field="nombre">Nombre</div>
+-            <div class="cell" data-field="apellidoUno">Apellido 1</div>
+-            <div class="cell" data-field="apellidoDos">Apellido 2</div>
+-            <div class="cell" data-field="fechaNacimiento">Fecha Nacimiento</div>
+-            <div class="cell" data-field="edad">Edad</div>
+-            <div class="cell" data-field="localidad">Localidad</div>
+-            <div class="cell" data-field="codigoPostal">Código Postal</div>
+-            <div class="cell" data-field="provincia">Provincia</div>
+-            <div class="cell" data-field="ccaa">CCAA</div>
+-            <div class="cell">Acciones</div>
+-        </div> <!-- Filas de datos se añadirán aquí dinámicamente --> </div>
++<div class="table-container">
++    <div class="table-row header">
++        <div class="table-cell">ID</div>
++        <div class="table-cell">Nombre</div>
++        <div class="table-cell">Apellido Uno</div>
++        <div class="table-cell">Apellido Dos</div>
++        <div class="table-cell">Fecha Nacimiento</div>
++        <div class="table-cell">Edad</div>
++        <div class="table-cell">Localidad</div>
++        <div class="table-cell">Código Postal</div>
++        <div class="table-cell">Provincia</div>
++        <div class="table-cell">CCAA</div>
++    </div>
++    <div id="table-body"></div>
+ </div>
++<button id="add-row-btn">Añadir Fila</button>
+ </body>
+-</html>
+\ No newline at end of file
++</html>
+Index: Brenn batene/UT03/VarLet/VarLet.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Brenn batene/UT03/VarLet/VarLet.html b/Brenn batene/UT03/VarLet/VarLet.html
+new file mode 100644
+--- /dev/null	(date 1737815363480)
++++ b/Brenn batene/UT03/VarLet/VarLet.html	(date 1737815363480)
+@@ -0,0 +1,11 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++  <script src="VarLet.js"></script>
++    <title>Title</title>
++</head>
++<body>
++<p>Var y Let</p>
++</body>
++</html>
+\ No newline at end of file
+Index: Brenn batene/UT03/VarLet/VarLet.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Brenn batene/UT03/VarLet/VarLet.js b/Brenn batene/UT03/VarLet/VarLet.js
+new file mode 100644
+--- /dev/null	(date 1737815523229)
++++ b/Brenn batene/UT03/VarLet/VarLet.js	(date 1737815523229)
+@@ -0,0 +1,49 @@
++/*Alcance de funcion*/
++function ejemploVar() {
++    var mensaje = "Hola desde var";
++    console.log(mensaje); // "Hola desde var"
++}
++console.log(mensaje); // Error: mensaje is not defined
++
++/*Hoisting*/
++console.log(mensaje); // undefined
++var mensaje = "Hola!";
++console.log(mensaje); // "Hola!"
++
++
++
++
++
++/*Alcance de bloque*/
++if (true) {
++    let saludo = "Hola desde let";
++    console.log(saludo); // "Hola desde let"
++}
++console.log(saludo); // Error: saludo is not defined
++/*Hoisting*/
++console.log(mensaje); // Error: Cannot access 'mensaje' before initialization
++let mensaje = "Hola!";
++console.log(mensaje); // "Hola!"
++
++
++// Comparacion Practica
++/* Declaracion en ciclos*/
++for (var i = 0; i < 3; i++) {
++    console.log(i); // 0, 1, 2
++}
++console.log(i); // 3 (i es accesible fuera del ciclo)
++
++for (let j = 0; j < 3; j++) {
++    console.log(j); // 0, 1, 2
++}
++console.log(j); // Error: j is not defined
++
++/*Reasignacion y redeclaracion*/
++var mensaje = "Hola!";
++var mensaje = "Adiós!"; // No hay error, puede redeclararse
++console.log(mensaje); // "Adiós!"
++
++let saludo = "Hola!";
++let saludo = "Adiós!"; // Error: Identifier 'saludo' has already been declared
++console.log(saludo);
++
+Index: SegundoTrimestre/Tareas/Ejer_03_tabla_dinamica/Style.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SegundoTrimestre/Tareas/Ejer_03_tabla_dinamica/Style.css b/SegundoTrimestre/Tareas/Ejer_03_tabla_dinamica/Style.css
+--- a/SegundoTrimestre/Tareas/Ejer_03_tabla_dinamica/Style.css	(revision effec613a7821e36667c7e7fd51fa5470f5e021a)
++++ b/SegundoTrimestre/Tareas/Ejer_03_tabla_dinamica/Style.css	(date 1737804241022)
+@@ -1,0 +1,25 @@
++.table-container {
++    display: flex;
++    flex-direction: column;
++    width: 100%;
++    max-width: 900px;
++    margin: 0 auto;
++    border: 1px solid #ccc;
++}
++.table-row {
++    display: flex;
++    border-bottom: 1px solid #ccc;
++}
++.table-row:last-child {
++    border-bottom: none;
++}
++.table-cell {
++    flex: 1;
++    padding: 10px;
++    text-align: left;
++}
++.table-cell.header {
++    font-weight: bold;
++    background-color: #f0f0f0;
++}
++  
+\ No newline at end of file
+Index: Brenn batene/UT03/Console/Console.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Brenn batene/UT03/Console/Console.js b/Brenn batene/UT03/Console/Console.js
+new file mode 100644
+--- /dev/null	(date 1737809326312)
++++ b/Brenn batene/UT03/Console/Console.js	(date 1737809326312)
+@@ -0,0 +1,66 @@
++/*
++console.clear();
++console.log("Hello, World!");
++
++
++console.error("This is an error message!");
++
++
++console.warn("This is a warning message!");
++
++const users = [
++    { name: "Alice", age: 25 },
++    { name: "Bob", age: 30 }
++];
++console.table(users);
++
++
++console.group("User Details");
++console.log("Name: Alice");
++console.log("Age: 25");
++console.groupEnd();
++
++
++console.time("timer");
++for (let i = 0; i < 1000000; i++) {
++    // Do nothing
++}
++console.timeEnd("timer");
++
++let var1 = 1;
++let var2 = 2;
++console.debug("Debug message: Variables are:", { var1, var2 });
++
++console.info("This is an informational message.");
++console.assert(1 === 2, "This will print because the assertion is false");
++console.assert(1 === 1, "This will not print because the assertion is true");
++
++
++console.count("Counter");
++console.count("Counter");
++console.countReset("Counter");
++console.count("Counter");
++
++
++function myFunction() {
++    console.trace("Trace message");
++}
++myFunction();
++*/
++
++console.log("Log message");
++console.debug("Debug message");
++console.info("Info message");
++console.warn("Warning message");
++console.error("Error message");
++console.assert(1 === 2, "Assertion failed");
++console.count("Counter");
++console.count("Counter");
++console.countReset("Counter");
++console.clear();
++console.group("Grouped messages");
++console.log("Grouped log message");
++console.groupEnd();
++console.time("Timer");
++console.timeEnd("Timer");
++console.trace("Trace message");
+Index: Brenn batene/UT03/Console/Console.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Brenn batene/UT03/Console/Console.html b/Brenn batene/UT03/Console/Console.html
+new file mode 100644
+--- /dev/null	(date 1737809135638)
++++ b/Brenn batene/UT03/Console/Console.html	(date 1737809135638)
+@@ -0,0 +1,11 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++  <script src="Console.js"></script>
++    <title>Title</title>
++</head>
++<body>
++ <p>Console</p>
++</body>
++</html>
+\ No newline at end of file
+Index: Brenn batene/UT03/TiposDeDatos/tiposDeDatos.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Brenn batene/UT03/TiposDeDatos/tiposDeDatos.html b/Brenn batene/UT03/TiposDeDatos/tiposDeDatos.html
+new file mode 100644
+--- /dev/null	(date 1737809326547)
++++ b/Brenn batene/UT03/TiposDeDatos/tiposDeDatos.html	(date 1737809326547)
+@@ -0,0 +1,11 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <script src="tiposDeDatos.js"></script>
++    <title>Title</title>
++</head>
++<body>
++<p>Tipos de datos</p>
++</body>
++</html>
+\ No newline at end of file
