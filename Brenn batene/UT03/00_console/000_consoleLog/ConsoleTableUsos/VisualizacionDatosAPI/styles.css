@@ -1,0 +1,43 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Contenedor del gráfico */
+.chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 10px;
+    height: 300px;
+    border-left: 2px solid #333;
+    border-bottom: 2px solid #333;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+/* Barras del gráfico */
+.bar {
+    width: 50px;
+    background-color: #4caf50;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    border-radius: 3px 3px 0 0;
+    transition: background-color 0.3s;
+}
+
+.bar:hover {
+    background-color: #45a049;
+}
+
+/* Etiquetas */
+.label {
+    margin-top: 5px;
+}
