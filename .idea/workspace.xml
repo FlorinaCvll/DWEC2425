@@ -1,94 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AngularSettings">
+    <option name="innerServiceType" value="AUTO" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb69af3b-28b0-40a6-9c78-d8f8695315ae" name="Changes" comment="c260125">
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/00_console/000_consoleLog/ConsoleTableUsos/SeguimientoEstadoAppsReactivas/Index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/00_console/000_consoleLog/ConsoleTableUsos/SeguimientoEstadoAppsReactivas/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/00_console/000_consoleLog/ConsoleTableUsos/SeguimientoEstadoAppsReactivas/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/00_console/000_consoleLog/ConsoleTableUsos/ValidacionEstructurasDatosComplejas/Index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/00_console/000_consoleLog/ConsoleTableUsos/ValidacionEstructurasDatosComplejas/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/00_console/000_consoleLog/ConsoleTableUsos/ValidacionEstructurasDatosComplejas/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/00_console/000_consoleLog/ConsoleTableUsos/VisualizacionDatosAPI/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/00_console/000_consoleLog/ConsoleTableUsos/VisualizacionDatosAPI/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/00_console/000_consoleLog/ConsoleTableUsos/VisualizacionResultadoAlgoritmos/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/00_console/000_consoleLog/ConsoleTableUsos/VisualizacionResultadoAlgoritmos/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/00_console/000_consoleLog/ConsoleTimeUsos/AnalisisMejoraRendimientoCompAW/Index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/00_console/000_consoleLog/ConsoleTimeUsos/AnalisisMejoraRendimientoCompAW/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/00_console/000_consoleLog/ConsoleTimeUsos/AnalisisMejoraRendimientoCompAW/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/00_console/000_consoleLog/ConsoleTimeUsos/CompararRendimientoAlgoritmosOrdenacion/Index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/00_console/000_consoleLog/ConsoleTimeUsos/CompararRendimientoAlgoritmosOrdenacion/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/00_console/000_consoleLog/ConsoleTimeUsos/CompararRendimientoAlgoritmosOrdenacion/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/00_console/000_consoleLog/ConsoleTimeUsos/MedirLatenciaOpES/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/00_console/000_consoleLog/ConsoleTimeUsos/MedirLatenciaOpES/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/00_console/000_consoleLog/ConsoleTimeUsos/MedirTiempoCargaAPI/Index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/00_console/000_consoleLog/ConsoleTimeUsos/MedirTiempoCargaAPI/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/00_console/000_consoleLog/ConsoleTimeUsos/MedirTiempoCargaAPI/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/00_console/000_consoleLog/consoleError.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/00_console/000_consoleLog/consoleGroup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/00_console/000_consoleLog/consoleLog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/00_console/000_consoleLog/consoleTable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/00_console/000_consoleLog/consoleTime.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/00_console/000_consoleLog/consoleWarn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/01_valoresTiposDatos/Index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/01_valoresTiposDatos/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Brenn batene/UT03/01_valoresTiposDatos/valoresTiposDatos.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_01_2025_19_07_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_01_2025_19_07__Changes_.xml" beforeDir="false" />
+    <list default="true" id="fb69af3b-28b0-40a6-9c78-d8f8695315ae" name="Changes" comment="c27&#10;0125">
+      <change afterPath="$PROJECT_DIR$/Brenn batene/UT04/00_localeCompare/Index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Brenn batene/UT04/00_localeCompare/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Brenn batene/UT04/00_localeCompare/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brenn batene/UT03/Alert/alert.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brenn batene/UT03/Alert/alert.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brenn batene/UT03/Confirm/Confirm.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brenn batene/UT03/Confirm/confirm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brenn batene/UT03/Console/Console.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brenn batene/UT03/Console/Console.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brenn batene/UT03/Const/Const.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brenn batene/UT03/Const/Const.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brenn batene/UT03/NumAleatorio/numAleatorio.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brenn batene/UT03/NumAleatorio/numAleatorio.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brenn batene/UT03/Prompt/prompt.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brenn batene/UT03/Prompt/prompt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brenn batene/UT03/TiposDeDatos/tiposDeDatos.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brenn batene/UT03/TiposDeDatos/tiposDeDatos.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brenn batene/UT03/VarLet/VarLet.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brenn batene/UT03/VarLet/VarLet.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brenn batene/UT04/Arrays/Notas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brenn batene/UT04/Arrays/arrays.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brenn batene/UT04/Arrays/arrays.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brenn batene/UT04/Fors/Notas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brenn batene/UT04/Fors/fors.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brenn batene/UT04/Fors/fors.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brenn batene/UT04/LocaleCompare/Notas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brenn batene/UT04/LocaleCompare/localeCompare.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brenn batene/UT04/LocaleCompare/localeCompare.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brenn batene/UT04/Map/Map.html" beforeDir="false" afterPath="$PROJECT_DIR$/Brenn batene/UT03/00_console/000_consoleLog/ConsoleTableUsos/VisualizacionDatosAPI/Index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brenn batene/UT04/Map/Notas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brenn batene/UT04/Map/map.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brenn batene/UT04/Set/Notas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brenn batene/UT04/Set/Set.html" beforeDir="false" afterPath="$PROJECT_DIR$/Brenn batene/UT03/00_console/000_consoleLog/ConsoleTimeUsos/MedirLatenciaOpES/Index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brenn batene/UT04/Set/set.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brenn batene/UT05/Callback/Callback.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brenn batene/UT05/Callback/Notas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brenn batene/UT05/Callback/callback.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brenn batene/UT05/Function/Functions.html" beforeDir="false" afterPath="$PROJECT_DIR$/Brenn batene/UT03/00_console/000_consoleLog/ConsoleTableUsos/VisualizacionResultadoAlgoritmos/Index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brenn batene/UT05/Function/Notas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brenn batene/UT05/Function/functions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brenn batene/UT05/MetodosArray/Notas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brenn batene/UT05/MetodosArray/metodosArray.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brenn batene/UT05/MetodosArray/metodosArray.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brenn batene/UT05/PasoVariableParametros/Notas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brenn batene/UT05/PasoVariableParametros/pasoVariableParametros.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brenn batene/UT05/PasoVariableParametros/pasoVariableParametros.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brenn batene/UT05/Pilas/Notas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brenn batene/UT05/Pilas/Pilas.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brenn batene/UT05/Pilas/pilas.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brenn batene/UT05/Recursividad/Notas" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brenn batene/UT05/Recursividad/Recursividad.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brenn batene/UT05/Recursividad/Recursividad.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Brenn batene/UT06/Objetos/Notas" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,11 +29,6 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -122,7 +40,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/FlorinaCvll/DWEC2425.git&quot;,
-    &quot;accountId&quot;: &quot;a3c185e1-f087-443c-a681-3dd34ecd0095&quot;
+    &quot;accountId&quot;: &quot;fbe1b735-9995-4026-9649-09a409dd8fd4&quot;
   },
   &quot;recentNewPullRequestHead&quot;: {
     &quot;server&quot;: {
@@ -142,14 +60,11 @@
   <component name="MaliciousPackageCheckinHandlerState">
     <option name="packageCheck" value="true" />
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
-  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2mKCMo25stLCFY8MAoCl3Tz8PaL" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -160,23 +75,21 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "DefaultHtmlFileTemplate": "HTML File",
-    "Node.js.consoleTable.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "disable.download.node.interpreter.editor.notification": "true",
     "git-widget-placeholder": "master",
-    "javascript.nodejs.core.library.configured.version": "23.6.1",
-    "javascript.nodejs.core.library.typings.version": "22.12.0",
-    "last_opened_file_path": "C:/Users/IONECOV/WebstormProjects/DWEC2425/SegundoTrimestre/UT09",
+    "javascript.nodejs.core.library.configured.version": "23.2.0",
+    "javascript.nodejs.core.library.typings.version": "22.10.7",
+    "last_opened_file_path": "C:/Program Files/nvm/v23.6.1/node.exe",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "node",
+    "nodejs_interpreter_path": "C:/Program Files/nvm/v23.6.1/node",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "settings.nodejs",
     "settings.editor.splitter.proportion": "0.18255909",
     "ts.external.directory.path": "C:\\Users\\IONECOV\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
@@ -191,17 +104,17 @@
       <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\PrimerTrimestre\CorreccionExamen1ev" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\flori\WebstormProjects\DWEC2425\Brenn batene\UT03\" />
       <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\SegundoTrimestre\UT10\388_ajax_binario" />
       <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\SegundoTrimestre\UT10" />
       <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\SegundoTrimestre\UT09" />
       <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\SegundoTrimestre\UT08\318_evento_submit" />
+      <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\SegundoTrimestre\UT08" />
     </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-WS-243.23654.120" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-WS-243.23654.157" />
       </set>
     </attachedChunks>
   </component>
@@ -294,14 +207,14 @@
       <workItem from="1737361651609" duration="15000" />
       <workItem from="1737366616279" duration="5467000" />
       <workItem from="1737461950665" duration="4047000" />
-      <workItem from="1737533695911" duration="4896000" />
-      <workItem from="1737890837276" duration="60000" />
-      <workItem from="1737890998172" duration="812000" />
-      <workItem from="1737897560031" duration="198000" />
-      <workItem from="1737897862587" duration="9000" />
-      <workItem from="1737898026973" duration="590000" />
-      <workItem from="1737898715027" duration="4008000" />
-      <workItem from="1738105466679" duration="4458000" />
+      <workItem from="1737533695911" duration="4929000" />
+      <workItem from="1737547644193" duration="4000" />
+      <workItem from="1737706746227" duration="4000" />
+      <workItem from="1737706934306" duration="1291000" />
+      <workItem from="1737711100268" duration="889000" />
+      <workItem from="1737965157639" duration="30000" />
+      <workItem from="1737965197209" duration="4000" />
+      <workItem from="1738144531943" duration="36000" />
     </task>
     <task id="LOCAL-00001" summary="C1">
       <option name="closed" value="true" />
@@ -655,15 +568,23 @@
       <option name="project" value="LOCAL" />
       <updated>1737466629891</updated>
     </task>
-    <task id="LOCAL-00045" summary="c260125">
+    <task id="LOCAL-00045" summary="c220125">
       <option name="closed" value="true" />
-      <created>1737899226898</created>
+      <created>1737539110784</created>
       <option name="number" value="00045" />
       <option name="presentableId" value="LOCAL-00045" />
       <option name="project" value="LOCAL" />
-      <updated>1737899226898</updated>
+      <updated>1737539110784</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="c240125">
+      <option name="closed" value="true" />
+      <created>1737711976347</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1737711976347</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -673,7 +594,6 @@
     <option name="UPDATE_COPYRIGHT" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="C16 que e esto" />
     <MESSAGE value="C17 ajsdhasijhfliasdjhgf" />
     <MESSAGE value="c23 ya vale" />
     <MESSAGE value="c24 tatkatk" />
@@ -697,8 +617,9 @@
     <MESSAGE value="c160125" />
     <MESSAGE value="c200125" />
     <MESSAGE value="c210125" />
-    <MESSAGE value="c260125" />
-    <option name="LAST_COMMIT_MESSAGE" value="c260125" />
+    <MESSAGE value="c220125" />
+    <MESSAGE value="c240125" />
+    <option name="LAST_COMMIT_MESSAGE" value="c240125" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
