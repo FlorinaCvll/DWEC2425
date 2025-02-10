@@ -1,49 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Ejercicio 03 - Tabla dinamica</title>
-    <meta content="ie=edge" http-equiv="X-UA-Compatible">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Florina Covaliu" name="author">
-    <link href="Style.css" rel="stylesheet" type="text/css">
-    <script src="Script.js"></script>
+    <link href="Style.css" rel="stylesheet">
+    <title>Ejercicio 03 - Tabla Dinámica</title>
 </head>
 <body>
-<div class="container">
-    <form id="data-form"> <!-- Campos del formulario -->
-        <label for="nombre">Nombre:</label>
-        <input id="nombre" minlength="3" placeholder="Nombre" required type="text">
-        <label for="apellidoUno">Primer Apellido</label>
-        <input id="apellidoUno" minlength="2" placeholder="Primer Apellido" required type="text">
-        <label for="apellidoDos">Segundo Apellido</label>
-        <input id="apellidoDos" minlength="2" placeholder="Segundo Apellido" type="text">
-        <label for="fechaNacimiento">Fecha de Nacimiento</label>
-        <input id="fechaNacimiento" placeholder="Fecha de Nacimiento" required type="date">
-        <label for="localidad">Localidad</label>
-        <input id="localidad" minlength="2" placeholder="Localidad" required type="text">
-        <label for="codigoPostal">Codigo Postal</label>
+<div class="cont">
+    <form id="formularioDatos">
+        <input id="nombre" placeholder="Nombre" required type="text">
+        <input id="apellido1" placeholder="Apellido 1" required type="text">
+        <input id="apellido2" placeholder="Apellido 2" type="text">
+        <input id="fechaNacimiento" required type="date">
+        <input id="localidad" placeholder="Localidad" required type="text">
         <input id="codigoPostal" pattern="\d{5}" placeholder="Código Postal" required type="text">
-        <button id="addData" type="button">Insertar</button>
-        <button id="generateRandomData" type="button">Generar Datos Aleatorios</button>
-        <button id="addFive" type="button">Añadir 5 Datos</button>
-        <button id="addTen" type="button">Añadir 10 Datos</button>
-        <button id="addFifteen" type="button">Añadir 15 Datos</button>
+        <input id="provincia" placeholder="Provincia" readonly type="text">
+        <input id="comunidad" placeholder="Comunidad Autónoma" readonly type="text">
+        <button type="submit">Agregar</button>
+        <button id="generar5" type="button">Generar 5 Datos Aleatorios</button>
+        <button id="generar10" type="button">Generar 10 Datos Aleatorios</button>
+        <button id="generar15" type="button">Generar 15 Datos Aleatorios</button>
     </form>
-    <div class="table" id="data-table">
-        <div class="row header">
-            <div class="cell" data-field="id">ID</div>
-            <div class="cell" data-field="nombre">Nombre</div>
-            <div class="cell" data-field="apellidoUno">Apellido 1</div>
-            <div class="cell" data-field="apellidoDos">Apellido 2</div>
-            <div class="cell" data-field="fechaNacimiento">Fecha Nacimiento</div>
-            <div class="cell" data-field="edad">Edad</div>
-            <div class="cell" data-field="localidad">Localidad</div>
-            <div class="cell" data-field="codigoPostal">Código Postal</div>
-            <div class="cell" data-field="provincia">Provincia</div>
-            <div class="cell" data-field="ccaa">CCAA</div>
-            <div class="cell">Acciones</div>
-        </div> <!-- Filas de datos se añadirán aquí dinámicamente --> </div>
+    <input id="buscador" placeholder="Buscar..." type="text">
+    <div id="contenedorTabla">
+        <table id="datosTabla">
+            <thead>
+            <tr>
+                <th data-index="0">Identificador</th>
+                <th data-index="1">Nombre</th>
+                <th data-index="2">Apellido 1</th>
+                <th data-index="3">Apellido 2</th>
+                <th data-index="4">Fecha de Nacimiento</th>
+                <th data-index="5">Edad</th>
+                <th data-index="6">Localidad</th>
+                <th data-index="7">Código Postal</th>
+                <th data-index="8">Provincia</th>
+                <th>Acciones</th>
+            </tr>
+            </thead>
+            <tbody id="datos">
+            <!-- Aqui van los datos -->
+            </tbody>
+        </table>
+    </div>
 </div>
+<script defer src="Script.js"></script>
 </body>
 </html>

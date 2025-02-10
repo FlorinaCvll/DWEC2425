@@ -1,0 +1,31 @@
+1. Se contruye la estructura con las imagenes, la ifla de letras y la columna de  numeros, la zona de barcos, estrellas y agua sgun la imagen con flexbox, respetando margenes, espacios y forma segun imagen.
+
+
+2. Se cargan de forma aleatoria las imagaenes en la parte inferior derecha de la matriz de 4x3, se deberá cargar un abrco de cada tipo (total de 4 barcos), dos erstrellas y 6 imagenes de agua.
+
+3: Mostrar y ocultar imagenes y hombre con sombrero
+    1. Cuando se pulsa en la imagen cuperior izquierda (hombre con sombrero) se ocultan las imagenes de la matrix de 4x3
+    2. al ocultarse las imagenes, se cargan la imagen gris en la que no aparece el hombre con sombrero
+    3. Cuando se vuelve a pulsar en la imagen gris, se vuelven a mostrar las imagenes
+    4. Al cargarse las imagenes, se vuelve a cargar la imagen del hombre con sombrero
+
+4. Cuando se pulsa una letra (A.B,C,D) y posteriormente un numero (1,2,3) o unnumero y despues una letra, sucesivamente (hasta que termine el juego)
+    1. El juego comienda con 3 puntos. Este apartado se puntua con la estructura de la letra a) estructura con las imagenes, por lo que aqui no puntua.
+    2. La posicion que identifican las pulsaciones se colorea con un fondo gris.
+    3. En caso de que las imagenes estén ocultas, se muestra la imagen.
+    4. Las imagenes suman o restan los siguientes puntos: lancha 1, barca remos 2, lancha motor 3, barco crucero 4, estrella 3 puntos y agua -3 puntos.
+    5. Se actualiza el marcados ded puntos e la parte superior , sumando o restando los puntos.
+5. Al identificarse la poscion del punto anterior con la letra y el numeor sucesivamente (hasta que termine el juego), se oculta dos veces cada 750 milisegundos (desparece)
+la imagen correspondiente. Volviendose a mostrar con el fondo gris, cmo indica en el punto anterior, una vez se ha ocultado las dos veces.
+
+6. En caso de quedasrse con 0 puntos 0 menos, por haber pulsado en agua, se mostrará un mensaje indicando "LA partida ha terminado". PAra que este punto se considere, las otras imagenes tienen que sumar los puntos correspondientes.
+
+7. Cuando se pulda en una estrella, ademas de parpadear dos veces y mostrarse el fondo gris, como se indica en el punto 4, se debe cambiar la imagen por la estrella que brilla al terminar de parpadear.
+
+8. Al descubrir (elegir a traves de las letras y numeros) los cuatro barcos, se debe mostrar un mensaje indicando (Tu puntuacion final es de XXX puntos)siendo XX los puntos obtenidos.
+Este mensaje se debe mostrar un segundo mas trade de la finalizacion del juego. IMPORTANTE: para que este punto se considere correcto.
+
+9. El punto 3 se cumple durnate todo el juego, respetando las imagenes que ya se han pulsado y las que no, es decir, si una imagen y ase ha pulsado, no se ouclta. En
+el caso de las imagenes que aun no se han pulsado se muestra y ocultan, tantas veces como se quiera pulsando en la imagen gris, con o sin el hombre del sombrero.
+
+10. 1punto si ademas de cumplirse 8 y 9, se cumplen todos los demas.
