@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+    height: 100vh;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.equalizer {
+    display: flex;
+    align-items: flex-end;
+    gap: 5px;
+    position: relative;
+}
+
+.labels {
+    .labels {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        margin-top: 50px;
+    }
+}
+
+.equalizer-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    position: relative;
+    justify-content: space-between;
+}
+
+.numbersLeft {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    left: 0;
+    border: 2px solid pink;
+}
+
+.numbersRight {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    right: 0;
+    border: 2px solid yellow;
+}
