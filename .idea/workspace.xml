@@ -7,10 +7,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb69af3b-28b0-40a6-9c78-d8f8695315ae" name="Changes" comment="no me mato pq estoy vaga">
-      <change afterPath="$PROJECT_DIR$/RepasoMayo/Equalizer/Index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RepasoMayo/Equalizer/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RepasoMayo/Equalizer/styles.css" afterDir="false" />
+    <list default="true" id="fb69af3b-28b0-40a6-9c78-d8f8695315ae" name="Changes" comment="que">
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/ExamenFiguras/Index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/ExamenFiguras/Script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/ExamenFiguras/Styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/ExamenFiguras/imagenes/circuloAzul.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/ExamenFiguras/imagenes/circuloRojo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/ExamenFiguras/imagenes/circuloVerde.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/ExamenFiguras/imagenes/cuadradoAzul.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/ExamenFiguras/imagenes/cuadradoRojo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/ExamenFiguras/imagenes/cuadradoVerde.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/ExamenFiguras/imagenes/trianguloAzul.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/ExamenFiguras/imagenes/trianguloRojo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/ExamenFiguras/imagenes/trianguloVerde.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,9 +31,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="tsconfig.json" />
+        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
-        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -79,10 +88,10 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "disable.download.node.interpreter.editor.notification": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "#9 on master",
     "javascript.nodejs.core.library.configured.version": "23.6.1",
     "javascript.nodejs.core.library.typings.version": "22.12.0",
-    "last_opened_file_path": "C:/Users/IONECOV/WebstormProjects/DWEC2425/SegundoTrimestre/Examen2EvCorregido",
+    "last_opened_file_path": "C:/Users/IONECOV/WebstormProjects/DWEC2425/RepasoMayo/ExamenFiguras",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -98,11 +107,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\RepasoMayo\ExamenFiguras" />
       <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\SegundoTrimestre\Examen2EvCorregido" />
       <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\Examen" />
       <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\SegundoTrimestre\UT09" />
       <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\SegundoTrimestre\UT09\362_1_cargar_mapa_promesas" />
-      <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\SegundoTrimestre\UT08\304_1_propagacion_Eventos_Orden" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\ExamenRecuperacion2EV" />
@@ -228,15 +237,9 @@
       <workItem from="1738743796706" duration="5552000" />
       <workItem from="1738755676691" duration="5000" />
       <workItem from="1739175209497" duration="11491000" />
-      <workItem from="1739954532072" duration="3472000" />
-    </task>
-    <task id="LOCAL-00001" summary="C1">
-      <option name="closed" value="true" />
-      <created>1726821719471</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1726821719471</updated>
+      <workItem from="1739954532072" duration="3525000" />
+      <workItem from="1740481665802" duration="31000" />
+      <workItem from="1740481706057" duration="6042000" />
     </task>
     <task id="LOCAL-00002" summary="C2 prueba">
       <option name="closed" value="true" />
@@ -622,7 +625,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739186807169</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="que">
+      <option name="closed" value="true" />
+      <created>1739958310795</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1739958310810</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -632,7 +643,6 @@
     <option name="UPDATE_COPYRIGHT" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="c25 nie nie" />
     <MESSAGE value="c27 me duele el cuello" />
     <MESSAGE value="c29 examen" />
     <MESSAGE value="c30" />
@@ -657,7 +667,8 @@
     <MESSAGE value="c290125x2" />
     <MESSAGE value="c050225 a este paso descansamos todos" />
     <MESSAGE value="no me mato pq estoy vaga" />
-    <option name="LAST_COMMIT_MESSAGE" value="no me mato pq estoy vaga" />
+    <MESSAGE value="que" />
+    <option name="LAST_COMMIT_MESSAGE" value="que" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
