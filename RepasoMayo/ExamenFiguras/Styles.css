@@ -28,10 +28,39 @@ body, html {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
+    gap: 5rem;
 }
 
 .juego {
     margin: 2vh;
     height: 10vh;
+}
+
+.filaUno {
+    /*border: 2px solid deeppink;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filaDos {
+    /*border:2px solid blue ;*/
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.filaTres {
+    /* border: 2px solid yellow;*/
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ocultar {
+    visibility: hidden;
+}
+
+.transparente {
+    opacity: 0.5;
 }

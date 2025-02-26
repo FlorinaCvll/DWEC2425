@@ -2,6 +2,8 @@ figuras = ["circuloAzul", "circuloRojo", "circuloVerde",
     "cuadradoAzul", "cuadradoRojo", "cuadradoVerde",
     "trianguloAzul", "trianguloRojo", "trianguloVerde"];
 
+var posicionActual = 0;
+
 
 function devolverNumero(minimo, maximo) {
     return Math.floor(Math.random() * (maximo - minimo + 1) + minimo);
@@ -36,7 +38,39 @@ function cargarCuerpo() {
     }
 }
 
+function ocultarFiguras(elemento) {
+    let valorElemento = elemento.target.id;
+    /* alert(valorElemento);*/
+    // hacer que el elemento de abajo parpadee
+    let cont = 0;
+    let intervalo = setInterval(function () {
+        if (cont >= 4) {
+            clearInterval(intervalo);
+            document.getElementById(valorElemento).classList.toggle("transparente");
+        } else {
+            document.getElementById(valorElemento).classList.toggle("ocultar");
+            // document.getElementById(valorElemento).classList.toggle("transparente");
+            cont++;
+        }
+    }, 750);
+
+
+}
+
+function comparaFiguras(elemento) {
+    let elementoSeleccionado = document.getElementById(elemento).getAttribute("src");
+    let idElemento = elemento.target.id;
+    let elementoAbajo = document.getElementById();
+}
+
+
 window.onload = function () {
     cargarSecuencia();
     cargarCuerpo();
+    for (let i = 0; i < 6; i++) {
+        let idImagen = "imagen" + i;
+        document.getElementById(idImagen).addEventListener("click", comparaFiguras); // Ese evento se asocia a los elementos que se crean
+
+    }
+
 }
