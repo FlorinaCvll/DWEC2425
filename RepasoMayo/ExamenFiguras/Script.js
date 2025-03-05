@@ -80,7 +80,7 @@ function comparaFiguras(element) {
         alert("Son diferentes");
         // TODO puntuacion
         vidas--;
-        barravidas(vidas);
+        barraVidas(vidas);
         puntuacion--;
     }
     if (posicionActual === totalFiguras) {
@@ -131,6 +131,7 @@ function barraVidas(vidas) {
         document.getElementById("vidas2").textContent = "---";
         document.getElementById("vidas3").textContent = "---";
         document.getElementById("vidas4").textContent = "---";
+        alert("¡HAS PERDIDO!");
     }
 }
 
