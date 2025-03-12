@@ -7,6 +7,45 @@ var totalFiguras = 6;
 var vidas = 4;
 var puntuacion = 0;
 
+records = [];
+
+class RecordsPersonas {
+    constructor(nombre, puntuacion) {
+        this.nombre = nombre;
+        this.puntuacion = puntuacion;
+    }
+
+    mostrarDatos() {
+        return this.nombre + " " + this.puntuacion;
+    }
+
+    recuperarPuntuacion() {
+        return this.puntuacion;
+    }
+}
+
+let persona1 = new RecordsPersonas("María", 5);
+let persona2 = new RecordsPersonas("Ana", 3);
+let persona3 = new RecordsPersonas("Jesús", 1);
+records.push(persona1);
+records.push(persona2);
+records.push(persona3);
+
+function fijarRecord() {
+    let nombre = prompt("Ingresa tu nombre: ");
+    let personaJugadora = new RecordsPersonas(nombre, puntuacion);
+    let puntuaciones = "PUNTUACIONES JUGADORES \n";
+    records.push(personaJugadora);
+    records.sort(function (a, b) {
+        return b.recuperarPuntuacion() - a.recuperarPuntuacion();
+    });
+    records.forEach(element => {
+        console.log(element.mostrarDatos());
+        puntuaciones += element.mostrarDatos() + "\n";
+    })
+    alert(puntuaciones);
+}
+
 function devolverNumero(minimo, maximo) {
     return Math.floor(Math.random() * (maximo - minimo + 1) + minimo);
 }
@@ -76,15 +115,21 @@ function comparaFiguras(element) {
         ocultarFiguras(elementoArriba, elementoAbajo);
         // ocultarFiguras(document.getElementById(idElementoAbajo));
         posicionActual++;
+        puntuacion++;
     } else {
         alert("Son diferentes");
         // TODO puntuacion
         vidas--;
         barraVidas(vidas);
         puntuacion--;
+        if (vidas === 0) {
+            alert("¡HAS PERDIDO!");
+            fijarRecord();
+        }
     }
     if (posicionActual === totalFiguras) {
         alert("¡HAS GANADO!");
+        fijarRecord();
     }
 }
 
@@ -144,5 +189,6 @@ window.onload = function () {
         document.getElementById(idImagen).addEventListener("click", comparaFiguras); // Ese evento se asocia a los elementos que se crean
 
     }
+
 
 }
