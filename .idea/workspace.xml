@@ -7,23 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb69af3b-28b0-40a6-9c78-d8f8695315ae" name="Changes" comment="que sueñito">
-      <change afterPath="$PROJECT_DIR$/RepasoMayo/ExamenFiguras.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RepasoMayo/ExamenHundirFlota.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RepasoMayo/ExamenHundirFlota/Index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RepasoMayo/ExamenHundirFlota/Script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RepasoMayo/ExamenHundirFlota/Styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RepasoMayo/ExamenHundirFlota/imagenes/agua.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RepasoMayo/ExamenHundirFlota/imagenes/barco1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RepasoMayo/ExamenHundirFlota/imagenes/barco2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RepasoMayo/ExamenHundirFlota/imagenes/barco3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RepasoMayo/ExamenHundirFlota/imagenes/barco4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RepasoMayo/ExamenHundirFlota/imagenes/estrella.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RepasoMayo/ExamenHundirFlota/imagenes/estrellaBrilla.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RepasoMayo/ExamenHundirFlota/imagenes/mostrar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RepasoMayo/ExamenHundirFlota/imagenes/ocultar.png" afterDir="false" />
+    <list default="true" id="fb69af3b-28b0-40a6-9c78-d8f8695315ae" name="Changes" comment="ILLO POCO A POCO">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RepasoMayo/ExamenFiguras/Script.js" beforeDir="false" afterPath="$PROJECT_DIR$/RepasoMayo/ExamenFiguras/Script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepasoMayo/ExamenHundirFlota/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/RepasoMayo/ExamenHundirFlota/Index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepasoMayo/ExamenHundirFlota/Script.js" beforeDir="false" afterPath="$PROJECT_DIR$/RepasoMayo/ExamenHundirFlota/Script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepasoMayo/ExamenHundirFlota/Styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/RepasoMayo/ExamenHundirFlota/Styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +115,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.25659.40" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.26053.12" />
       </set>
     </attachedChunks>
   </component>
@@ -249,15 +237,8 @@
       <workItem from="1741255179789" duration="3000" />
       <workItem from="1741691011224" duration="107000" />
       <workItem from="1741691127310" duration="6273000" />
-      <workItem from="1741766751888" duration="5588000" />
-    </task>
-    <task id="LOCAL-00006" summary="C5 no entiendo nada">
-      <option name="closed" value="true" />
-      <created>1727786548135</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1727786548135</updated>
+      <workItem from="1741766751888" duration="5985000" />
+      <workItem from="1742296394720" duration="4952000" />
     </task>
     <task id="LOCAL-00007" summary="C6 he sacado el cuadrado">
       <option name="closed" value="true" />
@@ -643,7 +624,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741167727441</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="ILLO POCO A POCO">
+      <option name="closed" value="true" />
+      <created>1741772560270</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1741772560270</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -653,7 +642,6 @@
     <option name="UPDATE_COPYRIGHT" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="c33" />
     <MESSAGE value="c34" />
     <MESSAGE value="c35" />
     <MESSAGE value="c36 amen señor" />
@@ -678,7 +666,8 @@
     <MESSAGE value="sabesss tu lo que vamos a hacer? por que yo no" />
     <MESSAGE value="sabesss tu lo que vamos a hacer? por que yo noOO" />
     <MESSAGE value="que sueñito" />
-    <option name="LAST_COMMIT_MESSAGE" value="que sueñito" />
+    <MESSAGE value="ILLO POCO A POCO" />
+    <option name="LAST_COMMIT_MESSAGE" value="ILLO POCO A POCO" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

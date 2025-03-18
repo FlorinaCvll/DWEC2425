@@ -72,3 +72,7 @@ html, body {
     width: 6vh;
     height: 6vh;
 }
+
+.resaltado {
+    background-color: rgb(68, 68, 63);
+}
