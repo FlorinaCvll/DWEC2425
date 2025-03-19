@@ -8,10 +8,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb69af3b-28b0-40a6-9c78-d8f8695315ae" name="Changes" comment="ILLO POCO A POCO">
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/Puzzles/Z_imagenes_ENTREGAR/android_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/Puzzles/Z_imagenes_ENTREGAR/android_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/Puzzles/Z_imagenes_ENTREGAR/android_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/Puzzles/Z_imagenes_ENTREGAR/android_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/Puzzles/Z_imagenes_ENTREGAR/android_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/Puzzles/Z_imagenes_ENTREGAR/android_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/Puzzles/Z_imagenes_ENTREGAR/android_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/Puzzles/Z_imagenes_ENTREGAR/android_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/Puzzles/Z_imagenes_ENTREGAR/android_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/Puzzles/Z_imagenes_ENTREGAR/dino_rojo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/Puzzles/Z_imagenes_ENTREGAR/dino_verde.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/Puzzles/Z_imagenes_ENTREGAR/fuchsia_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/Puzzles/Z_imagenes_ENTREGAR/fuchsia_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/Puzzles/Z_imagenes_ENTREGAR/fuchsia_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/Puzzles/Z_imagenes_ENTREGAR/fuchsia_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/Puzzles/Z_imagenes_ENTREGAR/fuchsia_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/Puzzles/Z_imagenes_ENTREGAR/fuchsia_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/Puzzles/Z_imagenes_ENTREGAR/fuchsia_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/Puzzles/Z_imagenes_ENTREGAR/fuchsia_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/Puzzles/Z_imagenes_ENTREGAR/fuchsia_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/Puzzles/Z_imagenes_ENTREGAR/ios_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/Puzzles/Z_imagenes_ENTREGAR/ios_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/Puzzles/Z_imagenes_ENTREGAR/ios_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/Puzzles/Z_imagenes_ENTREGAR/ios_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/Puzzles/Z_imagenes_ENTREGAR/ios_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/Puzzles/Z_imagenes_ENTREGAR/ios_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/Puzzles/Z_imagenes_ENTREGAR/ios_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/Puzzles/Z_imagenes_ENTREGAR/ios_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/Puzzles/Z_imagenes_ENTREGAR/ios_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/Puzzles/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/Puzzles/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/Puzzles/styless.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RepasoMayo/ExamenHundirFlota/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/RepasoMayo/ExamenHundirFlota/Index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RepasoMayo/ExamenHundirFlota/Script.js" beforeDir="false" afterPath="$PROJECT_DIR$/RepasoMayo/ExamenHundirFlota/Script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RepasoMayo/ExamenHundirFlota/Styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/RepasoMayo/ExamenHundirFlota/Styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimerTrimestre/CorreccionExamen1ev/ordenarIMG.js" beforeDir="false" afterPath="$PROJECT_DIR$/PrimerTrimestre/CorreccionExamen1ev/ordenarIMG.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepasoMayo/Equalizer/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/RepasoMayo/Equalizer/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,38 +102,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;disable.download.node.interpreter.editor.notification&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;#9 on master&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;23.6.1&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;22.12.0&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/IONECOV/WebstormProjects/DWEC2425/RepasoMayo/ExamenHundirFlota&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.18255909&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\IONECOV\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "disable.download.node.interpreter.editor.notification": "true",
+    "git-widget-placeholder": "#9 on master",
+    "javascript.nodejs.core.library.configured.version": "23.6.1",
+    "javascript.nodejs.core.library.typings.version": "22.12.0",
+    "last_opened_file_path": "C:/Users/IONECOV/WebstormProjects/DWEC2425/RepasoMayo/Puzzles",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.splitter.proportion": "0.18255909",
+    "ts.external.directory.path": "C:\\Users\\IONECOV\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\RepasoMayo\Puzzles" />
       <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\RepasoMayo\ExamenHundirFlota" />
       <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\RepasoMayo\ExamenFiguras" />
       <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\SegundoTrimestre\Examen2EvCorregido" />
       <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\Examen" />
-      <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\SegundoTrimestre\UT09" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\ExamenRecuperacion2EV" />
@@ -238,15 +269,8 @@
       <workItem from="1741691011224" duration="107000" />
       <workItem from="1741691127310" duration="6273000" />
       <workItem from="1741766751888" duration="5985000" />
-      <workItem from="1742296394720" duration="4952000" />
-    </task>
-    <task id="LOCAL-00007" summary="C6 he sacado el cuadrado">
-      <option name="closed" value="true" />
-      <created>1727856500571</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1727856500571</updated>
+      <workItem from="1742296394720" duration="5440000" />
+      <workItem from="1742371506368" duration="5558000" />
     </task>
     <task id="LOCAL-00008" summary="C7 ich habe genug">
       <option name="closed" value="true" />
@@ -632,7 +656,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741772560270</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="ILLO POCO A POCO">
+      <option name="closed" value="true" />
+      <created>1742301401912</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1742301401912</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

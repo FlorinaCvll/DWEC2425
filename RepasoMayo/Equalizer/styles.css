@@ -8,17 +8,16 @@ body {
 .equalizer {
     display: flex;
     align-items: flex-end;
-    gap: 5px;
+    gap: 5vh;
     position: relative;
 }
 
 .labels {
-    .labels {
         display: flex;
         justify-content: space-evenly;
         width: 100%;
-        margin-top: 50px;
-    }
+    margin-top: 50vh;
+
 }
 
 .equalizer-container {
