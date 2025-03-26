@@ -1,47 +1,72 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-color: black;
-    height: 100vh;
-    color: white;
     font-family: Arial, sans-serif;
-}
-
-.equalizer {
     display: flex;
-    align-items: flex-end;
-    gap: 5vh;
-    position: relative;
-}
-
-.labels {
-        display: flex;
-        justify-content: space-evenly;
-        width: 100%;
-    margin-top: 50vh;
-
-}
-
-.equalizer-container {
-    display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     height: 100vh;
-    position: relative;
-    justify-content: space-between;
+    background-color: rgba(240, 128, 128, 0.7);
 }
 
-.numbersLeft {
-    position: absolute;
+main {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    left: 0;
-    border: 2px solid pink;
+    align-items: center;
 }
 
-.numbersRight {
-    position: absolute;
+.columna1,
+.columna2,
+.columna3,
+.columna4,
+.columna5,
+.columna6,
+.columna7,
+.columna8,
+.columna9 {
+    padding: 6px;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    right: 0;
-    border: 2px solid yellow;
+    align-items: center;
+}
+
+.celda {
+    border: 1px solid black;
+    border-style: dotted;
+    height: 3vh;
+    width: 7vw;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.datos1 .celda,
+.datos2 .celda {
+    border: none;
+}
+
+#columna10 {
+    text-align: center;
+}
+
+.datos1 .celda {
+    justify-content: end;
+}
+
+.datos2 .celda {
+    justify-content: start;
+}
+
+.datos1 .celda,
+.datos2 .celda,
+div {
+    font-weight: bolder;
+}
+
+.celda-lila {
+    background: linear-gradient(to bottom, rgba(148, 4, 148, 0.37), rgba(148, 4, 148, 1));
 }
