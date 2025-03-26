@@ -7,12 +7,65 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb69af3b-28b0-40a6-9c78-d8f8695315ae" name="Changes" comment="c050225 a este paso descansamos todos">
-      <change afterPath="$PROJECT_DIR$/ExamenRecuperacion2EV/Index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExamenRecuperacion2EV/Script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExamenRecuperacion2EV/Style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lilly/Notas" afterDir="false" />
+    <list default="true" id="fb69af3b-28b0-40a6-9c78-d8f8695315ae" name="Changes" comment="heloooo">
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/BarajaCartas/img/01-bastos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/BarajaCartas/img/01-copas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/BarajaCartas/img/01-espadas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/BarajaCartas/img/01-oros.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/BarajaCartas/img/02-bastos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/BarajaCartas/img/02-copas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/BarajaCartas/img/02-espadas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/BarajaCartas/img/02-oros.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/BarajaCartas/img/03-bastos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/BarajaCartas/img/03-copas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/BarajaCartas/img/03-espadas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/BarajaCartas/img/03-oros.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/BarajaCartas/img/04-bastos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/BarajaCartas/img/04-copas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/BarajaCartas/img/04-espadas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/BarajaCartas/img/04-oros.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/BarajaCartas/img/05-bastos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/BarajaCartas/img/05-copas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/BarajaCartas/img/05-espadas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/BarajaCartas/img/05-oros.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/BarajaCartas/img/06-bastos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/BarajaCartas/img/06-copas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/BarajaCartas/img/06-espadas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/BarajaCartas/img/06-oros.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/BarajaCartas/img/07-bastos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/BarajaCartas/img/07-copas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/BarajaCartas/img/07-espadas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/BarajaCartas/img/07-oros.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/BarajaCartas/img/08-bastos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/BarajaCartas/img/08-copas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/BarajaCartas/img/08-espadas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/BarajaCartas/img/08-oros.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/BarajaCartas/img/09-bastos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/BarajaCartas/img/09-copas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/BarajaCartas/img/09-espadas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/BarajaCartas/img/09-oros.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/BarajaCartas/img/10-bastos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/BarajaCartas/img/10-copas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/BarajaCartas/img/10-espadas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/BarajaCartas/img/10-oros.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/BarajaCartas/img/11-bastos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/BarajaCartas/img/11-copas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/BarajaCartas/img/11-espadas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/BarajaCartas/img/11-oros.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/BarajaCartas/img/12-bastos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/BarajaCartas/img/12-copas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/BarajaCartas/img/12-espadas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/BarajaCartas/img/12-oros.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/BarajaCartas/img/reverso.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/BarajaCartas/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/BarajaCartas/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/BarajaCartas/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/Equalizer/ScriptPrueba2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RepasoMayo/Equalizer/ScriptPruebas.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepasoMayo/Equalizer/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/RepasoMayo/Equalizer/Index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepasoMayo/Equalizer/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/RepasoMayo/Equalizer/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RepasoMayo/Equalizer/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/RepasoMayo/Equalizer/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,51 +125,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;disable.download.node.interpreter.editor.notification&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;#7 on master&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;23.6.1&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;22.12.0&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/IONECOV/WebstormProjects/DWEC2425/SegundoTrimestre/Examen2EvCorregido&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Settings.ZenUml&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.18255909&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\IONECOV\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "disable.download.node.interpreter.editor.notification": "true",
+    "git-widget-placeholder": "#9 on master",
+    "javascript.nodejs.core.library.configured.version": "23.6.1",
+    "javascript.nodejs.core.library.typings.version": "22.12.0",
+    "last_opened_file_path": "C:/Users/IONECOV/WebstormProjects/DWEC2425/RepasoMayo/BarajaCartas",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.splitter.proportion": "0.18255909",
+    "ts.external.directory.path": "C:\\Users\\IONECOV\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\SegundoTrimestre\Examen2EvCorregido" />
-      <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\Examen" />
-      <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\SegundoTrimestre\UT09" />
-      <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\SegundoTrimestre\UT09\362_1_cargar_mapa_promesas" />
-      <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\SegundoTrimestre\UT08\304_1_propagacion_Eventos_Orden" />
+      <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\RepasoMayo\BarajaCartas" />
+      <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\RepasoMayo" />
+      <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\RepasoMayo\Puzzles" />
+      <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\RepasoMayo\ExamenHundirFlota" />
+      <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\RepasoMayo\ExamenFiguras" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\RepasoMayo\BarajaCartas" />
       <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\ExamenRecuperacion2EV" />
       <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\Brenn batene" />
       <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\SegundoTrimestre\UT10\388_ajax_binario" />
       <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\SegundoTrimestre\UT10" />
-      <recent name="C:\Users\IONECOV\WebstormProjects\DWEC2425\SegundoTrimestre\UT09" />
     </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-WS-243.23654.157" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.26053.12" />
       </set>
     </attachedChunks>
   </component>
@@ -228,71 +281,22 @@
       <workItem from="1738670317037" duration="276000" />
       <workItem from="1738743796706" duration="5552000" />
       <workItem from="1738755676691" duration="5000" />
-      <workItem from="1739175209497" duration="11459000" />
-    </task>
-    <task id="LOCAL-00001" summary="C1">
-      <option name="closed" value="true" />
-      <created>1726821719471</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1726821719471</updated>
-    </task>
-    <task id="LOCAL-00002" summary="C2 prueba">
-      <option name="closed" value="true" />
-      <created>1727176049108</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1727176049108</updated>
-    </task>
-    <task id="LOCAL-00003" summary="C3">
-      <option name="closed" value="true" />
-      <created>1727247623015</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1727247623015</updated>
-    </task>
-    <task id="LOCAL-00004" summary="C3">
-      <option name="closed" value="true" />
-      <created>1727247656152</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1727247656152</updated>
-    </task>
-    <task id="LOCAL-00005" summary="C4 andiamo">
-      <option name="closed" value="true" />
-      <created>1727693653194</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1727693653194</updated>
-    </task>
-    <task id="LOCAL-00006" summary="C5 no entiendo nada">
-      <option name="closed" value="true" />
-      <created>1727786548135</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1727786548135</updated>
-    </task>
-    <task id="LOCAL-00007" summary="C6 he sacado el cuadrado">
-      <option name="closed" value="true" />
-      <created>1727856500571</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1727856500571</updated>
-    </task>
-    <task id="LOCAL-00008" summary="C7 ich habe genug">
-      <option name="closed" value="true" />
-      <created>1728464174616</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1728464174616</updated>
+      <workItem from="1739175209497" duration="11491000" />
+      <workItem from="1739954532072" duration="3525000" />
+      <workItem from="1740481665802" duration="31000" />
+      <workItem from="1740481706057" duration="6061000" />
+      <workItem from="1740557133960" duration="5909000" />
+      <workItem from="1741162167184" duration="4712000" />
+      <workItem from="1741167170093" duration="705000" />
+      <workItem from="1741255179789" duration="3000" />
+      <workItem from="1741691011224" duration="107000" />
+      <workItem from="1741691127310" duration="6273000" />
+      <workItem from="1741766751888" duration="5985000" />
+      <workItem from="1742296394720" duration="5440000" />
+      <workItem from="1742371506368" duration="5580000" />
+      <workItem from="1742900986493" duration="46000" />
+      <workItem from="1742901043331" duration="5936000" />
+      <workItem from="1742976563219" duration="5360000" />
     </task>
     <task id="LOCAL-00009" summary="C8 amen">
       <option name="closed" value="true" />
@@ -614,7 +618,79 @@
       <option name="project" value="LOCAL" />
       <updated>1738748791191</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="no me mato pq estoy vaga">
+      <option name="closed" value="true" />
+      <created>1739186807169</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1739186807169</updated>
+    </task>
+    <task id="LOCAL-00050" summary="que">
+      <option name="closed" value="true" />
+      <created>1739958310795</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1739958310810</updated>
+    </task>
+    <task id="LOCAL-00051" summary="queeeeeeeeeeeeeeeeeee">
+      <option name="closed" value="true" />
+      <created>1740488063294</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1740488063296</updated>
+    </task>
+    <task id="LOCAL-00052" summary="vale yaaaaaaaaaaaaaaaaaaa">
+      <option name="closed" value="true" />
+      <created>1740563093606</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1740563093622</updated>
+    </task>
+    <task id="LOCAL-00053" summary="sabesss tu lo que vamos a hacer? por que yo no">
+      <option name="closed" value="true" />
+      <created>1741167223167</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1741167223167</updated>
+    </task>
+    <task id="LOCAL-00054" summary="sabesss tu lo que vamos a hacer? por que yo noOO">
+      <option name="closed" value="true" />
+      <created>1741167727441</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1741167727441</updated>
+    </task>
+    <task id="LOCAL-00055" summary="ILLO POCO A POCO">
+      <option name="closed" value="true" />
+      <created>1741772560270</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1741772560270</updated>
+    </task>
+    <task id="LOCAL-00056" summary="ILLO POCO A POCO">
+      <option name="closed" value="true" />
+      <created>1742301401912</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1742301401912</updated>
+    </task>
+    <task id="LOCAL-00057" summary="heloooo">
+      <option name="closed" value="true" />
+      <created>1742377119461</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1742377119461</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -624,15 +700,6 @@
     <option name="UPDATE_COPYRIGHT" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="c24 tatkatk" />
-    <MESSAGE value="c25 nie nie" />
-    <MESSAGE value="c27 me duele el cuello" />
-    <MESSAGE value="c29 examen" />
-    <MESSAGE value="c30" />
-    <MESSAGE value="c31" />
-    <MESSAGE value="c32" />
-    <MESSAGE value="c33" />
-    <MESSAGE value="c34" />
     <MESSAGE value="c35" />
     <MESSAGE value="c36 amen señor" />
     <MESSAGE value="cX" />
@@ -649,7 +716,16 @@
     <MESSAGE value="c240125" />
     <MESSAGE value="c290125x2" />
     <MESSAGE value="c050225 a este paso descansamos todos" />
-    <option name="LAST_COMMIT_MESSAGE" value="c050225 a este paso descansamos todos" />
+    <MESSAGE value="no me mato pq estoy vaga" />
+    <MESSAGE value="que" />
+    <MESSAGE value="queeeeeeeeeeeeeeeeeee" />
+    <MESSAGE value="vale yaaaaaaaaaaaaaaaaaaa" />
+    <MESSAGE value="sabesss tu lo que vamos a hacer? por que yo no" />
+    <MESSAGE value="sabesss tu lo que vamos a hacer? por que yo noOO" />
+    <MESSAGE value="que sueñito" />
+    <MESSAGE value="ILLO POCO A POCO" />
+    <MESSAGE value="heloooo" />
+    <option name="LAST_COMMIT_MESSAGE" value="heloooo" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+}
+
+#imagenesArriba {
+    height: 15vh;
+    /* background-color: mediumspringgreen;*/
+}
+
+#imagenesAbajo {
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: mediumspringgreen;
+    align-items: center;
+}
+
+#cuerpo {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.juego {
+    margin: 2vh;
+    height: 10vh;
+}
+
+.filaUno {
+    /*border: 2px solid deeppink;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filaDos {
+    /*border:2px solid blue ;*/
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.filaTres {
+    /* border: 2px solid yellow;*/
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ocultar {
+    visibility: hidden;
+}
+
+.transparente {
+    opacity: 0.5;
+}
+
+#vidas {
+    background-color: #868383;
+    padding: 5vh;
+    text-align: center;
+    font-size: 8vh;
+}
+
+.zonaVidas {
+    padding: 1vh;
+    width: 25%;
+}
+
+.vidas4 {
+    background-color: rgb(78, 255, 78);
+}
+
+.vidas3 {
+    background-color: yellow;
+}
+
+.vidas2 {
+    background-color: orange;
+}
+
+.vidas1 {
+    background-color: red;
+}
+
+#vidas, #imagenesAbajo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 15vh;
+}
