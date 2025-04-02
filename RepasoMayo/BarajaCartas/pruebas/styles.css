@@ -1,0 +1,69 @@
+.titulo {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #d793e5;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body, html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #fed3fd;
+}
+
+.cartas, .monton {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100px;
+    height: 150px;
+    margin: 5px;
+    cursor: pointer;
+
+}
+
+.cartas {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+}
+
+img {
+    width: 100px;
+}
+
+.img-monton {
+    position: absolute;
+    left: 0;
+}
+
+#monton1 {
+    left: 5px;
+}
+
+#monton2 {
+    left: 10px;
+}
+
+.numero {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.numero-invertido {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    transform: rotate(180deg);
+}
+
+.imagen-carta {
+    max-width: 65%;
+    max-height: 100%;
+}

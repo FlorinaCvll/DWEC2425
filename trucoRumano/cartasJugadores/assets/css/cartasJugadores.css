@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+#inicio {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#juego {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+#inicio {
+    background: linear-gradient(lightblue, lightpink, lightcoral, lightgreen);
+}
+
+#jugadorUno, #jugadorDos {
+    width: 20vw;
+    height: 100%;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#jugadorDos {
+    background-color: lightpink;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 2vh;
+    text-decoration: dotted;
+}
+
+input {
+    border-radius: 3vw;
+    padding: 0.5vw;
+}
+
+#formulario {
+    width: 60vw;
+    height: 50vh;
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset {
+    padding: 1vw;
+    border: 0.3vw solid #747171;
+    border-radius: 2vw;
+    margin-bottom: 2vw;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#ring {
+    width: 60vw;
+    height: 50vh;
+    background-color: lightcoral;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.carta {
+    border: 0.3vw solid black;
+    border-radius: 1vw;
+    padding: 1vw;
+    margin-bottom: 1vw;
+    width: 90%;
+    height: 25vh;
+}
+
+.mostrar, .ocultar {
+    margin-bottom: 0.5vh;
+    border: 0.3vw solid #747171;
+    border-radius: 2vw;
+    padding: 1vw;
+    cursor: pointer;
+}
+
+.oculta {
+    display: none;
+}
