@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sopa de letras</title>
+
+    <link href="css/style.css" media="all" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/jquery-ui.css" rel="stylesheet" type="text/css">
+    <link href="css/jquery.tagit.css" rel="stylesheet" type="text/css">
+
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <!-- Librerias para generar el juego -->
+    <script src="js/wordfind.js" type="text/javascript"></script>
+    <script src="js/wordfindgame.js" type="text/javascript"></script>
+
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/jquery-ui.min.js" type="text/javascript"></script>
+    <!-- Libreria para ingreso de palabras -->
+    <script src="js/tag-it.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div class="container">
+    <div class="row">
+        <script type="text/javascript">
+            var ListaPalabras;
+            $(document).ready(function () {
+                ListaPalabras = $("#listaPalabras").tagit({});
+                Crear();
+            });
+        </script>
+        <div class="row text-center">
+            <br/>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4>Escriba las palabras, luego presiona el botón <strong>"Crear Juego"</strong></h4>
+                </div>
+                <div class="panel-body">
+                    <!-- Palabras por defecto -->
+                    <ul id="listaPalabras">
+                        <li>Palabra</li>
+                        <li>Busqueda</li>
+                        <li>Tecnologia</li>
+                        <li>Mocion</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="row text-center">
+            <div>
+                <div class="row">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4>Sopa de letras</h4>
+                        </div>
+                        <div class="panel-body row">
+                            <div class="">
+                                <button class="btn btn-success btn-lg" onclick="Crear();"> Crear Juego</button>
+                                <button class="btn btn-danger btn-lg" id='solve'> Resolver</button>
+                            </div>
+                            <!-- Resultado de la sopa de letras con las palabras a buscar -->
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div id='Palabras'></div>
+                                </div>
+                                <div class="col-md-9">
+                                    <div id='juego'></div>
+                                    <p>Busca las palabras que aparecen al lado derecho de la sopa de letras, deberas de
+                                        mentener seleccionado con el raton las letras que crees que conforman la
+                                        palabras y si la palabra coincide con la que se busca se
+                                        colocara de color azul y se quitara de la lista.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- controlar la sopa de letras -->
+        <script>
+            var palabras = [];
+            var juego;
+
+            function Crear() {
+                // Tomar las palabras de la lista e introducurlas en un array
+                datos = ListaPalabras[0].textContent.trim().split("×");
+                for (i = 0; i < (datos.length) - 1; i++) {
+                    palabras.push(datos[i]);
+                }
+
+                $('#Juegos').show();
+                /*
+                  se esta indicando que en el contenedor con el id juego se va a mostrar la sopa de letras
+                  y el contenedor con el id palabras va a mostrar las palabras a buscar
+                */
+                juego = wordfindgame.create(datos, '#juego', '#Palabras');
+                // Estructura de la sopa de letras
+                var puzzle = wordfind.newPuzzle(datos, {
+                    height: 18,
+                    width: 18,
+                    fillBlanks: false
+                });
+            }
+
+            $('#solve').click(function () {
+                wordfindgame.solve(juego, palabras);
+            });
+        </script>
+</body>
+
+</html>

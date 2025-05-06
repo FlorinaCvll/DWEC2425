@@ -1,0 +1,141 @@
+:root {
+    --primary-color: #8e44ad;
+    --secondary-color: #f3d4f9;
+    --accent-color: #d793e5;
+    --text-color: #333;
+    --shadow-color: rgba(0, 0, 0, 0.2);
+}
+
+body,
+html {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background: linear-gradient(135deg, var(--secondary-color) 0%, #fff 100%);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+}
+
+.titulo {
+    font-size: 40px;
+    text-align: center;
+    margin: 20px auto;
+    background: linear-gradient(to right, #9b59b6, #8e44ad);
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px var(--shadow-color);
+    max-width: 800px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+.cartas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    max-width: 1400px;
+    margin: 30px auto;
+    border: 5px solid black;
+}
+
+.cartas > div {
+    width: 100px;
+    height: 150px;
+    position: relative;
+    transition: transform 0.6s;
+    cursor: pointer;
+    margin: 5px;
+    border: 7px solid var(--primary-color);
+}
+
+.cartas > div:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.monton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100px;
+    height: 150px;
+    margin: 30px auto;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    perspective: 1000px;
+}
+
+.monton:hover {
+    transform: scale(1.05);
+}
+
+.monton:active {
+    transform: scale(0.95);
+}
+
+.img-monton {
+    width: 100px;
+    position: absolute;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px var(--shadow-color);
+    transition: all 0.3s ease;
+}
+
+#carta1 {
+    left: 5px;
+    top: 2px;
+}
+
+#carta2 {
+    left: 10px;
+    top: 4px;
+}
+
+.numeroArriba {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-weight: bold;
+    font-size: 19px;
+    color: var(--text-color);
+}
+
+.numeroAbajo {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    transform: rotate(180deg);
+    font-weight: bold;
+    font-size: 19px;
+    color: var(--text-color);
+}
+
+.img-carta {
+    width: 1rem;
+    max-height: 100%;
+    display: block;
+    margin: 0px auto;
+    margin-top: 24px;
+}
+
+@media (max-width: 768px) {
+    .titulo {
+        font-size: 29px;
+        padding: 12px;
+    }
+
+    .cartas {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .titulo {
+        font-size: 24px;
+        padding: 10px;
+    }
+}

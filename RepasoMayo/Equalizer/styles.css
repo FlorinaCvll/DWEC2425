@@ -4,17 +4,24 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    background-color: rgba(240, 128, 128, 0.7);
+    min-height: 100vh;
+    background: linear-gradient(135deg, #FFE6F3, #FFC0CB);
+    padding: 15px;
 }
 
 main {
     display: flex;
     align-items: center;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(255, 192, 203, 0.3);
+    gap: 6px;
+    overflow-x: auto;
 }
 
 .columna1,
@@ -31,22 +38,27 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 5px;
 }
 
 .celda {
-    border: 1px solid black;
-    border-style: dotted;
+    border: 2px dotted #FF69B4;
+    border-radius: 8px;
     height: 3vh;
     width: 7vw;
     margin-bottom: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 0.3s ease;
+    background: white;
 }
 
 .datos1 .celda,
 .datos2 .celda {
     border: none;
+    color: #FF1493;
+    font-weight: bold;
 }
 
 #columna10 {
@@ -65,8 +77,111 @@ main {
 .datos2 .celda,
 div {
     font-weight: bolder;
+    color: #800080;
 }
 
 .celda-lila {
-    background: linear-gradient(to bottom, rgba(148, 4, 148, 0.37), rgba(148, 4, 148, 1));
+    background: linear-gradient(to bottom, #FF69B4, #DA70D6);
+    border: none;
+    color: white;
+    animation: glow 1.5s infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        box-shadow: 0 0 5px #FF69B4;
+    }
+    to {
+        box-shadow: 0 0 15px #DA70D6;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .celda {
+        width: 6vw;
+        height: 2.8vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .celda {
+        width: 5vw;
+        height: 2.5vh;
+        font-size: 0.9em;
+    }
+
+    main {
+        padding: 15px;
+        gap: 4px;
+    }
+
+    .columna1,
+    .columna2,
+    .columna3,
+    .columna4,
+    .columna5,
+    .columna6,
+    .columna7,
+    .columna8,
+    .columna9 {
+        padding: 4px;
+    }
+}
+
+@media (max-width: 480px) {
+    .celda {
+        width: 4vw;
+        height: 2vh;
+        font-size: 0.8em;
+        border-width: 1px;
+    }
+
+    main {
+        padding: 10px;
+        gap: 3px;
+    }
+
+    .columna1,
+    .columna2,
+    .columna3,
+    .columna4,
+    .columna5,
+    .columna6,
+    .columna7,
+    .columna8,
+    .columna9 {
+        padding: 3px;
+    }
+}
+
+.celda:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(255, 105, 180, 0.5);
+}
+
+main::-webkit-scrollbar {
+    height: 8px;
+}
+
+main::-webkit-scrollbar-track {
+    background: #FFE6F3;
+    border-radius: 4px;
+}
+
+main::-webkit-scrollbar-thumb {
+    background: #FF69B4;
+    border-radius: 4px;
+}
+
+
+@media (max-width: 380px) {
+    body {
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    main {
+        margin-top: 20px;
+    }
 }

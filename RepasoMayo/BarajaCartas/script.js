@@ -95,6 +95,43 @@ function mostrarCartaDeBaraja(baraja) {
     }
 }
 
+
+function barajarCartas(cartas) {
+    for (let i = cartas.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [cartas[i], cartas[j]] = [cartas[j], cartas[i]];
+    }
+}
+
+function ordenarCartasPorPaloYNumero(cartas) {
+    const palosOrden = ['Oros', 'Copas', 'Espadas', 'Bastos'];
+    cartas.sort((a, b) => {
+        const indexA = palosOrden.indexOf(a.palo);
+        const indexB = palosOrden.indexOf(b.palo);
+        if (indexA === indexB) {
+            return a.numero - b.numero;
+        }
+        return indexA - indexB;
+    });
+}
+
+function mostrarCartasOrdenadasODesordenadas() {
+    const contenedores = {
+        Oros: document.getElementById('cartas-oros'),
+        Copas: document.getElementById('cartas-copas'),
+        Espadas: document.getElementById('cartas-espadas'),
+        Bastos: document.getElementById('cartas-bastos')
+    };
+
+    Object.values(contenedores).forEach(contenedor => contenedor.innerHTML = '');
+
+    // Añade las cartas a sus respectivos contenedores
+    cartasDescubiertas.forEach(carta => {
+        const cartaElemento = crearElementoCarta(carta.numero, carta.palo);
+        contenedores[carta.palo].appendChild(cartaElemento);
+    });
+}
+
 window.onload = function () {
     // recoger el div de las barajas individuales
     const mazoOros = document.getElementsByClassName('baraja oros')[0];
@@ -107,4 +144,21 @@ window.onload = function () {
     mazoCopas.addEventListener('click', () => mostrarCartaDeBaraja(barajaCopas));
     mazoEspadas.addEventListener('click', () => mostrarCartaDeBaraja(barajaEspadas));
     mazoBastos.addEventListener('click', () => mostrarCartaDeBaraja(barajaBastos));
+
+    const contenedorCartas = document.getElementById('cartas');
+    let desordenado = false;
+
+    contenedorCartas.addEventListener('dblclick', () => {
+        if (cartasDescubiertas.length > 0) {
+            if (desordenado) {
+                ordenarCartasPorPaloYNumero(cartasDescubiertas);
+                desordenado = false;
+            } else {
+                barajarCartas(cartasDescubiertas);
+                desordenado = true;
+            }
+            mostrarCartasOrdenadasODesordenadas();
+        }
+    });
+
 }

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=5.0" name="viewport">
+    <title>Cartas Jugadores</title>
+    <link href="style.css" rel="stylesheet">
+    <script defer src="Script.js"></script>
+</head>
+<body>
+<div id="inicio">
+    <div class="sparkle" style="top: 15%; left: 20%;"></div>
+    <div class="sparkle" style="top: 25%; right: 15%;"></div>
+    <div class="sparkle" style="bottom: 20%; left: 15%;"></div>
+    <div class="sparkle" style="bottom: 30%; right: 25%;"></div>
+
+    <h2>Introducir los nombres de los jugadores:</h2>
+    <form id="nombreJugadoresForm">
+        <div>
+            <label for="nombreJugador1">Nombre Jugador 1:</label>
+            <span class="decoration">🌸</span>
+            <input id="nombreJugador1" placeholder="ej: Candela" required type="text">
+            <span class="decoration">🌸</span>
+
+        </div>
+        <div>
+            <label for="nombreJugador2">Nombre Jugador 2:</label>
+            <span class="decoration">🌸</span>
+            <input id="nombreJugador2" placeholder="ej: Florina" required type="text">
+            <span class="decoration">🌸</span>
+
+        </div>
+        <div>
+            <input type="submit" value="Iniciar Partida">
+        </div>
+    </form>
+</div>
+<div id="juego" style="display: none;">
+    <div id="jugadorUno">
+        <p id="nombreJugador1Display">JUGADOR 1: </p>
+        <div class="mostrar" id="mostrar1">
+            Mostrar Cartas
+        </div>
+        <div class="ocultar" id="ocultar1">
+            Ocultar Cartas
+        </div>
+        <div class="carta" id="j1c1">
+            <p class="nombre">NOMBRE: </p>
+            <p class="fuerza">FUERZA: </p>
+            <p class="defensa">DEFENSA: </p>
+            <p class="habilidad">HABILIDAD: </p>
+        </div>
+        <div class="carta" id="j1c2">
+            <p class="nombre">NOMBRE: </p>
+            <p class="fuerza">FUERZA: </p>
+            <p class="defensa">DEFENSA: </p>
+            <p class="habilidad">HABILIDAD: </p>
+        </div>
+        <div class="carta" id="j1c3">
+            <p class="nombre">NOMBRE: </p>
+            <p class="fuerza">FUERZA: </p>
+            <p class="defensa">DEFENSA: </p>
+            <p class="habilidad">HABILIDAD: </p>
+        </div>
+    </div>
+    <div id="centro">
+        <div id="formulario">
+            <form id="crearCartaForm">
+                <fieldset>
+                    <legend>DATOS CARTA</legend>
+                    <div>
+                        <label for="nombreCarta">Nombre:</label>
+                        <input id="nombreCarta" name="nombre" required type="text"><br><br>
+                    </div>
+                    <div>
+                        <label for="fuerza">Fuerza:</label>
+                        <input id="fuerza" max="30" min="0" name="fuerza" required type="number"><br><br>
+                    </div>
+                    <div>
+                        <label for="defensa">Defensa:</label>
+                        <input id="defensa" max="30" min="0" name="defensa" required type="number"><br><br>
+                    </div>
+                    <div>
+                        <label for="habilidad">Habilidad:</label>
+                        <input id="habilidad" max="30" min="0" name="habilidad" required type="number"><br><br>
+                    </div>
+                    <div>
+                        <input type="submit" value="Crear Carta">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        <div id="ring">
+            <div class="carta" id="cj1">
+                <p class="nombre">NOMBRE: </p>
+                <p class="fuerza">FUERZA: </p>
+                <p class="defensa">DEFENSA: </p>
+                <p class="habilidad">HABILIDAD: </p>
+            </div>
+            <div class="carta" id="cj2">
+                <p class="nombre">NOMBRE: </p>
+                <p class="fuerza">FUERZA: </p>
+                <p class="defensa">DEFENSA: </p>
+                <p class="habilidad">HABILIDAD: </p>
+            </div>
+        </div>
+    </div>
+    <div id="jugadorDos">
+        <p id="nombreJugador2Display">JUGADOR 2: </p>
+        <div class="mostrar" id="mostrar2">
+            Mostrar Cartas
+        </div>
+        <div class="ocultar" id="ocultar2">
+            Ocultar Cartas
+        </div>
+        <div class="carta" id="j2c1">
+            <p class="nombre">NOMBRE: </p>
+            <p class="fuerza">FUERZA: </p>
+            <p class="defensa">DEFENSA: </p>
+            <p class="habilidad">HABILIDAD: </p>
+        </div>
+        <div class="carta" id="j2c2">
+            <p class="nombre">NOMBRE: </p>
+            <p class="fuerza">FUERZA: </p>
+            <p class="defensa">DEFENSA: </p>
+            <p class="habilidad">HABILIDAD: </p>
+        </div>
+        <div class="carta" id="j2c3">
+            <p class="nombre">NOMBRE: </p>
+            <p class="fuerza">FUERZA: </p>
+            <p class="defensa">DEFENSA: </p>
+            <p class="habilidad">HABILIDAD: </p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

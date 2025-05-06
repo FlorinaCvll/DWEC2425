@@ -1,0 +1,326 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+}
+
+:root {
+    --base-size: clamp(12px, 2vw, 20px);
+    --color-primary: #FFB6C1;
+    --color-secondary: #E6E6FA;
+    --color-accent: #FF99CC;
+    --color-text: #D8A1D8;
+    --color-background: #FFF0F5;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, var(--color-background), var(--color-secondary));
+    color: var(--color-text);
+    font-family: 'Comic Sans MS', Arial, sans-serif;
+    padding: clamp(1rem, 2vh, 2rem);
+}
+
+#ahorcado {
+    position: relative;
+    width: min(90%, 800px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: clamp(1rem, 2vh, 2rem);
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 8px 20px rgba(219, 112, 147, 0.2);
+    animation: sparkleIn 1.5s ease-out;
+}
+
+h1 {
+    font-size: clamp(1.5rem, calc(var(--base-size) * 2), 2.5rem);
+    text-align: center;
+    margin-bottom: clamp(1rem, 2vh, 2rem);
+    color: var(--color-accent);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    animation: rainbowText 3s infinite, bounceIn 1s ease-out;
+}
+
+#linea1, #linea2, #linea3, #linea4, #linea5, #linea6, #linea7 {
+    white-space: pre;
+    margin: 0;
+    padding: 0;
+    color: var(--color-primary);
+    font-family: monospace;
+    font-size: clamp(1rem, calc(var(--base-size) * 1.2), 1.5rem);
+    line-height: 1.2;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#palabra {
+    font-size: clamp(1.5rem, calc(var(--base-size) * 1.8), 2.5rem);
+    letter-spacing: clamp(0.2rem, 0.5vw, 0.8rem);
+    word-spacing: clamp(0.5rem, 1vw, 1.5rem);
+    margin: clamp(2rem, 4vh, 4rem) 0;
+    text-align: center;
+    min-height: 1.5em;
+    color: var(--color-accent);
+}
+
+#letras {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: clamp(0.5rem, 2vh, 1.5rem);
+}
+
+#letras p {
+    font-size: clamp(1rem, calc(var(--base-size) * 1.2), 1.5rem);
+    color: var(--color-text);
+}
+
+#letritas {
+    font-size: clamp(0.9rem, calc(var(--base-size) * 1.1), 1.3rem);
+    letter-spacing: clamp(0.1rem, 0.3vw, 0.5rem);
+    text-align: center;
+    min-height: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: clamp(0.3rem, 1vh, 0.8rem) clamp(0.3rem, 1vw, 0.8rem);
+    padding: clamp(0.5rem, 1vh, 1rem);
+}
+
+#letritas span {
+    display: inline-block;
+    padding: 0.3em;
+    color: var(--color-text);
+    transition: transform 0.3s ease;
+}
+
+#letritas span:hover {
+    transform: scale(1.1);
+    color: var(--color-accent);
+}
+
+#letritas sub {
+    font-size: 0.6em;
+    color: var(--color-primary);
+}
+
+#mensaje {
+    font-size: clamp(1rem, calc(var(--base-size) * 1.2), 1.5rem);
+    text-align: center;
+    margin-top: clamp(1rem, 2vh, 2rem);
+    min-height: 1.5em;
+    color: var(--color-accent);
+}
+
+pre {
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+
+#letritas span, h1, #mensaje {
+    animation: floatAnimation 3s ease-in-out infinite;
+}
+
+@keyframes floatAnimation {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+#letritas span {
+    animation: popIn 0.5s ease-out backwards;
+    animation-delay: calc(var(--order) * 0.1s);
+}
+
+
+#mensaje {
+    animation: glowPulse 2s infinite;
+}
+
+
+@keyframes rainbowText {
+    0% {
+        color: #FFB6C1;
+    }
+    25% {
+        color: #DDA0DD;
+    }
+    50% {
+        color: #FF99CC;
+    }
+    75% {
+        color: #E6E6FA;
+    }
+    100% {
+        color: #FFB6C1;
+    }
+}
+
+@keyframes sparkleIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.3) rotate(-10deg);
+    }
+    50% {
+        transform: scale(1.1) rotate(5deg);
+    }
+    75% {
+        transform: scale(0.95) rotate(-2deg);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1) rotate(0);
+    }
+}
+
+@keyframes popIn {
+    0% {
+        opacity: 0;
+        transform: scale(0) rotate(-180deg);
+    }
+    70% {
+        transform: scale(1.2) rotate(10deg);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1) rotate(0);
+    }
+}
+
+@keyframes glowPulse {
+    0%, 100% {
+        text-shadow: 0 0 10px #FF99CC,
+        0 0 20px #FF99CC,
+        0 0 30px #FF99CC;
+    }
+    50% {
+        text-shadow: 0 0 15px #E6E6FA,
+        0 0 25px #E6E6FA,
+        0 0 35px #E6E6FA;
+    }
+}
+
+
+#ahorcado::before,
+#ahorcado::after {
+    content: '✨';
+    position: absolute;
+    font-size: 2rem;
+    animation: twinkle 1.5s infinite;
+}
+
+#ahorcado::before {
+    left: -20px;
+    top: -10px;
+}
+
+#ahorcado::after {
+    right: -20px;
+    bottom: -10px;
+}
+
+@keyframes twinkle {
+    0%, 100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0.5;
+        transform: scale(0.8);
+    }
+}
+
+
+#letritas span:hover {
+    transform: scale(1.2);
+    background: linear-gradient(135deg, #FFB6C1, #E6E6FA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 5px rgba(255, 182, 193, 0.5));
+}
+
+
+#linea1, #linea2, #linea3, #linea4, #linea5, #linea6, #linea7 {
+    animation: fadeInGlitter 1s ease-out backwards;
+    animation-delay: calc(var(--order) * 0.2s);
+}
+
+@keyframes fadeInGlitter {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    50% {
+        opacity: 0.5;
+        text-shadow: 0 0 10px #FF99CC;
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+@keyframes revealLetter {
+    0% {
+        color: var(--color-accent);
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    50% {
+        color: #FF69B4; /* Rosa más intenso para destacar */
+        transform: scale(1.2);
+    }
+    100% {
+        color: #FF1493; /* Rosa fuerte final */
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.letraRevelada {
+    animation: revealLetter 0.5s ease-out forwards;
+}
+
+
+@keyframes victoryLetter {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        color: #FFD700;
+        transform: scale(1.5) rotate(10deg);
+    }
+    100% {
+        color: #FFA500;
+        transform: scale(1) rotate(0deg);
+    }
+}
+
+.letra-ganadora {
+    display: inline-block;
+    margin: 0 5px;
+    font-size: 1.5em;
+    animation: victoryLetter 0.5s ease-out forwards;
+}
+
+.letra-ganadora:nth-child(even) {
+    animation-duration: 0.7s;
+    transform-origin: bottom;
+}
+
+.letra-ganadora:nth-child(odd) {
+    animation-duration: 0.6s;
+    transform-origin: top;
+}

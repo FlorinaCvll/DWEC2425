@@ -1,0 +1,2207 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;500;600&display=swap");
+
+:root {
+    --color-lila-pastel: #e0b0ff;
+    --color-rosa-pastel: #ffd1dc;
+    --color-azul-pastel: #bfefff;
+    --color-lila-claro: #f2e6ff;
+    --color-rosa-claro: #ffe4e8;
+    --color-azul-claro: #e6f9ff;
+    --color-amarillo-pastel: #ffffd1;
+    --color-verde-pastel: #ccffcc;
+    --borde-color: #c8a2c8;
+    --texto-color: #6b4f88;
+    --sombra: 0 4px 15px rgba(200, 162, 200, 0.2);
+    --fuente-cursiva: "Pacifico", cursive;
+}
+
+@keyframes sparkle {
+    0%,
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.05);
+        opacity: 0.8;
+    }
+}
+
+@keyframes pastelRainbow {
+    0% {
+        border-color: var(--color-lila-pastel);
+    }
+    33% {
+        border-color: var(--color-rosa-pastel);
+    }
+    66% {
+        border-color: var(--color-azul-pastel);
+    }
+    100% {
+        border-color: var(--color-lila-pastel);
+    }
+}
+
+@keyframes float {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes softGlow {
+    0%,
+    100% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+}
+
+@keyframes shake {
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-5px);
+    }
+    75% {
+        transform: translateX(5px);
+    }
+}
+
+@keyframes texte {
+    0% {
+        transform: translateY(0) rotate(0deg) scale(1);
+        background-position: 0% 50%;
+        text-shadow: 0 0 0 rgba(255, 182, 193, 0);
+    }
+    25% {
+        transform: translateY(-3px) rotate(-2deg) scale(1.1);
+        text-shadow: 2px 2px 4px rgba(255, 182, 193, 0.3), -2px -2px 4px rgba(224, 176, 255, 0.3);
+    }
+    50% {
+        transform: translateY(-1px) rotate(2deg) scale(1.1);
+        background-position: 100% 50%;
+        text-shadow: 3px 3px 6px rgba(191, 239, 255, 0.4), -3px -3px 6px rgba(255, 209, 220, 0.4);
+    }
+    75% {
+        transform: translateY(-3px) rotate(-1deg) scale(1.1);
+        text-shadow: 2px 2px 4px rgba(224, 176, 255, 0.3), -2px -2px 4px rgba(255, 182, 193, 0.3);
+    }
+    100% {
+        transform: translateY(0) rotate(0deg) scale(1);
+        background-position: 0% 50%;
+        text-shadow: 0 0 0 rgba(255, 182, 193, 0);
+    }
+}
+
+@keyframes heartbeat {
+    0%,
+    100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.15);
+    }
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes bounce {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+}
+
+@keyframes glitter {
+    0%,
+    100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}
+
+@keyframes colorChange {
+    0% {
+        color: var(--color-lila-pastel);
+    }
+    25% {
+        color: var(--color-rosa-pastel);
+    }
+    50% {
+        color: var(--color-azul-pastel);
+    }
+    75% {
+        color: var(--color-verde-pastel);
+    }
+    100% {
+        color: var(--color-lila-pastel);
+    }
+}
+
+html,
+body {
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: var(--color-lila-claro);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-size: clamp(14px, 2vw, 16px);
+}
+
+body::before,
+body::after {
+    content: "";
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: radial-gradient(circle, rgba(255, 255, 255, 0.8) 10%, transparent 10%),
+    radial-gradient(circle, rgba(255, 255, 255, 0.8) 10%, transparent 10%);
+    background-size: 30px 30px;
+    background-position: 0 0, 15px 15px;
+    pointer-events: none;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+#inicio {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(
+            135deg,
+            var(--color-azul-pastel),
+            var(--color-rosa-pastel),
+            var(--color-lila-pastel),
+            var(--color-amarillo-pastel)
+    );
+    background-size: 400% 400%;
+    animation: softGlow 15s ease infinite;
+    padding: clamp(1rem, 3vw, 2rem);
+    gap: clamp(1rem, 2vw, 2rem);
+    position: relative;
+}
+
+#inicio::before {
+    content: "✨";
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-size: 2rem;
+    animation: float 3s ease-in-out infinite;
+}
+
+#inicio::after {
+    content: "✨";
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    font-size: 2rem;
+    animation: float 4s ease-in-out infinite;
+}
+
+.decoration {
+    display: inline-block;
+    margin: 0 5px;
+    animation: bounce 2s ease-in-out infinite;
+}
+
+#inicio h2 {
+    color: var(--texto-color);
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    animation: fadeIn 1s ease-out;
+    text-shadow: 2px 2px 4px rgba(200, 162, 200, 0.3);
+    font-family: var(--fuente-cursiva);
+    position: relative;
+}
+
+#inicio h2::before,
+#inicio h2::after {
+    content: "💖";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.5rem;
+    animation: heartbeat 1.5s ease-in-out infinite;
+}
+
+#inicio h2::before {
+    left: -40px;
+}
+
+#inicio h2::after {
+    right: -40px;
+}
+
+#nombreJugadoresForm {
+    background: rgba(255, 255, 255, 0.9);
+    padding: clamp(1.5rem, 3vw, 2.5rem);
+    border-radius: 1.5rem;
+    box-shadow: var(--sombra);
+    width: clamp(280px, 90%, 500px);
+    animation: fadeIn 1s ease-out 0.3s backwards;
+    border: 3px solid var(--color-lila-pastel);
+    animation: pastelRainbow 6s linear infinite;
+    text-align: center;
+    position: relative;
+}
+
+#nombreJugadoresForm::before {
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 30px;
+    background: var(--color-rosa-pastel);
+    border-radius: 50% 50% 0 0;
+    z-index: -1;
+}
+
+#nombreJugadoresForm label {
+    color: var(--texto-color);
+    display: block;
+    margin-bottom: 0.8rem;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+    position: relative;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+#nombreJugadoresForm label::after {
+    content: "✨";
+    position: absolute;
+    opacity: 0;
+    right: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: opacity 0.3s ease;
+}
+
+#nombreJugadoresForm label:hover {
+    background: linear-gradient(
+            45deg,
+            var(--color-lila-pastel),
+            var(--color-rosa-pastel),
+            var(--color-azul-pastel),
+            var(--color-rosa-pastel),
+            var(--color-lila-pastel)
+    );
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: texte 2s ease-in-out infinite;
+    letter-spacing: 0.5px;
+}
+
+#nombreJugadoresForm label:hover::after {
+    opacity: 1;
+    animation: sparkle 1.5s ease infinite;
+}
+
+#nombreJugadoresForm input[type="text"] {
+    width: 80%;
+    padding: 1em;
+    margin-bottom: 1.5rem;
+    border: 2px solid var(--color-lila-pastel);
+    border-radius: 1rem;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+}
+
+#nombreJugadoresForm input[type="text"]:focus {
+    outline: none;
+    border-color: var(--color-rosa-pastel);
+    box-shadow: 0 0 10px rgba(255, 209, 220, 0.5);
+    transform: scale(1.02);
+}
+
+#nombreJugadoresForm input[type="submit"] {
+    width: 80%;
+    padding: 1rem;
+    background: linear-gradient(45deg, var(--color-lila-pastel), var(--color-rosa-pastel));
+    border: none;
+    border-radius: 2rem;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1.1rem;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(224, 176, 255, 0.3);
+}
+
+#nombreJugadoresForm input[type="submit"]::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+    transform: rotate(45deg);
+    transition: 0.6s;
+    opacity: 0;
+}
+
+#nombreJugadoresForm input[type="submit"]:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 7px 20px rgba(200, 162, 200, 0.5);
+    letter-spacing: 1px;
+}
+
+#nombreJugadoresForm input[type="submit"]:hover::before {
+    animation: sparkle 1.5s ease infinite;
+    opacity: 1;
+}
+
+/*----------------------------------YAAAAAAAAAAAAAAAAAAAAA---------------------------------------------*/
+#juego {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    background: linear-gradient(135deg, var(--color-lila-claro), var(--color-rosa-claro), var(--color-azul-claro));
+    background-size: 400% 400%;
+    animation: softGlow 20s ease infinite;
+}
+
+#jugadorUno,
+#jugadorDos {
+    flex: 1;
+    padding: clamp(0.5rem, 2vw, 1.5rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    transition: all 0.4s ease;
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+#jugadorUno {
+    background-color: var(--color-azul-claro);
+    border-right: 2px dashed var(--color-lila-pastel);
+}
+
+#jugadorDos {
+    background-color: var(--color-rosa-claro);
+    border-left: 2px dashed var(--color-lila-pastel);
+}
+
+#jugadorUno::before,
+#jugadorDos::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(circle, rgba(255, 255, 255, 0.8) 8%, transparent 8%),
+    radial-gradient(circle, rgba(255, 255, 255, 0.8) 8%, transparent 8%);
+    background-size: 40px 40px;
+    background-position: 0 0, 20px 20px;
+    pointer-events: none;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#jugadorUno:hover,
+#jugadorDos:hover {
+    transform: scale(1.01);
+}
+
+#nombreJugador1Display,
+#nombreJugador2Display {
+    font-family: var(--fuente-cursiva);
+    font-size: 1.5rem;
+    color: var(--texto-color);
+    text-align: center;
+    margin: 1rem 0;
+    position: relative;
+    z-index: 1;
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.8);
+    animation: colorChange 8s infinite;
+}
+
+#nombreJugador1Display::after,
+#nombreJugador2Display::after {
+    content: "👑";
+    position: absolute;
+    top: -15px;
+    right: -25px;
+    font-size: 1.2rem;
+    animation: float 3s ease-in-out infinite;
+}
+
+#centro {
+    width: 50%;
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: clamp(0.5rem, 2vw, 1.5rem);
+    overflow-y: auto;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+
+#centro::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at center, rgba(255, 255, 255, 0.8) 0%, transparent 70%);
+    pointer-events: none;
+    z-index: -1;
+}
+
+
+.carta {
+    background: white;
+    border-radius: 1rem;
+    padding: 1.2rem;
+    box-shadow: var(--sombra);
+    min-width: 250px;
+    width: clamp(200px, 90%, 300px);
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    margin-bottom: 1rem;
+    transition: all 0.4s ease;
+    position: relative;
+    overflow: hidden;
+    animation: fadeIn 0.5s ease-out;
+    z-index: 1;
+    border: 2px solid transparent;
+}
+
+.carta::after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 40px;
+    height: 40px;
+    background: var(--color-rosa-pastel);
+    border-radius: 50%;
+    opacity: 0.5;
+    z-index: -1;
+    transition: all 0.3s ease;
+}
+
+.carta:hover {
+    transform: translateY(-5px) rotate(1deg);
+    box-shadow: 0 10px 20px rgba(200, 162, 200, 0.4);
+    border-color: var(--color-rosa-pastel);
+}
+
+.carta:hover::after {
+    transform: scale(1.5);
+    opacity: 0.7;
+}
+
+.carta::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+    transform: rotate(45deg);
+    transition: 0.6s;
+    opacity: 0;
+}
+
+.carta:hover::before {
+    animation: sparkle 1.5s ease infinite;
+    opacity: 1;
+}
+
+.carta p {
+    color: var(--texto-color);
+    margin-bottom: 0.8rem;
+    font-size: 0.9rem;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s ease;
+}
+
+.carta:hover p {
+    transform: scale(1.03);
+    font-weight: 500;
+}
+
+.carta .nombre {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: var(--color-lila-pastel);
+    text-align: center;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.carta .nombre::after {
+    content: "✨";
+    position: absolute;
+    right: 10px;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.carta:hover .nombre::after {
+    opacity: 1;
+    animation: sparkle 1.5s ease infinite;
+}
+
+.carta .fuerza,
+.carta .defensa,
+.carta .habilidad {
+    position: relative;
+    padding-left: 25px;
+}
+
+.carta .fuerza::before {
+    content: "💪";
+    position: absolute;
+    left: 0;
+    font-size: 1rem;
+}
+
+.carta .defensa::before {
+    content: "🛡️";
+    position: absolute;
+    left: 0;
+    font-size: 1rem;
+}
+
+.carta .habilidad::before {
+    content: "✨";
+    position: absolute;
+    left: 0;
+    font-size: 1rem;
+}
+
+
+.mostrar,
+.ocultar {
+    background: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: var(--sombra);
+    width: 80%;
+    text-align: center;
+    color: var(--texto-color);
+    position: relative;
+    overflow: hidden;
+    font-weight: 600;
+    z-index: 1;
+}
+
+.mostrar::before,
+.ocultar::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+    transition: 0.5s;
+}
+
+.mostrar:hover::before,
+.ocultar:hover::before {
+    left: 100%;
+}
+
+.mostrar:hover,
+.ocultar:hover {
+    background: linear-gradient(45deg, var(--color-lila-pastel), var(--color-rosa-pastel));
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(200, 162, 200, 0.4);
+}
+
+
+#formulario {
+    background: white;
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    box-shadow: var(--sombra);
+    min-width: 280px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+#formulario::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    height: 20px;
+    background: var(--color-lila-pastel);
+    border-radius: 50% 50% 0 0;
+    z-index: -1;
+}
+
+fieldset {
+    border: 2px solid var(--color-lila-pastel);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    animation: pastelRainbow 6s linear infinite;
+    position: relative;
+}
+
+fieldset::before,
+fieldset::after {
+    content: "🌸";
+    position: absolute;
+    top: -10px;
+    font-size: 1.2rem;
+}
+
+fieldset::before {
+    left: 10px;
+}
+
+fieldset::after {
+    right: 10px;
+}
+
+legend {
+    background: linear-gradient(45deg, var(--color-lila-pastel), var(--color-rosa-pastel));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    padding: 0 1rem;
+    font-family: var(--fuente-cursiva);
+    font-size: 1.3rem;
+}
+
+#crearCartaForm div {
+    margin-bottom: 1rem;
+}
+
+#crearCartaForm label {
+    color: var(--texto-color);
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    position: relative;
+}
+
+#crearCartaForm label::after {
+    content: "✨";
+    position: absolute;
+    right: -20px;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+#crearCartaForm label:hover::after {
+    opacity: 1;
+    animation: sparkle 1.5s ease infinite;
+}
+
+#crearCartaForm input {
+    width: 98%;
+    padding: 0.8rem;
+    border: 2px solid var(--color-lila-pastel);
+    border-radius: 1rem;
+    margin-bottom: 0.5rem;
+    transition: all 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+#crearCartaForm input:focus {
+    outline: none;
+    transform: scale(1.02);
+    box-shadow: 0 0 15px rgba(224, 176, 255, 0.4);
+    border-color: var(--color-rosa-pastel);
+}
+
+#crearCartaForm input[type="submit"] {
+    background: linear-gradient(45deg, var(--color-lila-pastel), var(--color-rosa-pastel));
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    width: clamp(180px, 100%);
+    display: block;
+    margin: 1rem auto;
+    border-radius: 2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+#crearCartaForm input[type="submit"]::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+    transform: rotate(45deg);
+    transition: 0.6s;
+    opacity: 0;
+}
+
+#crearCartaForm input[type="submit"]:hover {
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 5px 15px rgba(200, 162, 200, 0.4);
+    background: linear-gradient(45deg, var(--color-rosa-pastel), var(--color-lila-pastel));
+    letter-spacing: 1px;
+}
+
+#crearCartaForm input[type="submit"]:hover::before {
+    animation: sparkle 1.5s ease infinite;
+    opacity: 1;
+}
+
+/* Ring area */
+#ring {
+    background-color: var(--color-rosa-claro);
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    box-shadow: var(--sombra);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    min-width: 280px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    border: 2px dashed var(--color-lila-pastel);
+}
+
+#ring::before {
+    content: "⚔️";
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.5rem;
+    background: white;
+    border-radius: 50%;
+    padding: 5px;
+    box-shadow: var(--sombra);
+    z-index: 2;
+}
+
+/* Personalización del scroll */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--color-lila-claro);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(var(--color-lila-pastel), var(--color-rosa-pastel));
+    border-radius: 10px;
+    border: 2px solid var(--color-lila-claro);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(var(--color-rosa-pastel), var(--color-lila-pastel));
+}
+
+/* Media Queries */
+@media screen and (max-width: 1200px) {
+    #juego {
+        flex-wrap: wrap;
+    }
+
+    #jugadorUno,
+    #jugadorDos {
+        width: 30%;
+        min-width: 250px;
+        height: auto;
+    }
+
+    #centro {
+        width: 100%;
+        order: -1;
+        height: auto;
+        min-height: 50vh;
+    }
+
+    #nombreJugador1Display::after,
+    #nombreJugador2Display::after {
+        top: -10px;
+        right: -20px;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #juego {
+        flex-direction: column;
+    }
+
+    #jugadorUno,
+    #jugadorDos,
+    #centro {
+        width: 100%;
+        height: auto;
+        min-height: auto;
+    }
+
+    #jugadorUno,
+    #jugadorDos {
+        border: none;
+        border-bottom: 2px dashed var(--color-lila-pastel);
+        padding-bottom: 2rem;
+    }
+
+    #formulario {
+        animation: none;
+    }
+
+    #inicio h2::before,
+    #inicio h2::after {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    #inicio {
+        padding: 1rem;
+    }
+
+    .carta,
+    #formulario,
+    fieldset {
+        padding: 1rem;
+    }
+
+    #nombreJugadoresForm input[type="submit"],
+    .mostrar,
+    .ocultar {
+        padding: 0.8rem;
+        width: 100%;
+    }
+
+    fieldset::before,
+    fieldset::after {
+        display: none;
+    }
+
+    #nombreJugadoresForm::before fieldset::after {
+        display: none;
+    }
+
+    #nombreJugadoresForm::before {
+        display: none;
+    }
+
+    .carta {
+        min-width: 200px;
+    }
+}
+
+/* Clases de utilidad */
+.oculta {
+    display: none;
+}
+
+.error {
+    animation: shake 0.5s ease-in-out;
+    color: #ff6b6b;
+}
+
+.success {
+    :root {
+        --color-lila-pastel: #e0b0ff;
+        --color-rosa-pastel: #ffd1dc;
+        --color-azul-pastel: #bfefff;
+        --color-lila-claro: #f2e6ff;
+        --color-rosa-claro: #ffe4e8;
+        --color-azul-claro: #e6f9ff;
+        --color-amarillo-pastel: #ffffd1;
+        --color-verde-pastel: #ccffcc;
+        --borde-color: #c8a2c8;
+        --texto-color: #6b4f88;
+        --sombra: 0 4px 15px rgba(200, 162, 200, 0.2);
+        --fuente-cursiva: "Pacifico", cursive;
+
+        /* Nuevas variables para tamaños responsivos */
+        --spacing-xs: clamp(0.25rem, 0.5vw, 0.5rem);
+        --spacing-sm: clamp(0.5rem, 1vw, 1rem);
+        --spacing-md: clamp(1rem, 2vw, 1.5rem);
+        --spacing-lg: clamp(1.5rem, 3vw, 2.5rem);
+        --spacing-xl: clamp(2rem, 4vw, 3rem);
+
+        --font-size-xs: clamp(0.75rem, 1.5vw, 0.875rem);
+        --font-size-sm: clamp(0.875rem, 1.75vw, 1rem);
+        --font-size-md: clamp(1rem, 2vw, 1.25rem);
+        --font-size-lg: clamp(1.25rem, 2.5vw, 1.5rem);
+        --font-size-xl: clamp(1.5rem, 3vw, 2rem);
+        --font-size-xxl: clamp(2rem, 4vw, 2.5rem);
+
+        --border-radius-sm: 0.5rem;
+        --border-radius-md: 1rem;
+        --border-radius-lg: 1.5rem;
+        --border-radius-xl: 2rem;
+
+        /* Breakpoints para media queries */
+        --breakpoint-sm: 480px;
+        --breakpoint-md: 768px;
+        --breakpoint-lg: 1024px;
+        --breakpoint-xl: 1200px;
+    }
+
+    @import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;500;600&display=swap");
+
+    @keyframes sparkle {
+        0%,
+        100% {
+            transform: scale(1);
+            opacity: 1;
+        }
+        50% {
+            transform: scale(1.05);
+            opacity: 0.8;
+        }
+    }
+
+    @keyframes pastelRainbow {
+        0% {
+            border-color: var(--color-lila-pastel);
+        }
+        33% {
+            border-color: var(--color-rosa-pastel);
+        }
+        66% {
+            border-color: var(--color-azul-pastel);
+        }
+        100% {
+            border-color: var(--color-lila-pastel);
+        }
+    }
+
+    @keyframes float {
+        0%,
+        100% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-10px);
+        }
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    @keyframes softGlow {
+        0%,
+        100% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+    }
+
+    @keyframes shake {
+        0%,
+        100% {
+            transform: translateX(0);
+        }
+        25% {
+            transform: translateX(-5px);
+        }
+        75% {
+            transform: translateX(5px);
+        }
+    }
+
+    @keyframes texte {
+        0% {
+            transform: translateY(0) rotate(0deg) scale(1);
+            background-position: 0% 50%;
+            text-shadow: 0 0 0 rgba(255, 182, 193, 0);
+        }
+        25% {
+            transform: translateY(-3px) rotate(-2deg) scale(1.1);
+            text-shadow: 2px 2px 4px rgba(255, 182, 193, 0.3), -2px -2px 4px rgba(224, 176, 255, 0.3);
+        }
+        50% {
+            transform: translateY(-1px) rotate(2deg) scale(1.1);
+            background-position: 100% 50%;
+            text-shadow: 3px 3px 6px rgba(191, 239, 255, 0.4), -3px -3px 6px rgba(255, 209, 220, 0.4);
+        }
+        75% {
+            transform: translateY(-3px) rotate(-1deg) scale(1.1);
+            text-shadow: 2px 2px 4px rgba(224, 176, 255, 0.3), -2px -2px 4px rgba(255, 182, 193, 0.3);
+        }
+        100% {
+            transform: translateY(0) rotate(0deg) scale(1);
+            background-position: 0% 50%;
+            text-shadow: 0 0 0 rgba(255, 182, 193, 0);
+        }
+    }
+
+    @keyframes heartbeat {
+        0%,
+        100% {
+            transform: scale(1);
+        }
+        50% {
+            transform: scale(1.15);
+        }
+    }
+
+    @keyframes rotate {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+    @keyframes bounce {
+        0%,
+        100% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-15px);
+        }
+    }
+
+    @keyframes glitter {
+        0%,
+        100% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0.5;
+        }
+    }
+
+    @keyframes colorChange {
+        0% {
+            color: var(--color-lila-pastel);
+        }
+        25% {
+            color: var(--color-rosa-pastel);
+        }
+        50% {
+            color: var(--color-azul-pastel);
+        }
+        75% {
+            color: var(--color-verde-pastel);
+        }
+        100% {
+            color: var(--color-lila-pastel);
+        }
+    }
+
+    @keyframes scaleOnZoom {
+        from {
+            transform: scale(1);
+        }
+        to {
+            transform: scale(1.02);
+        }
+    }
+
+    html {
+        font-size: 16px; /* Base font size */
+        -webkit-text-size-adjust: 100%; /* Prevenir ajuste automático de texto en iOS */
+        box-sizing: border-box;
+    }
+
+    @media (max-width: 768px) {
+        html {
+            font-size: 14px; /* Reducir tamaño base en pantallas pequeñas */
+        }
+    }
+
+    @media (min-width: 1800px) {
+        html {
+            font-size: 18px; /* Aumentar tamaño base en pantallas muy grandes */
+        }
+    }
+
+    *,
+    *:before,
+    *:after {
+        box-sizing: inherit;
+    }
+
+    body {
+        background-color: var(--color-lila-claro);
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        min-height: 100vh;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        font-family: "Poppins", sans-serif;
+        font-size: var(--font-size-md);
+        line-height: 1.5;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    body::before,
+    body::after {
+        content: "";
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-image: radial-gradient(circle, rgba(255, 255, 255, 0.8) 10%, transparent 10%),
+        radial-gradient(circle, rgba(255, 255, 255, 0.8) 10%, transparent 10%);
+        background-size: 30px 30px;
+        background-position: 0 0, 15px 15px;
+        pointer-events: none;
+        z-index: -1;
+        opacity: 0.3;
+    }
+
+    #inicio {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background: linear-gradient(
+                135deg,
+                var(--color-azul-pastel),
+                var(--color-rosa-pastel),
+                var(--color-lila-pastel),
+                var(--color-amarillo-pastel)
+        );
+        background-size: 400% 400%;
+        animation: softGlow 15s ease infinite;
+        padding: var(--spacing-md);
+        gap: var(--spacing-md);
+        position: relative;
+    }
+
+    #inicio::before {
+        content: "✨";
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        font-size: 2rem;
+        animation: float 3s ease-in-out infinite;
+    }
+
+    #inicio::after {
+        content: "✨";
+        position: absolute;
+        bottom: 10%;
+        right: 10%;
+        font-size: 2rem;
+        animation: float 4s ease-in-out infinite;
+    }
+
+    .decoration {
+        display: inline-block;
+        margin: 0 5px;
+        animation: bounce 2s ease-in-out infinite;
+    }
+
+    #inicio h2 {
+        color: var(--texto-color);
+        text-align: center;
+        margin-bottom: 1.5rem;
+        font-size: clamp(1.5rem, 4vw, 2.5rem);
+        animation: fadeIn 1s ease-out;
+        text-shadow: 2px 2px 4px rgba(200, 162, 200, 0.3);
+        font-family: var(--fuente-cursiva);
+        position: relative;
+    }
+
+    #inicio h2::before,
+    #inicio h2::after {
+        content: "💖";
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 1.5rem;
+        animation: heartbeat 1.5s ease-in-out infinite;
+    }
+
+    #inicio h2::before {
+        left: -40px;
+    }
+
+    #inicio h2::after {
+        right: -40px;
+    }
+
+    #nombreJugadoresForm {
+        background: rgba(255, 255, 255, 0.9);
+        padding: var(--spacing-lg);
+        border-radius: var(--border-radius-lg);
+        box-shadow: var(--sombra);
+        width: min(90%, 500px); /* Usa min() para limitar el ancho máximo */
+        animation: fadeIn 1s ease-out 0.3s backwards;
+        border: 3px solid var(--color-lila-pastel);
+        animation: pastelRainbow 6s linear infinite;
+        text-align: center;
+        position: relative;
+    }
+
+    #nombreJugadoresForm::before {
+        content: "";
+        position: absolute;
+        top: -15px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
+        height: 30px;
+        background: var(--color-rosa-pastel);
+        border-radius: 50% 50% 0 0;
+        z-index: -1;
+    }
+
+    #nombreJugadoresForm label {
+        color: var(--texto-color);
+        display: block;
+        margin-bottom: 0.8rem;
+        font-size: 1.2rem;
+        transition: all 0.3s ease;
+        position: relative;
+        cursor: pointer;
+        font-weight: 600;
+    }
+
+    #nombreJugadoresForm label::after {
+        content: "✨";
+        position: absolute;
+        opacity: 0;
+        right: -20px;
+        top: 50%;
+        transform: translateY(-50%);
+        transition: opacity 0.3s ease;
+    }
+
+    #nombreJugadoresForm label:hover {
+        background: linear-gradient(
+                45deg,
+                var(--color-lila-pastel),
+                var(--color-rosa-pastel),
+                var(--color-azul-pastel),
+                var(--color-rosa-pastel),
+                var(--color-lila-pastel)
+        );
+        background-size: 200% 200%;
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        animation: texte 2s ease-in-out infinite;
+        letter-spacing: 0.5px;
+    }
+
+    #nombreJugadoresForm label:hover::after {
+        opacity: 1;
+        animation: sparkle 1.5s ease infinite;
+    }
+
+    #nombreJugadoresForm input[type="text"] {
+        width: min(80%, 300px); /* Limita el ancho máximo */
+        padding: var(--spacing-md);
+        margin-bottom: var(--spacing-md);
+        border: 2px solid var(--color-lila-pastel);
+        border-radius: var(--border-radius-md);
+        font-size: var(--font-size-md);
+        transition: all 0.3s ease;
+        background-color: rgba(255, 255, 255, 0.9);
+        text-align: center;
+    }
+
+    #nombreJugadoresForm input[type="text"]:focus {
+        outline: none;
+        border-color: var(--color-rosa-pastel);
+        box-shadow: 0 0 10px rgba(255, 209, 220, 0.5);
+        transform: scale(1.02);
+    }
+
+    #nombreJugadoresForm input[type="submit"] {
+        width: min(80%, 300px); /* Limita el ancho máximo */
+        padding: var(--spacing-md);
+        background: linear-gradient(45deg, var(--color-lila-pastel), var(--color-rosa-pastel));
+        border: none;
+        border-radius: var(--border-radius-xl);
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        font-size: var(--font-size-md);
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0 4px 15px rgba(224, 176, 255, 0.3);
+    }
+
+    #nombreJugadoresForm input[type="submit"]::before {
+        content: "";
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+        transform: rotate(45deg);
+        transition: 0.6s;
+        opacity: 0;
+    }
+
+    #nombreJugadoresForm input[type="submit"]:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 7px 20px rgba(200, 162, 200, 0.5);
+        letter-spacing: 1px;
+    }
+
+    #nombreJugadoresForm input[type="submit"]:hover::before {
+        animation: sparkle 1.5s ease infinite;
+        opacity: 1;
+    }
+
+    /*-------------------------------------------------------------------------------*/
+
+    #juego {
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+        background: linear-gradient(135deg, var(--color-lila-claro), var(--color-rosa-claro), var(--color-azul-claro));
+        background-size: 400% 400%;
+        animation: softGlow 20s ease infinite;
+        min-height: 100vh;
+        width: 100%;
+    }
+
+    #jugadorUno,
+    #jugadorDos {
+        flex: 1;
+        padding: var(--spacing-md);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: var(--spacing-sm);
+        transition: all 0.4s ease;
+        height: 100%;
+        overflow-y: auto; /* Permitir scroll vertical si es necesario */
+        width: 100%;
+        position: relative;
+        max-height: 100vh;
+    }
+
+    #jugadorUno {
+        background-color: var(--color-azul-claro);
+        border-right: 2px dashed var(--color-lila-pastel);
+    }
+
+    #jugadorDos {
+        background-color: var(--color-rosa-claro);
+        border-left: 2px dashed var(--color-lila-pastel);
+    }
+
+    #jugadorUno::before,
+    #jugadorDos::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: radial-gradient(circle, rgba(255, 255, 255, 0.8) 8%, transparent 8%),
+        radial-gradient(circle, rgba(255, 255, 255, 0.8) 8%, transparent 8%);
+        background-size: 40px 40px;
+        background-position: 0 0, 20px 20px;
+        pointer-events: none;
+        opacity: 0.2;
+        z-index: 0;
+    }
+
+    #jugadorUno:hover,
+    #jugadorDos:hover {
+        transform: scale(1.01);
+    }
+
+    #nombreJugador1Display,
+    #nombreJugador2Display {
+        font-family: var(--fuente-cursiva);
+        font-size: 1.5rem;
+        color: var(--texto-color);
+        text-align: center;
+        margin: 1rem 0;
+        position: relative;
+        z-index: 1;
+        text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.8);
+        animation: colorChange 8s infinite;
+    }
+
+    #nombreJugador1Display::after,
+    #nombreJugador2Display::after {
+        content: "👑";
+        position: absolute;
+        top: -15px;
+        right: -25px;
+        font-size: 1.2rem;
+        animation: float 3s ease-in-out infinite;
+    }
+
+    #centro {
+        width: 50%;
+        display: flex;
+        flex: 2;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: var(--spacing-lg);
+        padding: var(--spacing-md);
+        overflow-y: auto;
+        height: 100vh;
+        position: relative;
+        z-index: 1;
+    }
+
+    #centro::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: radial-gradient(circle at center, rgba(255, 255, 255, 0.8) 0%, transparent 70%);
+        pointer-events: none;
+        z-index: -1;
+    }
+
+    /* Estilos de las cartas */
+
+    .carta {
+        background: white;
+        border-radius: var(--border-radius-md);
+        padding: var(--spacing-md);
+        box-shadow: var(--sombra);
+        width: min(100%, 300px); /* Usa min() para limitar el ancho máximo */
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        white-space: normal;
+        margin-bottom: var(--spacing-md);
+        transition: all 0.4s ease;
+        position: relative;
+        overflow: hidden;
+        animation: fadeIn 0.5s ease-out;
+        z-index: 1;
+        border: 2px solid transparent;
+        height: auto; /* Altura automática basada en contenido */
+    }
+
+    .carta::after {
+        content: "";
+        position: absolute;
+        top: -10px;
+        right: -10px;
+        width: 40px;
+        height: 40px;
+        background: var(--color-rosa-pastel);
+        border-radius: 50%;
+        opacity: 0.5;
+        z-index: -1;
+        transition: all 0.3s ease;
+    }
+
+    .carta:hover {
+        transform: translateY(-5px) rotate(1deg);
+        box-shadow: 0 10px 20px rgba(200, 162, 200, 0.4);
+        border-color: var(--color-rosa-pastel);
+    }
+
+    .carta:hover::after {
+        transform: scale(1.5);
+        opacity: 0.7;
+    }
+
+    .carta::before {
+        content: "";
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+        transform: rotate(45deg);
+        transition: 0.6s;
+        opacity: 0;
+    }
+
+    .carta:hover::before {
+        animation: sparkle 1.5s ease infinite;
+        opacity: 1;
+    }
+
+    .carta p {
+        color: var(--texto-color);
+        margin-bottom: 0.8rem;
+        font-size: 0.9rem;
+        max-width: 100%;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        white-space: normal;
+        position: relative;
+        z-index: 1;
+        transition: all 0.3s ease;
+    }
+
+    .carta:hover p {
+        transform: scale(1.03);
+        font-weight: 500;
+    }
+
+    .carta .nombre {
+        font-weight: bold;
+        font-size: 1.1rem;
+        color: var(--color-lila-pastel);
+        text-align: center;
+        margin-bottom: 1rem;
+        position: relative;
+    }
+
+    .carta .nombre::after {
+        content: "✨";
+        position: absolute;
+        right: 10px;
+        opacity: 0;
+        transition: all 0.3s ease;
+    }
+
+    .carta:hover .nombre::after {
+        opacity: 1;
+        animation: sparkle 1.5s ease infinite;
+    }
+
+    .carta .fuerza,
+    .carta .defensa,
+    .carta .habilidad {
+        position: relative;
+        padding-left: 25px;
+    }
+
+    .carta .fuerza::before {
+        content: "💪";
+        position: absolute;
+        left: 0;
+        font-size: 1rem;
+    }
+
+    .carta .defensa::before {
+        content: "🛡️";
+        position: absolute;
+        left: 0;
+        font-size: 1rem;
+    }
+
+    .carta .habilidad::before {
+        content: "✨";
+        position: absolute;
+        left: 0;
+        font-size: 1rem;
+    }
+
+    /* Botones mostrar/ocultar */
+
+    .mostrar,
+    .ocultar {
+        background: white;
+        padding: var(--spacing-sm) var(--spacing-md);
+        border-radius: var(--border-radius-xl);
+        cursor: pointer;
+        transition: all 0.3s ease;
+        box-shadow: var(--sombra);
+        width: min(100%, 250px); /* Usa min() para limitar el ancho máximo */
+        text-align: center;
+        color: var(--texto-color);
+        position: relative;
+        overflow: hidden;
+        font-weight: 600;
+        z-index: 1;
+        font-size: var(--font-size-sm);
+    }
+
+    .mostrar::before,
+    .ocultar::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+        transition: 0.5s;
+    }
+
+    .mostrar:hover::before,
+    .ocultar:hover::before {
+        left: 100%;
+    }
+
+    .mostrar:hover,
+    .ocultar:hover {
+        background: linear-gradient(45deg, var(--color-lila-pastel), var(--color-rosa-pastel));
+        color: white;
+        transform: translateY(-3px);
+        box-shadow: 0 5px 15px rgba(200, 162, 200, 0.4);
+    }
+
+    /* Formulario de creación de carta */
+
+    #formulario {
+        background: white;
+        border-radius: var(--border-radius-lg);
+        padding: var(--spacing-md);
+        box-shadow: var(--sombra);
+        width: min(100%, 500px); /* Usa min() para limitar el ancho máximo */
+        position: relative;
+        z-index: 1;
+    }
+
+    #formulario::before {
+        content: "";
+        position: absolute;
+        top: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        height: 20px;
+        background: var(--color-lila-pastel);
+        border-radius: 50% 50% 0 0;
+        z-index: -1;
+    }
+
+    fieldset {
+        border: 2px solid var(--color-lila-pastel);
+        border-radius: var(--border-radius-md);
+        padding: var(--spacing-md);
+        animation: pastelRainbow 6s linear infinite;
+        position: relative;
+        width: 100%;
+    }
+
+    fieldset::before,
+    fieldset::after {
+        content: "🌸";
+        position: absolute;
+        top: -10px;
+        font-size: 1.2rem;
+    }
+
+    fieldset::before {
+        left: 10px;
+    }
+
+    fieldset::after {
+        right: 10px;
+    }
+
+    legend {
+        background: linear-gradient(45deg, var(--color-lila-pastel), var(--color-rosa-pastel));
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        font-weight: bold;
+        padding: 0 1rem;
+        font-family: var(--fuente-cursiva);
+        font-size: 1.3rem;
+    }
+
+    #crearCartaForm div {
+        margin-bottom: 1rem;
+    }
+
+    #crearCartaForm label {
+        color: var(--texto-color);
+        display: block;
+        margin-bottom: 0.5rem;
+        font-weight: 600;
+        position: relative;
+    }
+
+    #crearCartaForm label::after {
+        content: "✨";
+        position: absolute;
+        right: -20px;
+        opacity: 0;
+        transition: all 0.3s ease;
+    }
+
+    #crearCartaForm label:hover::after {
+        opacity: 1;
+        animation: sparkle 1.5s ease infinite;
+    }
+
+    #crearCartaForm input {
+        width: 100%;
+        padding: var(--spacing-sm);
+        border: 2px solid var(--color-lila-pastel);
+        border-radius: var(--border-radius-md);
+        margin-bottom: var(--spacing-sm);
+        transition: all 0.3s ease;
+        background-color: rgba(255, 255, 255, 0.9);
+        font-size: var(--font-size-sm);
+    }
+
+    #crearCartaForm input:focus {
+        outline: none;
+        transform: scale(1.02);
+        box-shadow: 0 0 15px rgba(224, 176, 255, 0.4);
+        border-color: var(--color-rosa-pastel);
+    }
+
+    #crearCartaForm input[type="submit"] {
+        background: linear-gradient(45deg, var(--color-lila-pastel), var(--color-rosa-pastel));
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        border: none;
+        width: min(100%, 300px); /* Limita el ancho máximo */
+        display: block;
+        margin: var(--spacing-md) auto;
+        border-radius: var(--border-radius-xl);
+        position: relative;
+        overflow: hidden;
+        padding: var(--spacing-md);
+    }
+
+    #crearCartaForm input[type="submit"]::before {
+        content: "";
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+        transform: rotate(45deg);
+        transition: 0.6s;
+        opacity: 0;
+    }
+
+    #crearCartaForm input[type="submit"]:hover {
+        transform: translateY(-3px) scale(1.02);
+        box-shadow: 0 5px 15px rgba(200, 162, 200, 0.4);
+        background: linear-gradient(45deg, var(--color-rosa-pastel), var(--color-lila-pastel));
+        letter-spacing: 1px;
+    }
+
+    #crearCartaForm input[type="submit"]:hover::before {
+        animation: sparkle 1.5s ease infinite;
+        opacity: 1;
+    }
+
+    /* Ring area */
+
+    #ring {
+        background-color: var(--color-rosa-claro);
+        border-radius: var(--border-radius-lg);
+        padding: var(--spacing-md);
+        box-shadow: var(--sombra);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: var(--spacing-md);
+        width: min(100%, 600px); /* Usa min() para limitar el ancho máximo */
+        position: relative;
+        z-index: 1;
+        border: 2px dashed var(--color-lila-pastel);
+    }
+
+    #ring::before {
+        content: "⚔️";
+        position: absolute;
+        top: -15px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 1.5rem;
+        background: white;
+        border-radius: 50%;
+        padding: 5px;
+        box-shadow: var(--sombra);
+        z-index: 2;
+    }
+
+    /* Personalización del scroll */
+
+    ::-webkit-scrollbar {
+        width: 10px;
+        height: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: var(--color-lila-claro);
+        border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: linear-gradient(var(--color-lila-pastel), var(--color-rosa-pastel));
+        border-radius: 10px;
+        border: 2px solid var(--color-lila-claro);
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: linear-gradient(var(--color-rosa-pastel), var(--color-lila-pastel));
+    }
+
+    /* Media Queries */
+    @media screen and (max-width: var(--breakpoint-xl)) {
+        #juego {
+            flex-wrap: wrap;
+        }
+
+        #jugadorUno,
+        #jugadorDos {
+            width: 30%;
+            min-width: 250px;
+            max-height: none;
+            height: auto;
+        }
+
+        #centro {
+            width: 100%;
+            order: -1;
+            height: auto;
+            min-height: 50vh;
+            max-height: none;
+        }
+
+        #nombreJugador1Display::after,
+        #nombreJugador2Display::after {
+            top: -10px;
+            right: -20px;
+            font-size: 1rem;
+        }
+    }
+
+    @media screen and (max-width: var(--breakpoint-md)) {
+        #juego {
+            flex-direction: column;
+        }
+
+        #jugadorUno,
+        #jugadorDos,
+        #centro {
+            width: 100%;
+            height: auto;
+            min-height: auto;
+            max-height: none;
+        }
+
+        #jugadorUno,
+        #jugadorDos {
+            border: none;
+            border-bottom: 2px dashed var(--color-lila-pastel);
+            padding-bottom: var(--spacing-lg);
+        }
+
+        #formulario {
+            animation: none;
+        }
+
+        #inicio h2::before,
+        #inicio h2::after {
+            display: none;
+        }
+
+        .carta {
+            width: min(100%, 280px);
+        }
+    }
+
+    @media (max-width: var(--breakpoint-sm)) {
+        #inicio {
+            padding: var(--spacing-sm);
+        }
+
+        .carta,
+        #formulario,
+        fieldset {
+            padding: var(--spacing-sm);
+        }
+
+        #nombreJugadoresForm input[type="submit"],
+        .mostrar,
+        .ocultar {
+            padding: var(--spacing-sm);
+            width: 100%;
+        }
+
+        fieldset::before,
+        fieldset::after,
+        #nombreJugadoresForm::before {
+            display: none;
+        }
+
+        .carta {
+            min-width: 200px;
+        }
+
+        #nombreJugadoresForm {
+            padding: var(--spacing-md);
+        }
+
+        #inicio h2 {
+            font-size: var(--font-size-lg);
+        }
+    }
+
+    /* Añadir estas nuevas reglas para manejar el zoom */
+    @media (min-resolution: 120dpi) {
+        /* Ajustes para zoom in */
+        .carta,
+        .mostrar,
+        .ocultar,
+        #formulario,
+        #ring {
+            transition: transform 0.3s ease;
+        }
+
+        .carta:hover {
+            transform: translateY(-3px) rotate(0.5deg) scale(1.01);
+        }
+    }
+
+    /* Añadir soporte para orientación del dispositivo */
+    @media (orientation: landscape) and (max-width: var(--breakpoint-md)) {
+        #juego {
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        #jugadorUno,
+        #jugadorDos {
+            width: 50%;
+            border: none;
+            border-bottom: 2px dashed var(--color-lila-pastel);
+        }
+
+        #centro {
+            width: 100%;
+            order: -1;
+        }
+    }
+
+    /* Añadir soporte para dispositivos de alta resolución */
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+        .carta,
+        #nombreJugadoresForm,
+        #formulario,
+        #ring {
+            box-shadow: 0 6px 20px rgba(200, 162, 200, 0.15);
+        }
+    }
+
+    /* Añadir soporte para preferencias de movimiento reducido */
+    @media (prefers-reduced-motion: reduce) {
+        *,
+        *::before,
+        *::after {
+            animation-duration: 0.01ms !important;
+            animation-iteration-count: 1 !important;
+            transition-duration: 0.01ms !important;
+            scroll-behavior: auto !important;
+        }
+    }
+
+    /* Añadir estas reglas para mejorar la accesibilidad */
+    @media screen and (max-width: var(--breakpoint-sm)) {
+        input,
+        button,
+        select,
+        textarea {
+            font-size: 16px !important; /* Prevenir zoom automático en iOS */
+        }
+    }
+
+    /* Añadir soporte para pantallas muy grandes */
+    @media screen and (min-width: 1800px) {
+        #juego {
+            max-width: 1800px;
+            margin: 0 auto;
+        }
+
+        .carta {
+            max-width: 350px;
+        }
+    }
+
+    /* Añadir soporte para dispositivos con pantalla táctil */
+    @media (hover: none) {
+        .carta:hover,
+        .mostrar:hover,
+        .ocultar:hover,
+        #nombreJugadoresForm input[type="submit"]:hover {
+            transform: none;
+        }
+
+        .carta:active,
+        .mostrar:active,
+        .ocultar:active,
+        #nombreJugadoresForm input[type="submit"]:active {
+            transform: scale(0.98);
+        }
+    }
+
+    /* Clases de utilidad */
+
+    .oculta {
+        display: none;
+    }
+
+    .error {
+        animation: shake 0.5s ease-in-out;
+        color: #ff6b6b;
+    }
+
+    .success {
+        animation: fadeIn 0.5s ease-out;
+        color: #69db7c;
+    }
+
+    /* Elementos decorativos adicionales */
+
+    .sparkle {
+        position: absolute;
+        pointer-events: none;
+        width: 20px;
+        height: 20px;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Cpath d='M10 0L13 7L20 10L13 13L10 20L7 13L0 10L7 7Z' fill='%23FFD1DC'/%3E%3C/svg%3E");
+        animation: rotate 3s linear infinite, float 2s ease-in-out infinite;
+        z-index: 10;
+    }
+
+    /* Animaciones para elementos interactivos */
+
+    .interactive:hover {
+        animation: bounce 0.5s ease-in-out;
+    }
+
+    /* Efectos de hover mejorados */
+
+    .hover-glow:hover {
+        box-shadow: 0 0 15px var(--color-rosa-pastel);
+    }
+
+    animation: fadeIn 0.5s ease-out;
+    color: #69db7c;
+}
+
+/* Elementos decorativos adicionales */
+.sparkle {
+    position: absolute;
+    pointer-events: none;
+    width: 20px;
+    height: 20px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Cpath d='M10 0L13 7L20 10L13 13L10 20L7 13L0 10L7 7Z' fill='%23FFD1DC'/%3E%3C/svg%3E");
+    animation: rotate 3s linear infinite, float 2s ease-in-out infinite;
+    z-index: 10;
+}
+
+/* Animaciones para elementos interactivos */
+.interactive:hover {
+    animation: bounce 0.5s ease-in-out;
+}
+
+
+.hover-glow:hover {
+    box-shadow: 0 0 15px var(--color-rosa-pastel);
+}
